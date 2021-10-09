@@ -318,7 +318,7 @@ proxies:
   cipher: auto
   name: '22'
   network: ws
-  port: '55300'
+  port: '60235'
   server: aza.shenseven.xyz
   servername: ''
   skip-cert-verify: true

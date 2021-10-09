@@ -23,7 +23,7 @@ proxy-test-url = http://www.gstatic.com/generate_204
 18 = vmess,qv12.shenseven.xyz,80,username=cc35d50c-31cf-4e4c-9670-b73e30a94376,ws=True,tls=False,ws-path=/,ws-headers=Host:a.189.cn,skip-cert-verify=true,sni=
 19 = vmess,aza.shenseven.xyz,41311,username=cc35d50c-31cf-4e4c-9670-b73e30a94376,ws=True,tls=False,ws-path=/,ws-headers=Host:a.189.cn,skip-cert-verify=true,sni=
 20 = vmess,azhk.shenseven.xyz,10018,username=cc35d50c-31cf-4e4c-9670-b73e30a94376,ws=True,tls=False,ws-path=/,ws-headers=Host:a.189.cn,skip-cert-verify=true,sni=
-21 = vmess,aza.shenseven.xyz,55300,username=cc35d50c-31cf-4e4c-9670-b73e30a94376,ws=True,tls=False,ws-path=/shensevens,ws-headers=Host:a.189.cn,skip-cert-verify=true,sni=
+21 = vmess,aza.shenseven.xyz,60235,username=cc35d50c-31cf-4e4c-9670-b73e30a94376,ws=True,tls=False,ws-path=/shensevens,ws-headers=Host:a.189.cn,skip-cert-verify=true,sni=
 22 = vmess,aza.shenseven.xyz,21205,username=cc35d50c-31cf-4e4c-9670-b73e30a94376,ws=True,tls=False,ws-path=/,ws-headers=Host:a.189.cn,skip-cert-verify=true,sni=
 23 = vmess,gdgz.starlink.cyou,62000,username=f8d9c880-6fe9-4ce6-acae-3bcd99fbee3b,ws=True,tls=False,ws-path=,ws-headers=Host:a.189.cn,skip-cert-verify=true,sni=
 24 = vmess,gdgz.starlink.cyou,62000,username=f8d9c880-6fe9-4ce6-acae-3bcd99fbee3b,ws=True,tls=False,ws-path=,ws-headers=Host:a.189.cn,skip-cert-verify=true,sni=
