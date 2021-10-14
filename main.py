@@ -120,8 +120,9 @@ def generate_sub(nodes, client):
                  "type": "url-test",
                  "proxies": [],
                  "url": "http://www.gstatic.com/generate_204",
-                 "interval": 600
-                 }],
+                 "interval": 600,
+                 "lazy": True}
+            ],
             'rules': ["MATCH,🌐 Select"]
         }
 
@@ -177,7 +178,7 @@ def generate_sub(nodes, client):
                 sub.set('Proxy', proxy_name_str, conf)
                 select_proxy = select_proxy + ', ' + proxy_name_str
                 auto_proxy = auto_proxy + ', ' + proxy_name_str
-        auto_proxy = auto_proxy+', url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5'
+        auto_proxy = auto_proxy + ', url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5'
         sub.set('Proxy Group', 'select', select_proxy)
         sub.set('Proxy Group', 'auto', auto_proxy)
 
