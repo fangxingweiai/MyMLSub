@@ -215,8 +215,8 @@ proxies:
   cipher: auto
   name: '15'
   network: ws
-  port: '13443'
-  server: azhk.shenseven.xyz
+  port: '33424'
+  server: mf.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -261,7 +261,7 @@ proxies:
   name: '18'
   network: ws
   port: '10018'
-  server: azhk.shenseven.xyz
+  server: af.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -4903,8 +4903,8 @@ proxies:
   cipher: auto
   name: '320'
   network: ws
-  port: '58443'
-  server: jx.freev2r.xyz
+  port: '11434'
+  server: mf.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false

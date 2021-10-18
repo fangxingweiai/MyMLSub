@@ -17,10 +17,10 @@ proxy-test-url = http://www.gstatic.com/generate_204
 12 = vmess, af.shenseven.xyz, 17443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 13 = vmess, qv9.shenseven.xyz, 80, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 14 = vmess, qv10.shenseven.xyz, 80, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
-15 = vmess, azhk.shenseven.xyz, 13443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+15 = vmess, mf.shenseven.xyz, 33424, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 16 = vmess, qv12.shenseven.xyz, 80, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 17 = vmess, xm.shenseven.xyz, 18443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
-18 = vmess, azhk.shenseven.xyz, 10018, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+18 = vmess, af.shenseven.xyz, 10018, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 19 = vmess, jy.shenseven.xyz, 18443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shensevens, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 20 = vmess, aia.shenseven.xyz, 44342, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 21 = vmess, gdgz.starlink.cyou, 62000, username=f8d9c880-6fe9-4ce6-acae-3bcd99fbee3b, ws=true, tls=false, ws-path=, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
@@ -319,7 +319,7 @@ proxy-test-url = http://www.gstatic.com/generate_204
 314 = vmess, zk.freev2r.xyz, 58443, username=b834c945-60e4-4dc1-904b-69ef7bde7ed5, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 315 = vmess, gy.freev2r.xyz, 58443, username=b834c945-60e4-4dc1-904b-69ef7bde7ed5, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 316 = vmess, jy.freev2r.xyz, 58443, username=b834c945-60e4-4dc1-904b-69ef7bde7ed5, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
-317 = vmess, jx.freev2r.xyz, 58443, username=b834c945-60e4-4dc1-904b-69ef7bde7ed5, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+317 = vmess, mf.freev2r.xyz, 11434, username=b834c945-60e4-4dc1-904b-69ef7bde7ed5, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 318 = vmess, zf.freev2r.xyz, 57443, username=b834c945-60e4-4dc1-904b-69ef7bde7ed5, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 
 [Proxy Group]
