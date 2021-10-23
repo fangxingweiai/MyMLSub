@@ -111,7 +111,7 @@ proxies:
   name: '8'
   network: ws
   port: '37443'
-  server: az.shenseven.xyz
+  server: sh.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false

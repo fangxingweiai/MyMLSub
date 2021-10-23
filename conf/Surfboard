@@ -10,7 +10,7 @@ proxy-test-url = http://www.gstatic.com/generate_204
 5 = vmess, 13.112.155.50, 80, username=b5857ad7-e24c-4e1f-a962-93f47bbe5873, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 6 = vmess, aia.shenseven.xyz, 44340, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/tg2shenseven, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 7 = vmess, aia.shenseven.xyz, 11443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
-8 = vmess, az.shenseven.xyz, 37443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shenseven, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+8 = vmess, sh.shenseven.xyz, 37443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shenseven, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 9 = vmess, qv6.shenseven.xyz, 80, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 10 = vmess, aga.shenseven.xyz, 10019, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shensevenyyds, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 11 = vmess, aia.shenseven.xyz, 44346, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
