@@ -5157,13 +5157,39 @@ proxies:
   ws-headers:
     Host: a.189.cn
   ws-path: /iso
+- alterId: 3
+  cipher: auto
+  name: '335'
+  network: ws
+  port: 80
+  server: 168.63.202.65
+  servername: a.189.cn
+  type: vmess
+  udp: true
+  uuid: 0d88adb2-9625-3c50-ac60-7b81df0cb6b0
+  ws-headers:
+    Host: a.189.cn
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: '336'
+  network: ws
+  port: 80
+  server: 45.130.146.157
+  servername: a.189.cn
+  type: vmess
+  udp: true
+  uuid: 0d88adb2-9625-3c50-ac60-7b81df0cb6b0
+  ws-headers:
+    Host: a.189.cn
+  ws-path: /
 - alterId: 0
   cipher: auto
   http-opts:
     headers:
       Host:
       - a.189.cn
-  name: '335'
+  name: '337'
   network: http
   port: 443
   server: mfv2ray.top
@@ -5173,35 +5199,9 @@ proxies:
   uuid: 7cb107bb-55d0-362c-ae94-f4520df336a9
 - alterId: 1
   cipher: auto
-  name: '336'
-  network: ws
-  port: 15801
-  server: test.airnode.xyz
-  servername: a.189.cn
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-  ws-headers:
-    Host: a.189.cn
-  ws-path: /blx
-- alterId: 1
-  cipher: auto
-  name: '337'
-  network: ws
-  port: 15802
-  server: test.airnode.xyz
-  servername: a.189.cn
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-  ws-headers:
-    Host: a.189.cn
-  ws-path: /blx
-- alterId: 1
-  cipher: auto
   name: '338'
   network: ws
-  port: 15803
+  port: 15801
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -5214,7 +5214,7 @@ proxies:
   cipher: auto
   name: '339'
   network: ws
-  port: 15804
+  port: 15802
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -5227,7 +5227,7 @@ proxies:
   cipher: auto
   name: '340'
   network: ws
-  port: 15805
+  port: 15803
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -5240,7 +5240,7 @@ proxies:
   cipher: auto
   name: '341'
   network: ws
-  port: 15806
+  port: 15804
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -5253,12 +5253,12 @@ proxies:
   cipher: auto
   name: '342'
   network: ws
-  port: 15801
+  port: 15805
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
   ws-headers:
     Host: a.189.cn
   ws-path: /blx
@@ -5266,12 +5266,12 @@ proxies:
   cipher: auto
   name: '343'
   network: ws
-  port: 15802
+  port: 15806
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
   ws-headers:
     Host: a.189.cn
   ws-path: /blx
@@ -5279,7 +5279,7 @@ proxies:
   cipher: auto
   name: '344'
   network: ws
-  port: 15803
+  port: 15801
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -5292,7 +5292,7 @@ proxies:
   cipher: auto
   name: '345'
   network: ws
-  port: 15804
+  port: 15802
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -5305,7 +5305,7 @@ proxies:
   cipher: auto
   name: '346'
   network: ws
-  port: 15805
+  port: 15803
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -5317,6 +5317,32 @@ proxies:
 - alterId: 1
   cipher: auto
   name: '347'
+  network: ws
+  port: 15804
+  server: test.airnode.xyz
+  servername: a.189.cn
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  ws-headers:
+    Host: a.189.cn
+  ws-path: /blx
+- alterId: 1
+  cipher: auto
+  name: '348'
+  network: ws
+  port: 15805
+  server: test.airnode.xyz
+  servername: a.189.cn
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  ws-headers:
+    Host: a.189.cn
+  ws-path: /blx
+- alterId: 1
+  cipher: auto
+  name: '349'
   network: ws
   port: 15806
   server: test.airnode.xyz
@@ -5680,6 +5706,8 @@ proxy-groups:
   - '345'
   - '346'
   - '347'
+  - '348'
+  - '349'
   type: select
 - interval: 600
   lazy: true
@@ -6032,6 +6060,8 @@ proxy-groups:
   - '345'
   - '346'
   - '347'
+  - '348'
+  - '349'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
