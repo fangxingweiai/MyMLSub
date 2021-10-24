@@ -16,7 +16,7 @@ proxy-test-url = http://www.gstatic.com/generate_204
 11 = vmess, aia.shenseven.xyz, 44346, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 12 = vmess, qv9.shenseven.xyz, 80, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 13 = vmess, qv10.shenseven.xyz, 80, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
-14 = vmess, qv11.shenseven.xyz, 443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+14 = vmess, sh.shenseven.xyz, 17777, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 15 = vmess, qv12.shenseven.xyz, 80, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 16 = vmess, xm.shenseven.xyz, 18443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 17 = vmess, qv14.shenseven.xyz, 80, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
@@ -256,10 +256,10 @@ proxy-test-url = http://www.gstatic.com/generate_204
 251 = vmess, 128.14.157.112, 13723, username=a90597c1-bab3-4217-ad6f-0838675c8634, ws=true, tls=true, ws-path=/ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
 252 = vmess, 104.26.9.74, 443, username=f6c1babe-416e-47d1-8726-049678e25c7a, ws=true, tls=true, ws-path=/sshocean, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
 253 = vmess, 104.16.14.226, 443, username=d7662dde-1d41-4c35-888b-033f1764b643, ws=true, tls=true, ws-path=/zeduvws?ed=2048, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
-254 = vmess, 104.19.59.87, 443, username=d7662dde-1d41-4c35-888b-033f1764b643, ws=true, tls=true, ws-path=/zeduvws?ed=2048, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
+254 = vmess, 104.16.106.132, 443, username=d7662dde-1d41-4c35-888b-033f1764b643, ws=true, tls=true, ws-path=/zeduvws?ed=2048, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
 255 = vmess, 104.16.107.171, 443, username=d7662dde-1d41-4c35-888b-033f1764b643, ws=true, tls=true, ws-path=/zeduvws?ed=2048, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
 256 = vmess, 104.16.0.198, 443, username=d7662dde-1d41-4c35-888b-033f1764b643, ws=true, tls=true, ws-path=/zeduvws?ed=2048, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
-257 = vmess, 104.16.0.209, 443, username=d7662dde-1d41-4c35-888b-033f1764b643, ws=true, tls=true, ws-path=/zeduvws?ed=2048, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
+257 = vmess, 104.21.0.0, 443, username=d7662dde-1d41-4c35-888b-033f1764b643, ws=true, tls=true, ws-path=/zeduvws?ed=2048, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
 258 = vmess, 129.154.60.194, 80, username=e10b4091-91f0-424b-8da0-686d6a9b8047, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 259 = vmess, 146.56.99.196, 80, username=e10b4091-91f0-424b-8da0-686d6a9b8047, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 260 = vmess, 140.83.86.247, 80, username=e10b4091-91f0-424b-8da0-686d6a9b8047, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=

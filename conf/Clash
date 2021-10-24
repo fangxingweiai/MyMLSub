@@ -200,8 +200,8 @@ proxies:
   cipher: auto
   name: '14'
   network: ws
-  port: '443'
-  server: qv11.shenseven.xyz
+  port: '17777'
+  server: sh.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -3965,7 +3965,7 @@ proxies:
   name: '254'
   network: ws
   port: 443
-  server: 104.19.59.87
+  server: 104.16.106.132
   servername: a.189.cn
   skip-cert-verify: true
   tls: true
@@ -4010,7 +4010,7 @@ proxies:
   name: '257'
   network: ws
   port: 443
-  server: 104.16.0.209
+  server: 104.21.0.0
   servername: a.189.cn
   skip-cert-verify: true
   tls: true
