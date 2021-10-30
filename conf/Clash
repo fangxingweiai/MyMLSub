@@ -3919,8 +3919,8 @@ proxies:
   cipher: aes-128-gcm
   name: '251'
   network: ws
-  port: 443
-  server: 104.16.86.106
+  port: 8443
+  server: proxy.ac360.ml
   servername: a.189.cn
   skip-cert-verify: true
   tls: true
@@ -3935,7 +3935,7 @@ proxies:
   name: '252'
   network: ws
   port: 443
-  server: 104.19.54.83
+  server: 104.19.96.185
   servername: a.189.cn
   skip-cert-verify: true
   tls: true
@@ -3950,7 +3950,7 @@ proxies:
   name: '253'
   network: ws
   port: 443
-  server: 104.16.253.182
+  server: 104.19.51.42
   servername: a.189.cn
   skip-cert-verify: true
   tls: true
@@ -3965,7 +3965,7 @@ proxies:
   name: '254'
   network: ws
   port: 443
-  server: 104.16.0.198
+  server: 104.19.101.62
   servername: a.189.cn
   skip-cert-verify: true
   tls: true
@@ -3975,69 +3975,24 @@ proxies:
   ws-headers:
     Host: a.189.cn
   ws-path: /zeduvws?ed=2048
-- alterId: 0
+- alterId: 8
   cipher: aes-128-gcm
   name: '255'
   network: ws
-  port: 443
-  server: 104.21.0.0
-  servername: a.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d7662dde-1d41-4c35-888b-033f1764b643
-  ws-headers:
-    Host: a.189.cn
-  ws-path: /zeduvws?ed=2048
-- alterId: 5
-  cipher: aes-128-gcm
-  name: '256'
-  network: ws
-  port: 33779
+  port: 27435
   server: 1.transit.t.qjnodeip.xyz
   servername: a.189.cn
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
   ws-headers:
     Host: a.189.cn
-  ws-path: /HkqibHk02b
-- alterId: 8
-  cipher: aes-128-gcm
-  name: '257'
-  network: ws
-  port: 29236
-  server: 1.transit.t.qjnodeip.xyz
-  servername: a.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
-  ws-headers:
-    Host: a.189.cn
-  ws-path: /Jg012
-- alterId: 0
-  cipher: aes-128-gcm
-  name: '258'
-  network: ws
-  port: 1443
-  server: cmgz1.racernet.link
-  servername: a.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d03f3b95-e9e0-3b5b-a8e0-7f159ffbb1ec
-  ws-headers:
-    Host: a.189.cn
-  ws-path: /cmgz1
+  ws-path: /JP03W
 - alterId: 10
   cipher: aes-128-gcm
-  name: '259'
+  name: '256'
   network: ws
   port: 13723
   server: 128.14.157.112
@@ -4050,6 +4005,51 @@ proxies:
   ws-headers:
     Host: a.189.cn
   ws-path: /ray
+- alterId: 10
+  cipher: aes-128-gcm
+  name: '257'
+  network: ws
+  port: 88
+  server: usgia.jjyun.ren
+  servername: a.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e0dc26b2-9db5-4d92-98d0-b8cc1bfb23ac
+  ws-headers:
+    Host: a.189.cn
+  ws-path: /jjyun
+- alterId: 8
+  cipher: aes-128-gcm
+  name: '258'
+  network: ws
+  port: 60649
+  server: 1.transit.t.qjnodeip.xyz
+  servername: a.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  ws-headers:
+    Host: a.189.cn
+  ws-path: /HGzsmqibHG02Z
+- alterId: 10
+  cipher: aes-128-gcm
+  name: '259'
+  network: ws
+  port: 80
+  server: ukdll.52jjyun.top
+  servername: a.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 17bf25e4-c944-4c1a-8a29-3f72f1d75d8f
+  ws-headers:
+    Host: a.189.cn
+  ws-path: /jjyun
 - alterId: '0'
   cipher: auto
   name: '260'
@@ -4820,7 +4820,7 @@ proxies:
   cipher: auto
   name: '314'
   network: ws
-  port: '80'
+  port: '443'
   server: nv5.freev2r.xyz
   servername: ''
   skip-cert-verify: true
