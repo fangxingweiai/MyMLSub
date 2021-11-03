@@ -141,7 +141,7 @@ proxies:
   name: '10'
   network: ws
   port: '47443'
-  server: pf.shenseven.xyz
+  server: up.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -3938,37 +3938,43 @@ proxies:
   ws-headers:
     Host: a.189.cn
   ws-path: /zwWptVxh/
-- alterId: 1
+- alterId: 0
   cipher: auto
+  country: ' US'
+  http-opts: {}
   name: '254'
   network: ws
-  port: 15801
-  server: test.airnode.xyz
+  port: 443
+  server: 104.21.36.65
   servername: a.189.cn
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
+  uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3
   ws-headers:
     Host: a.189.cn
-  ws-path: /blx
-- alterId: 1
+  ws-path: /233blog
+- alterId: 0
   cipher: auto
+  country: ' US'
+  http-opts: {}
   name: '255'
   network: ws
-  port: 15802
-  server: test.airnode.xyz
+  port: 443
+  server: 172.67.186.195
   servername: a.189.cn
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
+  uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3
   ws-headers:
     Host: a.189.cn
-  ws-path: /blx
+  ws-path: /233blog
 - alterId: 1
   cipher: auto
   name: '256'
   network: ws
-  port: 15803
+  port: 15801
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -3981,7 +3987,7 @@ proxies:
   cipher: auto
   name: '257'
   network: ws
-  port: 15804
+  port: 15802
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -3994,7 +4000,7 @@ proxies:
   cipher: auto
   name: '258'
   network: ws
-  port: 15805
+  port: 15803
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -4007,7 +4013,7 @@ proxies:
   cipher: auto
   name: '259'
   network: ws
-  port: 15806
+  port: 15804
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -4020,12 +4026,12 @@ proxies:
   cipher: auto
   name: '260'
   network: ws
-  port: 15801
+  port: 15805
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
   ws-headers:
     Host: a.189.cn
   ws-path: /blx
@@ -4033,12 +4039,12 @@ proxies:
   cipher: auto
   name: '261'
   network: ws
-  port: 15802
+  port: 15806
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
   ws-headers:
     Host: a.189.cn
   ws-path: /blx
@@ -4046,7 +4052,7 @@ proxies:
   cipher: auto
   name: '262'
   network: ws
-  port: 15803
+  port: 15801
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -4059,7 +4065,7 @@ proxies:
   cipher: auto
   name: '263'
   network: ws
-  port: 15804
+  port: 15802
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -4072,7 +4078,7 @@ proxies:
   cipher: auto
   name: '264'
   network: ws
-  port: 15805
+  port: 15803
   server: test.airnode.xyz
   servername: a.189.cn
   type: vmess
@@ -4085,6 +4091,32 @@ proxies:
   cipher: auto
   name: '265'
   network: ws
+  port: 15804
+  server: test.airnode.xyz
+  servername: a.189.cn
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  ws-headers:
+    Host: a.189.cn
+  ws-path: /blx
+- alterId: 1
+  cipher: auto
+  name: '266'
+  network: ws
+  port: 15805
+  server: test.airnode.xyz
+  servername: a.189.cn
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  ws-headers:
+    Host: a.189.cn
+  ws-path: /blx
+- alterId: 1
+  cipher: auto
+  name: '267'
+  network: ws
   port: 15806
   server: test.airnode.xyz
   servername: a.189.cn
@@ -4096,7 +4128,7 @@ proxies:
   ws-path: /blx
 - alterId: '1'
   cipher: auto
-  name: '266'
+  name: '268'
   network: ws
   port: '53443'
   server: xm.freev2r.xyz
@@ -4111,7 +4143,7 @@ proxies:
   ws-path: /
 - alterId: '1'
   cipher: auto
-  name: '267'
+  name: '269'
   network: ws
   port: '8080'
   server: nv2.freev2r.xyz
@@ -4126,7 +4158,7 @@ proxies:
   ws-path: /
 - alterId: '1'
   cipher: auto
-  name: '268'
+  name: '270'
   network: ws
   port: '80'
   server: nv3.freev2r.xyz
@@ -4141,10 +4173,10 @@ proxies:
   ws-path: /
 - alterId: '1'
   cipher: auto
-  name: '269'
+  name: '271'
   network: ws
   port: '38443'
-  server: hk.freev2r.xyz
+  server: up.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -4156,7 +4188,7 @@ proxies:
   ws-path: /
 - alterId: '1'
   cipher: auto
-  name: '270'
+  name: '272'
   network: ws
   port: '34443'
   server: up.freev2r.xyz
@@ -4171,7 +4203,7 @@ proxies:
   ws-path: /
 - alterId: '1'
   cipher: auto
-  name: '271'
+  name: '273'
   network: ws
   port: '48443'
   server: hk.freev2r.xyz
@@ -4186,7 +4218,7 @@ proxies:
   ws-path: /
 - alterId: '1'
   cipher: auto
-  name: '272'
+  name: '274'
   network: ws
   port: '80'
   server: nv7.freev2r.xyz
@@ -4201,7 +4233,7 @@ proxies:
   ws-path: /
 - alterId: '1'
   cipher: auto
-  name: '273'
+  name: '275'
   network: ws
   port: '55443'
   server: xm.freev2r.xyz
@@ -4493,6 +4525,8 @@ proxy-groups:
   - '271'
   - '272'
   - '273'
+  - '274'
+  - '275'
   type: select
 - interval: 600
   lazy: true
@@ -4771,6 +4805,8 @@ proxy-groups:
   - '271'
   - '272'
   - '273'
+  - '274'
+  - '275'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
