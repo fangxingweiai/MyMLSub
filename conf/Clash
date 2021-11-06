@@ -80,8 +80,8 @@ proxies:
   cipher: auto
   name: '6'
   network: ws
-  port: '44340'
-  server: aia.shenseven.xyz
+  port: '45443'
+  server: mk.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -95,8 +95,8 @@ proxies:
   cipher: auto
   name: '7'
   network: ws
-  port: '51777'
-  server: gy.shenseven.xyz
+  port: '35443'
+  server: mk.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -200,8 +200,8 @@ proxies:
   cipher: auto
   name: '14'
   network: ws
-  port: '47443'
-  server: aia.shenseven.xyz
+  port: '46443'
+  server: mk.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -260,8 +260,8 @@ proxies:
   cipher: auto
   name: '18'
   network: ws
-  port: '37443'
-  server: aia.shenseven.xyz
+  port: '47443'
+  server: mk.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -3381,19 +3381,6 @@ proxies:
       - a.189.cn
   name: '215'
   network: http
-  port: 30001
-  server: 1.transit.nph.qjnodeip.xyz
-  type: vmess
-  udp: true
-  uuid: 20610d05-76a9-47bb-9094-6eafb1b40e5c
-- alterId: 0
-  cipher: aes-128-gcm
-  http-opts:
-    headers:
-      Host:
-      - a.189.cn
-  name: '216'
-  network: http
   port: 10086
   server: sg.03.ddnss.vip
   type: vmess
@@ -3405,13 +3392,28 @@ proxies:
     headers:
       Host:
       - a.189.cn
-  name: '217'
+  name: '216'
   network: http
   port: 10086
   server: sg.01.ddnss.vip
   type: vmess
   udp: true
   uuid: 1ce26853-ee96-3881-807c-d322c896c954
+- alterId: 10
+  cipher: aes-128-gcm
+  name: '217'
+  network: ws
+  port: 88
+  server: usgia.jjyun.ren
+  servername: a.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d59e8d54-4914-4a07-80df-33fe2a7776ac
+  ws-headers:
+    Host: a.189.cn
+  ws-path: /jjyun
 - alterId: '8'
   cipher: auto
   name: '218'
@@ -3934,12 +3936,12 @@ proxies:
   ws-headers:
     Host: a.189.cn
   ws-path: /iso
-- alterId: 3
+- alterId: 2
   cipher: auto
   name: '254'
   network: ws
   port: 80
-  server: 52.175.125.209
+  server: 20.205.0.54
   servername: a.189.cn
   type: vmess
   udp: true
