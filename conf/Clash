@@ -3290,7 +3290,7 @@ proxies:
   name: '209'
   network: ws
   port: 443
-  server: 198.41.208.182
+  server: 104.19.23.99
   servername: a.189.cn
   skip-cert-verify: true
   tls: true
