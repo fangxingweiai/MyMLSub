@@ -10,7 +10,7 @@ proxies:
   name: '1'
   network: ws
   port: 80
-  server: 20.205.113.211
+  server: 65.52.169.176
   servername: a.189.cn
   type: vmess
   udp: true
@@ -3570,8 +3570,8 @@ proxies:
   cipher: auto
   name: '231'
   network: ws
-  port: '53443'
-  server: ky.freev2r.xyz
+  port: '55443'
+  server: bj.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -3615,8 +3615,8 @@ proxies:
   cipher: auto
   name: '234'
   network: ws
-  port: '38443'
-  server: up.freev2r.xyz
+  port: '8443'
+  server: nv4.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -3630,8 +3630,8 @@ proxies:
   cipher: auto
   name: '235'
   network: ws
-  port: '34443'
-  server: up.freev2r.xyz
+  port: '43443'
+  server: ak.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -3675,8 +3675,8 @@ proxies:
   cipher: auto
   name: '238'
   network: ws
-  port: '53443'
-  server: up.freev2r.xyz
+  port: '8443'
+  server: nv8.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
