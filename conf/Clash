@@ -93,8 +93,8 @@ proxies:
   cipher: auto
   name: '7'
   network: ws
-  port: '41443'
-  server: up.shenseven.xyz
+  port: '10033'
+  server: aga.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -168,8 +168,8 @@ proxies:
   cipher: auto
   name: '12'
   network: ws
-  port: '443'
-  server: qv8.shenseven.xyz
+  port: '10034'
+  server: aga.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
