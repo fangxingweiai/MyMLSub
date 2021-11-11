@@ -153,7 +153,7 @@ proxies:
   cipher: auto
   name: '11'
   network: ws
-  port: '49443'
+  port: '49553'
   server: pf.shenseven.xyz
   servername: ''
   skip-cert-verify: true

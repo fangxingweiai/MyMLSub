@@ -13,7 +13,7 @@ proxy-test-url = http://www.gstatic.com/generate_204
 8 = vmess, pf.shenseven.xyz, 53443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 9 = vmess, up.shenseven.xyz, 37443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shenseven, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 10 = vmess, qv6.shenseven.xyz, 80, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
-11 = vmess, pf.shenseven.xyz, 49443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shensevenyyds, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+11 = vmess, pf.shenseven.xyz, 49553, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shensevenyyds, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 12 = vmess, qv8.shenseven.xyz, 443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 13 = vmess, qv9.shenseven.xyz, 443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 14 = vmess, qv10.shenseven.xyz, 8080, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/TS/recharge/tzUrl.html, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
