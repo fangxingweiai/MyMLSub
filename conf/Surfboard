@@ -3,19 +3,19 @@ dns-server = system, 8.8.8.8, 8.8.4.4
 proxy-test-url = http://www.gstatic.com/generate_204
 
 [Proxy]
-1 = vmess, 20.187.112.125, 80, username=c2c52add-a2db-3a43-8f6b-f23c4349f16b, ws=true, tls=false, ws-path=/zz, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
-2 = vmess, gonyi2.baiyun.pw, 831, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
-3 = vmess, gonyi2.baiyun.pw, 837, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
-4 = vmess, gonyi2.baiyun.pw, 889, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
-5 = vmess, gonyi2.baiyun.pw, 839, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
-6 = vmess, gonyi2.baiyun.pw, 643, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
-7 = vmess, gonyi2.baiyun.pw, 647, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
-8 = vmess, 181.214.41.101, 8443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, tls=true, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
-9 = vmess, aga.shenseven.xyz, 10033, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/tg2shenseven, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
-10 = vmess, pf.shenseven.xyz, 53443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
-11 = vmess, up.shenseven.xyz, 37443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shenseven, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
-12 = vmess, pf.shenseven.xyz, 49553, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shensevenyyds, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
-13 = vmess, mf.shenseven.xyz, 10535, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+1 = vmess, gonyi2.baiyun.pw, 831, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
+2 = vmess, gonyi2.baiyun.pw, 837, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
+3 = vmess, gonyi2.baiyun.pw, 889, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
+4 = vmess, gonyi2.baiyun.pw, 839, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
+5 = vmess, gonyi2.baiyun.pw, 643, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
+6 = vmess, gonyi2.baiyun.pw, 647, username=3e516f6e-baf6-3c1f-af68-ea8b05d471e2, ws=true, tls=true, ws-path=/v2ray, ws-headers=host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
+7 = vmess, 181.214.41.101, 8443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, tls=true, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=a.189.cn
+8 = vmess, aga.shenseven.xyz, 10033, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/tg2shenseven, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+9 = vmess, pf.shenseven.xyz, 53443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+10 = vmess, up.shenseven.xyz, 37443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shenseven, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+11 = vmess, pf.shenseven.xyz, 49553, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shensevenyyds, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+12 = vmess, mf.shenseven.xyz, 10535, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
+13 = vmess, qv9.shenseven.xyz, 443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 14 = vmess, pf.shenseven.xyz, 46443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 15 = vmess, fk.shenseven.xyz, 8080, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
 16 = vmess, aga.shenseven.xyz, 10034, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:a.189.cn, skip-cert-verify=true, sni=
