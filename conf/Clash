@@ -90,8 +90,8 @@ proxies:
   cipher: auto
   name: '6'
   network: ws
-  port: '49553'
-  server: pf.shenseven.xyz
+  port: '49443'
+  server: mp.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -6204,7 +6204,7 @@ proxies:
   name: '408'
   network: ws
   port: '43443'
-  server: ak.freev2r.xyz
+  server: xb.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
