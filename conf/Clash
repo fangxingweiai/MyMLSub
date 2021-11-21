@@ -1359,7 +1359,7 @@ proxies:
   name: '89'
   network: ws
   port: '43443'
-  server: xb.freev2r.xyz
+  server: jy.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -1846,6 +1846,62 @@ proxies:
     headers:
       Host: short.pay.weixin.qq.com
     path: /
+- alterId: 16
+  cipher: auto
+  name: '121'
+  network: ws
+  port: 51520
+  server: gy.jjxcloud.xyz
+  servername: short.pay.weixin.qq.com
+  type: vmess
+  udp: true
+  uuid: aa091053-81d8-3b67-8c7a-8bcfd3d065d2
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: /v2ray
+- alterId: 16
+  cipher: auto
+  name: '122'
+  network: ws
+  port: 41000
+  server: gy.jjxcloud.xyz
+  servername: short.pay.weixin.qq.com
+  type: vmess
+  udp: true
+  uuid: aa091053-81d8-3b67-8c7a-8bcfd3d065d2
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: /v2ray
+- alterId: 16
+  cipher: auto
+  name: '123'
+  network: ws
+  port: 52520
+  server: gy.jjxcloud.xyz
+  servername: short.pay.weixin.qq.com
+  type: vmess
+  udp: true
+  uuid: aa091053-81d8-3b67-8c7a-8bcfd3d065d2
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: /v2ray
+- alterId: 16
+  cipher: auto
+  name: '124'
+  network: ws
+  port: 52520
+  server: gy.jjxcloud.xyz
+  servername: short.pay.weixin.qq.com
+  type: vmess
+  udp: true
+  uuid: aa091053-81d8-3b67-8c7a-8bcfd3d065d2
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: /v2ray
 proxy-groups:
 - name: "\U0001F310 Select"
   proxies:
@@ -1972,6 +2028,10 @@ proxy-groups:
   - '118'
   - '119'
   - '120'
+  - '121'
+  - '122'
+  - '123'
+  - '124'
   type: select
 - interval: 600
   lazy: true
@@ -2097,6 +2157,10 @@ proxy-groups:
   - '118'
   - '119'
   - '120'
+  - '121'
+  - '122'
+  - '123'
+  - '124'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
