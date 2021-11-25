@@ -23,7 +23,7 @@ proxy-test-url = http://www.gstatic.com/generate_204
 18 = vmess, 181.214.41.101, 8443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, tls=true, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=short.pay.weixin.qq.com
 19 = vmess, 158.51.96.100, 80, username=b5857ad7-e24c-4e1f-a962-93f47bbe5873, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 20 = vmess, aga.shenseven.xyz, 10033, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/tg2shenseven, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
-21 = vmess, mk.shenseven.xyz, 53443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
+21 = vmess, jy.shenseven.xyz, 53443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 22 = vmess, up.shenseven.xyz, 37443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shenseven, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 23 = vmess, mp.shenseven.xyz, 49443, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/shensevenyyds, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 24 = vmess, mf.shenseven.xyz, 20313, username=cc35d50c-31cf-4e4c-9670-b73e30a94376, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
@@ -66,11 +66,11 @@ proxy-test-url = http://www.gstatic.com/generate_204
 61 = vmess, bj.freev2r.xyz, 55443, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 62 = vmess, nv2.freev2r.xyz, 8080, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 63 = vmess, nv3.freev2r.xyz, 80, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
-64 = vmess, yh.freev2r.xyz, 18443, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
-65 = vmess, mf.freev2r.xyz, 24103, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
+64 = vmess, ak.freev2r.xyz, 18443, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
+65 = vmess, jy.freev2r.xyz, 43443, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 66 = vmess, gy.freev2r.xyz, 40056, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 67 = vmess, mf.freev2r.xyz, 30535, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
-68 = vmess, yh.freev2r.xyz, 48443, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
+68 = vmess, ak.freev2r.xyz, 48443, username=eeae53eb-3aba-4084-8319-873eff4e1db7, ws=true, tls=false, ws-path=/, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 69 = vmess, free-us01.antlink.cyou, 39948, username=835901fd-7853-485d-b2f9-13e7f6e5245c, ws=true, tls=false, ws-path=, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 70 = vmess, free-us01.antlink.cyou, 39948, username=835901fd-7853-485d-b2f9-13e7f6e5245c, ws=true, tls=false, ws-path=, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 71 = vmess, free-jp01.antlink.cyou, 39948, username=835901fd-7853-485d-b2f9-13e7f6e5245c, ws=true, tls=false, ws-path=, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=

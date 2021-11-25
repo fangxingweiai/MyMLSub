@@ -321,7 +321,7 @@ proxies:
   name: '21'
   network: ws
   port: '53443'
-  server: mk.shenseven.xyz
+  server: jy.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -964,7 +964,7 @@ proxies:
   name: '64'
   network: ws
   port: '18443'
-  server: yh.freev2r.xyz
+  server: ak.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -979,8 +979,8 @@ proxies:
   cipher: auto
   name: '65'
   network: ws
-  port: '24103'
-  server: mf.freev2r.xyz
+  port: '43443'
+  server: jy.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -1028,7 +1028,7 @@ proxies:
   name: '68'
   network: ws
   port: '48443'
-  server: yh.freev2r.xyz
+  server: ak.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
