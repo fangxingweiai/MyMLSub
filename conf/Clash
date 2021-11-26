@@ -722,7 +722,7 @@ proxies:
   name: '47'
   network: ws
   port: 80
-  server: 52.229.203.193
+  server: 20.187.87.199
   servername: short.pay.weixin.qq.com
   type: vmess
   udp: true
@@ -931,8 +931,8 @@ proxies:
   cipher: auto
   name: '62'
   network: ws
-  port: '55443'
-  server: bj.freev2r.xyz
+  port: '51443'
+  server: yb.freev2r.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -1283,6 +1283,22 @@ proxies:
   cipher: auto
   name: '84'
   network: ws
+  port: '8888'
+  server: 3.25.120.18
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: ''
+- alterId: '1'
+  cipher: auto
+  name: '85'
+  network: ws
   port: '56752'
   server: 185.246.154.6
   servername: ''
@@ -1297,7 +1313,7 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '85'
+  name: '86'
   network: ws
   port: '443'
   server: 104.17.170.210
@@ -1313,7 +1329,7 @@ proxies:
     path: kycc
 - alterId: 0
   cipher: auto
-  name: '86'
+  name: '87'
   network: ws
   port: 81
   server: 47.242.126.130
@@ -1327,7 +1343,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '87'
+  name: '88'
   network: ws
   port: 82
   server: 47.243.33.5
@@ -1341,7 +1357,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '88'
+  name: '89'
   network: ws
   port: 80
   server: 8.218.26.150
@@ -1355,7 +1371,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '89'
+  name: '90'
   network: ws
   port: 80
   server: 8.210.114.158
@@ -1369,7 +1385,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '90'
+  name: '91'
   network: ws
   port: 5515
   server: 104.244.79.228
@@ -1383,7 +1399,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '91'
+  name: '92'
   network: ws
   port: 5515
   server: 13.231.4.26
@@ -1397,7 +1413,7 @@ proxies:
     path: /
 - alterId: 16
   cipher: auto
-  name: '92'
+  name: '93'
   network: ws
   port: 51520
   server: gy.jjxcloud.xyz
@@ -1411,23 +1427,9 @@ proxies:
     path: /v2ray
 - alterId: 16
   cipher: auto
-  name: '93'
-  network: ws
-  port: 41002
-  server: gy.jjxcloud.xyz
-  servername: short.pay.weixin.qq.com
-  type: vmess
-  udp: true
-  uuid: aa091053-81d8-3b67-8c7a-8bcfd3d065d2
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /v2ray
-- alterId: 16
-  cipher: auto
   name: '94'
   network: ws
-  port: 42000
+  port: 41002
   server: gy.jjxcloud.xyz
   servername: short.pay.weixin.qq.com
   type: vmess
@@ -1451,22 +1453,20 @@ proxies:
     headers:
       Host: short.pay.weixin.qq.com
     path: /v2ray
-- alterId: '1'
+- alterId: 16
   cipher: auto
   name: '96'
   network: ws
-  port: '11177'
-  server: free-jp01.starlink.cyou
-  servername: ''
-  skip-cert-verify: true
-  tls: false
+  port: 42000
+  server: gy.jjxcloud.xyz
+  servername: short.pay.weixin.qq.com
   type: vmess
   udp: true
-  uuid: 4d9ef800-c30b-4c28-86de-5e7e0ca67777
+  uuid: aa091053-81d8-3b67-8c7a-8bcfd3d065d2
   ws-opts:
     headers:
       Host: short.pay.weixin.qq.com
-    path: ''
+    path: /v2ray
 - alterId: '1'
   cipher: auto
   name: '97'
@@ -1487,6 +1487,22 @@ proxies:
   cipher: auto
   name: '98'
   network: ws
+  port: '11177'
+  server: free-jp01.starlink.cyou
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4d9ef800-c30b-4c28-86de-5e7e0ca67777
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: ''
+- alterId: '1'
+  cipher: auto
+  name: '99'
+  network: ws
   port: '15078'
   server: free-sg01.starlink.cyou
   servername: ''
@@ -1501,7 +1517,7 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '99'
+  name: '100'
   network: ws
   port: '11179'
   server: free-us01.starlink.cyou
@@ -1620,6 +1636,7 @@ proxy-groups:
   - '97'
   - '98'
   - '99'
+  - '100'
   type: select
 - interval: 600
   lazy: true
@@ -1724,6 +1741,7 @@ proxy-groups:
   - '97'
   - '98'
   - '99'
+  - '100'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
