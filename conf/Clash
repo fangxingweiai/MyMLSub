@@ -416,7 +416,7 @@ proxies:
   name: '27'
   network: ws
   port: '8080'
-  server: ok.shenseven.xyz
+  server: qv10.shenseven.xyz
   servername: ''
   skip-cert-verify: true
   tls: false
