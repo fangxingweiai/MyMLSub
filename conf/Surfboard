@@ -96,8 +96,8 @@ proxy-test-url = http://www.gstatic.com/generate_204
 91 = vmess, 13.231.4.26, 5515, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, tls=false, ws-path=/, ws-headers=host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=short.pay.weixin.qq.com
 92 = vmess, gy.jjxcloud.xyz, 51520, username=aa091053-81d8-3b67-8c7a-8bcfd3d065d2, ws=true, tls=false, ws-path=/v2ray, ws-headers=host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=short.pay.weixin.qq.com
 93 = vmess, gy.jjxcloud.xyz, 41002, username=aa091053-81d8-3b67-8c7a-8bcfd3d065d2, ws=true, tls=false, ws-path=/v2ray, ws-headers=host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=short.pay.weixin.qq.com
-94 = vmess, gy.jjxcloud.xyz, 42000, username=aa091053-81d8-3b67-8c7a-8bcfd3d065d2, ws=true, tls=false, ws-path=/v2ray, ws-headers=host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=short.pay.weixin.qq.com
-95 = vmess, gy.jjxcloud.xyz, 42000, username=aa091053-81d8-3b67-8c7a-8bcfd3d065d2, ws=true, tls=false, ws-path=/v2ray, ws-headers=host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=short.pay.weixin.qq.com
+94 = vmess, gy.jjxcloud.xyz, 42002, username=aa091053-81d8-3b67-8c7a-8bcfd3d065d2, ws=true, tls=false, ws-path=/v2ray, ws-headers=host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=short.pay.weixin.qq.com
+95 = vmess, gy.jjxcloud.xyz, 42003, username=aa091053-81d8-3b67-8c7a-8bcfd3d065d2, ws=true, tls=false, ws-path=/v2ray, ws-headers=host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=short.pay.weixin.qq.com
 96 = vmess, free-jp01.starlink.cyou, 11177, username=4d9ef800-c30b-4c28-86de-5e7e0ca67777, ws=true, tls=false, ws-path=, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 97 = vmess, free-jp01.starlink.cyou, 11177, username=4d9ef800-c30b-4c28-86de-5e7e0ca67777, ws=true, tls=false, ws-path=, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=
 98 = vmess, free-sg01.starlink.cyou, 15078, username=4d9ef800-c30b-4c28-86de-5e7e0ca67777, ws=true, tls=false, ws-path=, ws-headers=Host:short.pay.weixin.qq.com, skip-cert-verify=true, sni=

@@ -1425,7 +1425,7 @@ proxies:
   cipher: auto
   name: '94'
   network: ws
-  port: 42000
+  port: 42002
   server: gy.jjxcloud.xyz
   servername: short.pay.weixin.qq.com
   type: vmess
@@ -1439,7 +1439,7 @@ proxies:
   cipher: auto
   name: '95'
   network: ws
-  port: 42000
+  port: 42003
   server: gy.jjxcloud.xyz
   servername: short.pay.weixin.qq.com
   type: vmess
