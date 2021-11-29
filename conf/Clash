@@ -32,21 +32,6 @@ proxies:
   cipher: auto
   name: '2'
   network: ws
-  port: 2333
-  server: hk2.mfcloud.host
-  servername: short.pay.weixin.qq.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 77ac4caa-006a-3e74-ad21-910fb543492e
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /cocksucker
-- alterId: 2
-  cipher: auto
-  name: '3'
-  network: ws
   port: 443
   server: hk4.mfcloud.host
   servername: short.pay.weixin.qq.com
@@ -60,7 +45,7 @@ proxies:
     path: /cocksucker
 - alterId: 2
   cipher: auto
-  name: '4'
+  name: '3'
   network: ws
   port: 10633
   server: hk3.mfcloud.host
@@ -75,10 +60,25 @@ proxies:
     path: /cocksucker
 - alterId: 2
   cipher: auto
-  name: '5'
+  name: '4'
   network: ws
   port: 443
   server: hkhe.mfcloud.host
+  servername: short.pay.weixin.qq.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 77ac4caa-006a-3e74-ad21-910fb543492e
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: /cocksucker
+- alterId: 2
+  cipher: auto
+  name: '5'
+  network: ws
+  port: 58923
+  server: hk2.mfcloud.host
   servername: short.pay.weixin.qq.com
   tls: true
   type: vmess
@@ -107,8 +107,8 @@ proxies:
   cipher: auto
   name: '7'
   network: ws
-  port: 10999
-  server: jp2.mfcloud.host
+  port: 20773
+  server: hz.mfcloud.host
   servername: short.pay.weixin.qq.com
   tls: true
   type: vmess
@@ -197,8 +197,8 @@ proxies:
   cipher: auto
   name: '13'
   network: ws
-  port: 443
-  server: jp.mfcloud.host
+  port: 20773
+  server: hz.mfcloud.host
   servername: short.pay.weixin.qq.com
   tls: true
   type: vmess
@@ -242,8 +242,8 @@ proxies:
   cipher: auto
   name: '16'
   network: ws
-  port: 443
-  server: sgz.mfcloud.host
+  port: 10229
+  server: sh.mfcloud.host
   servername: short.pay.weixin.qq.com
   tls: true
   type: vmess
@@ -257,8 +257,8 @@ proxies:
   cipher: auto
   name: '17'
   network: ws
-  port: 10229
-  server: sh.mfcloud.host
+  port: 443
+  server: usb3.mfcloud.host
   servername: short.pay.weixin.qq.com
   tls: true
   type: vmess
@@ -1397,7 +1397,7 @@ proxies:
   cipher: auto
   name: '92'
   network: ws
-  port: 51520
+  port: 51530
   server: gy.jjxcloud.xyz
   servername: short.pay.weixin.qq.com
   type: vmess
