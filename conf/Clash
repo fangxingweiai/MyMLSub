@@ -3,15 +3,25 @@ dns:
   enable: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+  fallback:
+  - https://cloudflare-dns.com/dns-query
+  - https://dns.google/dns-query
+  - https://1.1.1.1/dns-query
+  - tls://8.8.8.8:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
   ipv6: false
   nameserver:
   - 114.114.114.114
   - 223.5.5.5
   - tls://13800000000.rubyfish.cn:853
 external-controller: 127.0.0.1:9090
-log-level: info
-mixed-port: 7890
+log-level: silent
 mode: Rule
+port: 7891
 proxies:
 - alterId: '15'
   cipher: auto
@@ -46,293 +56,37 @@ proxies:
   cipher: auto
   name: '3'
   network: ws
-  port: '10033'
-  server: aga.shenseven.xyz
+  port: '33282'
+  server: free-jp01.hxlm.cc
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
+  uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
   ws-opts:
     headers:
       Host: short.pay.weixin.qq.com
-    path: /tg2shenseven
+    path: ''
 - alterId: '1'
   cipher: auto
   name: '4'
   network: ws
-  port: '24443'
-  server: zn.shenseven.xyz
+  port: '33282'
+  server: free-jp01.hxlm.cc
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
+  uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
   ws-opts:
     headers:
       Host: short.pay.weixin.qq.com
-    path: /
+    path: ''
 - alterId: '1'
   cipher: auto
   name: '5'
-  network: ws
-  port: '36443'
-  server: ys.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /shenseven
-- alterId: '1'
-  cipher: auto
-  name: '6'
-  network: ws
-  port: '443'
-  server: qv7.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /shensevenyyds
-- alterId: '1'
-  cipher: auto
-  name: '7'
-  network: ws
-  port: '57443'
-  server: py.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '8'
-  network: ws
-  port: '443'
-  server: qv9.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '9'
-  network: ws
-  port: '8080'
-  server: qv10.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /TS/recharge/tzUrl.html
-- alterId: '1'
-  cipher: auto
-  name: '10'
-  network: ws
-  port: '40053'
-  server: gy.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '11'
-  network: ws
-  port: '8080'
-  server: fk.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /TS/recharge/tzUrl.html
-- alterId: '1'
-  cipher: auto
-  name: '12'
-  network: ws
-  port: '10034'
-  server: aga.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '13'
-  network: ws
-  port: '80'
-  server: qv14.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '14'
-  network: ws
-  port: '80'
-  server: qv17.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '15'
-  network: ws
-  port: '443'
-  server: qv22.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '16'
-  network: ws
-  port: '55443'
-  server: ys.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '17'
-  network: ws
-  port: '443'
-  server: qv24.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '18'
-  network: ws
-  port: '80'
-  server: qv25.shenseven.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc35d50c-31cf-4e4c-9670-b73e30a94376
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '19'
-  network: ws
-  port: '33282'
-  server: free-jp01.hxlm.cc
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '20'
-  network: ws
-  port: '33282'
-  server: free-jp01.hxlm.cc
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '21'
   network: ws
   port: '33283'
   server: free-jp01.hxlm.cc
@@ -348,7 +102,7 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '22'
+  name: '6'
   network: ws
   port: '33290'
   server: free-sg01.hxlm.cc
@@ -364,7 +118,7 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '23'
+  name: '7'
   network: ws
   port: '16088'
   server: free-us01.hxlm.cc
@@ -378,696 +132,9 @@ proxies:
     headers:
       Host: short.pay.weixin.qq.com
     path: ''
-- alterId: '1'
-  cipher: auto
-  name: '24'
-  network: ws
-  port: 11069
-  server: 120.232.173.154
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '25'
-  network: http
-  port: 10001
-  server: 112.33.32.136
-  type: vmess
-  udp: true
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-- alterId: '64'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '26'
-  network: http
-  port: 48106
-  server: 42.157.8.162
-  type: vmess
-  udp: true
-  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
-- alterId: '1'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '27'
-  network: http
-  port: 10003
-  server: 112.33.32.136
-  type: vmess
-  udp: true
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-- alterId: '2'
-  cipher: auto
-  name: '28'
-  network: ws
-  port: 23308
-  server: 112.82.144.165
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /index
-- alterId: '2'
-  cipher: auto
-  name: '29'
-  network: ws
-  port: 28802
-  server: 116.163.10.136
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /index
-- alterId: '2'
-  cipher: auto
-  name: '30'
-  network: ws
-  port: 28802
-  server: 112.82.144.165
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /index
-- alterId: '1'
-  cipher: auto
-  name: '31'
-  network: ws
-  port: 80
-  server: 8.210.55.79
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '32'
-  network: http
-  port: 10004
-  server: 139.227.161.129
-  type: vmess
-  udp: true
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-- alterId: '1'
-  cipher: auto
-  name: '33'
-  network: ws
-  port: 30007
-  server: 120.232.173.154
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '2'
-  cipher: auto
-  name: '34'
-  network: ws
-  port: 23308
-  server: 116.163.10.136
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /index
-- alterId: '1'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '35'
-  network: http
-  port: 10001
-  server: 116.192.171.218
-  type: vmess
-  udp: true
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-- alterId: '1'
-  cipher: auto
-  name: '36'
-  network: ws
-  port: 30004
-  server: 120.232.173.154
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '4'
-  cipher: auto
-  name: '37'
-  network: ws
-  port: 443
-  server: 62.210.90.75
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: '10'
-  cipher: auto
-  name: '38'
-  network: ws
-  port: 13723
-  server: 45.91.83.111
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ray
-- alterId: '4'
-  cipher: auto
-  name: '39'
-  network: ws
-  port: 443
-  server: 146.70.71.2
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: '1'
-  cipher: auto
-  name: '40'
-  network: ws
-  port: 443
-  server: 103.138.75.235
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /clientarea
-- alterId: '4'
-  cipher: auto
-  name: '41'
-  network: ws
-  port: 443
-  server: 156.234.95.72
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: '1'
-  cipher: auto
-  name: '42'
-  network: ws
-  port: 443
-  server: 161.81.195.100
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /clientarea
-- alterId: '0'
-  cipher: auto
-  name: '43'
-  network: ws
-  port: 13146
-  server: 52.184.20.252
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f29f684d-45f8-3412-9758-f9c7c24b4638
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /v2ray
-- alterId: '4'
-  cipher: auto
-  name: '44'
-  network: ws
-  port: 443
-  server: 129.227.201.234
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: '64'
-  cipher: auto
-  name: '45'
-  network: ws
-  port: 80
-  server: 172.104.98.216
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '1'
-  cipher: auto
-  name: '46'
-  network: ws
-  port: 2053
-  server: 146.56.156.227
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '32'
-  cipher: auto
-  name: '47'
-  network: ws
-  port: 443
-  server: 45.8.159.221
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '233'
-  cipher: auto
-  name: '48'
-  network: ws
-  port: 443
-  server: 45.89.228.53
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e64c6f7c-48eb-4852-9b29-778faef14212
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /319285eb2d/
-- alterId: '0'
-  cipher: auto
-  name: '49'
-  network: ws
-  port: 34373
-  server: 18.142.46.114
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4c7b2216-16b3-4048-caa6-f51733d1611e
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: '50'
-  network: ws
-  port: 54250
-  server: 52.77.238.80
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cde1071a-5569-11ec-b2df-93fe41846976
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /gIWQkO7s/
-- alterId: '1'
-  cipher: auto
-  name: '51'
-  network: ws
-  port: 8888
-  server: 206.189.87.180
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '4'
-  cipher: auto
-  name: '52'
-  network: ws
-  port: 443
-  server: 202.61.141.130
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '53'
-  network: http
-  port: 51939
-  server: 139.162.51.223
-  type: vmess
-  udp: true
-  uuid: 4db2a027-17fb-4d27-b8ca-93b548e487a2
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '54'
-  network: http
-  port: 59633
-  server: 172.105.113.182
-  type: vmess
-  udp: true
-  uuid: f0dad28b-c9d3-44e7-9447-6a99fe35abb6
-- alterId: '0'
-  cipher: auto
-  name: '55'
-  network: ws
-  port: 443
-  server: 114.26.59.75
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /s/ff5c0fb.fm.icloud.com:30513
-- alterId: '4'
-  cipher: auto
-  name: '56'
-  network: ws
-  port: 443
-  server: 192.96.204.250
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: '4'
-  cipher: auto
-  name: '57'
-  network: ws
-  port: 443
-  server: 192.186.129.66
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '58'
-  network: http
-  port: 111
-  server: 137.175.30.251
-  type: vmess
-  udp: true
-  uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8
-- alterId: '4'
-  cipher: auto
-  name: '59'
-  network: ws
-  port: 443
-  server: 154.31.41.10
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: '2'
-  cipher: auto
-  name: '60'
-  network: ws
-  port: 44036
-  server: 147.182.249.191
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 586782d0-3568-4b5b-ff5e-9291906ad6a1
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /1145141919
-- alterId: '2'
-  cipher: auto
-  name: '61'
-  network: ws
-  port: 10156
-  server: 20.205.63.211
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b66d502c-5d3a-381f-9e49-fe8afdac9968
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /zz
-- alterId: '4'
-  cipher: auto
-  name: '62'
-  network: ws
-  port: 443
-  server: 45.35.84.162
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: '4'
-  cipher: auto
-  name: '63'
-  network: ws
-  port: 443
-  server: 209.58.139.41
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: '0'
-  cipher: auto
-  name: '64'
-  network: ws
-  port: 13723
-  server: 104.251.233.106
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ray
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '65'
-  network: http
-  port: 500
-  server: 192.74.254.167
-  type: vmess
-  udp: true
-  uuid: 764e808a-115e-11ec-a88f-00163c9f4934
-- alterId: '0'
-  cipher: auto
-  name: '66'
-  network: ws
-  port: 80
-  server: 152.70.127.223
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44e0d410-535a-11ec-968f-02001700aa14
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /
-- alterId: '8'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '67'
-  network: http
-  port: 61173
-  server: 216.24.176.152
-  type: vmess
-  udp: true
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-- alterId: '8'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - short.pay.weixin.qq.com
-  name: '68'
-  network: http
-  port: 61173
-  server: 23.83.227.107
-  type: vmess
-  udp: true
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
 - alterId: 2
   cipher: auto
-  name: '69'
+  name: '8'
   network: ws
   port: 2331
   server: yqy2331.china-cdn-net.com
@@ -1081,7 +148,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '70'
+  name: '9'
   network: ws
   port: 2332
   server: yqy2332.china-cdn-net.com
@@ -1095,7 +162,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '71'
+  name: '10'
   network: ws
   port: 2333
   server: yqy2333.china-cdn-net.com
@@ -1110,7 +177,7 @@ proxies:
   ws-path: ''
 - alterId: 2
   cipher: auto
-  name: '72'
+  name: '11'
   network: ws
   port: 2334
   server: yqy2334.china-cdn-net.com
@@ -1124,7 +191,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '73'
+  name: '12'
   network: ws
   port: 2335
   server: yqy2335.china-cdn-net.com
@@ -1138,7 +205,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '74'
+  name: '13'
   network: ws
   port: 2336
   server: yqy2336.china-cdn-net.com
@@ -1152,7 +219,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '75'
+  name: '14'
   network: ws
   port: 2337
   server: yqy2337.china-cdn-net.com
@@ -1166,7 +233,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '76'
+  name: '15'
   network: ws
   port: 2338
   server: yqy2338.china-cdn-net.com
@@ -1180,10 +247,10 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '77'
+  name: '16'
   network: ws
   port: 80
-  server: 20.205.14.123
+  server: 52.175.57.85
   servername: short.pay.weixin.qq.com
   type: vmess
   udp: true
@@ -1194,7 +261,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '78'
+  name: '17'
   network: ws
   port: 80
   server: 45.8.158.71
@@ -1212,7 +279,7 @@ proxies:
     headers:
       Host:
       - short.pay.weixin.qq.com
-  name: '79'
+  name: '18'
   network: http
   port: 443
   server: mfv2ray.top
@@ -1222,73 +289,41 @@ proxies:
   uuid: 7cb107bb-55d0-362c-ae94-f4520df336a9
 - alterId: 2
   cipher: auto
-  country: ' CN'
+  country: ' CA'
   http-opts: {}
-  name: '80'
+  name: '19'
   network: ws
-  port: 23308
-  server: 112.82.144.165
+  port: 80
+  server: 165.154.229.22
   servername: short.pay.weixin.qq.com
   skip-cert-verify: true
   type: vmess
-  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
+  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
   ws-opts:
     headers:
       Host: short.pay.weixin.qq.com
-    path: /index
-- alterId: 2
+    path: /v2ray
+- alterId: 64
   cipher: auto
-  country: ' CN'
+  country: ' JP'
   http-opts: {}
-  name: '81'
+  name: '20'
   network: ws
-  port: 28802
-  server: 112.82.144.165
+  port: 80
+  server: 172.104.98.216
   servername: short.pay.weixin.qq.com
   skip-cert-verify: true
   type: vmess
-  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
+  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
   ws-opts:
     headers:
       Host: short.pay.weixin.qq.com
-    path: /index
-- alterId: 2
-  cipher: auto
-  country: ' CN'
-  http-opts: {}
-  name: '82'
-  network: ws
-  port: 28802
-  server: 116.163.10.136
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /index
-- alterId: 2
-  cipher: auto
-  country: ' CN'
-  http-opts: {}
-  name: '83'
-  network: ws
-  port: 23308
-  server: 116.163.10.136
-  servername: short.pay.weixin.qq.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /index
+    path: /
 - alterId: 4
   cipher: auto
   country: ' US'
   http-opts: {}
-  name: '84'
+  name: '21'
   network: ws
   port: 443
   server: 192.96.204.250
@@ -1301,26 +336,25 @@ proxies:
     headers:
       Host: short.pay.weixin.qq.com
     path: /ws
-- alterId: 2
+- alterId: 0
   cipher: auto
   country: ' US'
   http-opts: {}
-  name: '85'
+  name: '22'
   network: ws
-  port: 44036
-  server: 147.182.249.191
+  port: 52244
+  server: 192.74.254.112
   servername: short.pay.weixin.qq.com
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 586782d0-3568-4b5b-ff5e-9291906ad6a1
+  uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a
   ws-opts:
     headers:
       Host: short.pay.weixin.qq.com
-    path: /1145141919
+    path: /E0Y46mSw/
 - alterId: 1
   cipher: auto
-  name: '86'
+  name: '23'
   network: ws
   port: 15801
   server: test.airnode.xyz
@@ -1334,7 +368,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '87'
+  name: '24'
   network: ws
   port: 15802
   server: test.airnode.xyz
@@ -1348,7 +382,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '88'
+  name: '25'
   network: ws
   port: 15803
   server: test.airnode.xyz
@@ -1362,7 +396,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '89'
+  name: '26'
   network: ws
   port: 15804
   server: test.airnode.xyz
@@ -1376,7 +410,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '90'
+  name: '27'
   network: ws
   port: 15805
   server: test.airnode.xyz
@@ -1390,7 +424,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '91'
+  name: '28'
   network: ws
   port: 15806
   server: test.airnode.xyz
@@ -1404,7 +438,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '92'
+  name: '29'
   network: ws
   port: 15801
   server: test.airnode.xyz
@@ -1418,7 +452,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '93'
+  name: '30'
   network: ws
   port: 15802
   server: test.airnode.xyz
@@ -1432,7 +466,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '94'
+  name: '31'
   network: ws
   port: 15803
   server: test.airnode.xyz
@@ -1446,7 +480,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '95'
+  name: '32'
   network: ws
   port: 15804
   server: test.airnode.xyz
@@ -1460,7 +494,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '96'
+  name: '33'
   network: ws
   port: 15805
   server: test.airnode.xyz
@@ -1474,7 +508,7 @@ proxies:
     path: /blx
 - alterId: 1
   cipher: auto
-  name: '97'
+  name: '34'
   network: ws
   port: 15806
   server: test.airnode.xyz
@@ -1488,71 +522,7 @@ proxies:
     path: /blx
 - alterId: '1'
   cipher: auto
-  name: '98'
-  network: ws
-  port: '39948'
-  server: free-us01.antlink.cyou
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 835901fd-7853-485d-b2f9-13e7f6e5245c
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '99'
-  network: ws
-  port: '39948'
-  server: free-us01.antlink.cyou
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 835901fd-7853-485d-b2f9-13e7f6e5245c
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '100'
-  network: ws
-  port: '39948'
-  server: free-jp01.antlink.cyou
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 835901fd-7853-485d-b2f9-13e7f6e5245c
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '101'
-  network: ws
-  port: '39948'
-  server: free-sg01.antlink.cyou
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 835901fd-7853-485d-b2f9-13e7f6e5245c
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '102'
+  name: '35'
   network: ws
   port: '80'
   server: 8.210.55.79
@@ -1568,7 +538,7 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '103'
+  name: '36'
   network: ws
   port: '80'
   server: 8.210.55.79
@@ -1584,55 +554,7 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '104'
-  network: ws
-  port: '28888'
-  server: st.ddnspro.cn
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '105'
-  network: ws
-  port: '18882'
-  server: 120.240.86.3
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '106'
-  network: ws
-  port: '28888'
-  server: 20.205.124.103
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '107'
+  name: '37'
   network: ws
   port: '80'
   server: 8.210.55.79
@@ -1648,10 +570,74 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '108'
+  name: '38'
+  network: ws
+  port: '9999'
+  server: 3.106.142.132
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: ''
+- alterId: '1'
+  cipher: auto
+  name: '39'
+  network: ws
+  port: '21888'
+  server: 108.136.139.33
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: ''
+- alterId: '1'
+  cipher: auto
+  name: '40'
+  network: ws
+  port: '10561'
+  server: tw1.yyyywe.top
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: ''
+- alterId: '1'
+  cipher: auto
+  name: '41'
+  network: ws
+  port: '9999'
+  server: 18.141.180.10
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: ''
+- alterId: '1'
+  cipher: auto
+  name: '42'
   network: ws
   port: '8888'
-  server: 20.187.88.204
+  server: 178.62.224.119
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -1664,10 +650,10 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '109'
+  name: '43'
   network: ws
-  port: '8888'
-  server: 206.189.87.180
+  port: '9999'
+  server: 18.218.198.254
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -1680,7 +666,23 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '110'
+  name: '44'
+  network: ws
+  port: '11021'
+  server: 155.94.197.20
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: ''
+- alterId: '1'
+  cipher: auto
+  name: '45'
   network: ws
   port: '22401'
   server: 107.161.50.42
@@ -1696,42 +698,10 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '111'
-  network: ws
-  port: '8888'
-  server: 3.25.120.18
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '112'
-  network: ws
-  port: '56752'
-  server: 185.246.154.6
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '113'
+  name: '46'
   network: ws
   port: '21888'
-  server: 18.185.81.194
+  server: 18.192.212.68
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -1744,10 +714,10 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '114'
+  name: '47'
   network: ws
-  port: '9999'
-  server: 52.48.89.93
+  port: '12501'
+  server: 169.239.129.33
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -1760,26 +730,10 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '115'
-  network: ws
-  port: '54111'
-  server: 202.141.247.110
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: ''
-- alterId: '1'
-  cipher: auto
-  name: '116'
+  name: '48'
   network: ws
   port: '80'
-  server: lsb.stupidfellow.cf
+  server: 104.244.79.119
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -1792,10 +746,10 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '117'
+  name: '49'
   network: ws
   port: '443'
-  server: 104.17.170.210
+  server: cf.kycc-nodes.bike
   servername: short.pay.weixin.qq.com
   skip-cert-verify: true
   tls: true
@@ -1808,7 +762,7 @@ proxies:
     path: kycc
 - alterId: 0
   cipher: auto
-  name: '118'
+  name: '50'
   network: ws
   port: 81
   server: 47.242.126.130
@@ -1822,21 +776,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '119'
-  network: ws
-  port: 83
-  server: 47.243.33.5
-  servername: short.pay.weixin.qq.com
-  type: vmess
-  udp: true
-  uuid: 8f6e5a78-1ca5-34b3-89d4-59e38afaa6dc
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: '120'
+  name: '51'
   network: ws
   port: 80
   server: 8.218.26.150
@@ -1850,9 +790,9 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '121'
+  name: '52'
   network: ws
-  port: 82
+  port: 83
   server: 8.210.114.158
   servername: short.pay.weixin.qq.com
   type: vmess
@@ -1864,7 +804,21 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '122'
+  name: '53'
+  network: ws
+  port: 83
+  server: 47.243.33.5
+  servername: short.pay.weixin.qq.com
+  type: vmess
+  udp: true
+  uuid: 8f6e5a78-1ca5-34b3-89d4-59e38afaa6dc
+  ws-opts:
+    headers:
+      Host: short.pay.weixin.qq.com
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '54'
   network: ws
   port: 5515
   server: 104.244.79.228
@@ -1878,7 +832,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '123'
+  name: '55'
   network: ws
   port: 5515
   server: 13.231.4.26
@@ -1890,9 +844,9 @@ proxies:
     headers:
       Host: short.pay.weixin.qq.com
     path: /
-- alterId: 16
+- alterId: 2
   cipher: auto
-  name: '124'
+  name: '56'
   network: ws
   port: 51530
   server: 20.78.145.126
@@ -1904,9 +858,9 @@ proxies:
     headers:
       Host: short.pay.weixin.qq.com
     path: /v2ray
-- alterId: 16
+- alterId: 2
   cipher: auto
-  name: '125'
+  name: '57'
   network: ws
   port: 41002
   server: gy.jjxcloud.xyz
@@ -1918,9 +872,9 @@ proxies:
     headers:
       Host: short.pay.weixin.qq.com
     path: /v2ray
-- alterId: 16
+- alterId: 2
   cipher: auto
-  name: '126'
+  name: '58'
   network: ws
   port: 42002
   server: gy.jjxcloud.xyz
@@ -1932,12 +886,12 @@ proxies:
     headers:
       Host: short.pay.weixin.qq.com
     path: /v2ray
-- alterId: 16
+- alterId: 2
   cipher: auto
-  name: '127'
+  name: '59'
   network: ws
-  port: 42003
-  server: gy.jjxcloud.xyz
+  port: 1000
+  server: mlxy.jjxcloud.xyz
   servername: short.pay.weixin.qq.com
   type: vmess
   udp: true
@@ -1948,7 +902,7 @@ proxies:
     path: /v2ray
 - alterId: '1'
   cipher: auto
-  name: '128'
+  name: '60'
   network: ws
   port: '11177'
   server: free-jp01.starlink.cyou
@@ -1964,7 +918,7 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '129'
+  name: '61'
   network: ws
   port: '11177'
   server: free-jp01.starlink.cyou
@@ -1980,7 +934,7 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '130'
+  name: '62'
   network: ws
   port: '15078'
   server: free-sg01.starlink.cyou
@@ -1996,7 +950,7 @@ proxies:
     path: ''
 - alterId: '1'
   cipher: auto
-  name: '131'
+  name: '63'
   network: ws
   port: '11179'
   server: free-us01.starlink.cyou
@@ -2012,10 +966,10 @@ proxies:
     path: ''
 - alterId: 2
   cipher: auto
-  name: '132'
+  name: '64'
   network: ws
-  port: 11960
-  server: jpaws5.biteb.club
+  port: 14264
+  server: jpaz4.biteb-ssx.xyz
   servername: short.pay.weixin.qq.com
   tls: false
   type: vmess
@@ -2024,426 +978,48 @@ proxies:
     headers:
       Host: short.pay.weixin.qq.com
     path: index
-- alterId: 2
+- alterId: 1
   cipher: auto
-  name: '133'
+  name: '65'
   network: ws
-  port: 12611
-  server: hkaz6.biteb.club
+  port: 18000
+  server: mf-justhost-ru-01.xncloud.xyz
   servername: short.pay.weixin.qq.com
   tls: false
   type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+  uuid: 94312b29-64fb-3c3a-9c27-e3ebd7f4c06a
   ws-opts:
     headers:
       Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
+    path: /niaoyun
+- alterId: 1
   cipher: auto
-  name: '134'
-  network: ws
-  port: 12640
-  server: hkaz6.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '135'
-  network: ws
-  port: 12699
-  server: hkaz7.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '136'
-  network: ws
-  port: 12614
-  server: hkaz5.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '137'
-  network: ws
-  port: 12679
-  server: hkawst1.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '138'
-  network: ws
-  port: 12676
-  server: tw-1.okex-tradebot.xyz
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '139'
-  network: ws
-  port: 12534
-  server: jpaz1.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '140'
-  network: ws
-  port: 12494
-  server: jpaz3.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '141'
-  network: ws
-  port: 12588
-  server: jpaz3.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '142'
-  network: ws
-  port: 12502
-  server: hkawst3.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '143'
-  network: ws
-  port: 10267
-  server: sgaws1.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '144'
-  network: ws
-  port: 12633
-  server: hkaz7.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '145'
-  network: ws
-  port: 10009
-  server: a2c647b9b0c3ec70f.awsglobalaccelerator.com
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '146'
-  network: ws
-  port: 12576
-  server: kraws1.biteb.xyz
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '147'
-  network: ws
-  port: 12700
-  server: usin4.biteb.xyz
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '148'
-  network: ws
-  port: 12706
-  server: a428574035679b8d9.awsglobalaccelerator.com
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '149'
-  network: ws
-  port: 11633
-  server: hkaz4.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '150'
-  network: ws
-  port: 12643
-  server: jpaws6.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '151'
-  network: ws
-  port: 12677
-  server: hkaws7.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '152'
-  network: ws
-  port: 12635
-  server: sgaws2.biteb.xyz
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '153'
-  network: ws
-  port: 10871
-  server: hkhkt1.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '154'
-  network: ws
-  port: 12483
-  server: sgaws3.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '155'
-  network: ws
-  port: 12126
-  server: hkaws8.biteb.club
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '156'
-  network: ws
-  port: 12517
-  server: a064abe4ad9b2273a.awsglobalaccelerator.com
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '157'
-  network: ws
-  port: 10568
-  server: ac55a74903b820665.awsglobalaccelerator.com
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '158'
-  network: ws
-  port: 10156
-  server: 20.205.63.211
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: b66d502c-5d3a-381f-9e49-fe8afdac9968
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /zz
-- alterId: 10
-  cipher: auto
-  name: '159'
-  network: ws
-  port: 80
-  server: in.52jjyun.top
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: /jjyun
-- alterId: 4
-  cipher: auto
-  name: '160'
+  name: '66'
   network: ws
   port: 443
-  server: 62.210.90.75
+  server: 103.138.75.226
   servername: short.pay.weixin.qq.com
   tls: true
   type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   ws-opts:
     headers:
       Host: short.pay.weixin.qq.com
-    path: /ws
-- alterId: 2
+    path: /clientarea
+- alterId: 1
   cipher: auto
-  name: '161'
+  name: '67'
   network: ws
-  port: 12701
-  server: usin6.biteb.xyz
+  port: 18000
+  server: mf-aws-jp-04.xncloud.xyz
   servername: short.pay.weixin.qq.com
   tls: false
   type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+  uuid: 94312b29-64fb-3c3a-9c27-e3ebd7f4c06a
   ws-opts:
     headers:
       Host: short.pay.weixin.qq.com
-    path: index
-- alterId: 2
-  cipher: auto
-  name: '162'
-  network: ws
-  port: 11760
-  server: ae127b4e30282e1d7.awsglobalaccelerator.com
-  servername: short.pay.weixin.qq.com
-  tls: false
-  type: vmess
-  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-  ws-opts:
-    headers:
-      Host: short.pay.weixin.qq.com
-    path: index
+    path: /niaoyun
 proxy-groups:
 - name: "\U0001F310 Select"
   proxies:
@@ -2517,101 +1093,6 @@ proxy-groups:
   - '65'
   - '66'
   - '67'
-  - '68'
-  - '69'
-  - '70'
-  - '71'
-  - '72'
-  - '73'
-  - '74'
-  - '75'
-  - '76'
-  - '77'
-  - '78'
-  - '79'
-  - '80'
-  - '81'
-  - '82'
-  - '83'
-  - '84'
-  - '85'
-  - '86'
-  - '87'
-  - '88'
-  - '89'
-  - '90'
-  - '91'
-  - '92'
-  - '93'
-  - '94'
-  - '95'
-  - '96'
-  - '97'
-  - '98'
-  - '99'
-  - '100'
-  - '101'
-  - '102'
-  - '103'
-  - '104'
-  - '105'
-  - '106'
-  - '107'
-  - '108'
-  - '109'
-  - '110'
-  - '111'
-  - '112'
-  - '113'
-  - '114'
-  - '115'
-  - '116'
-  - '117'
-  - '118'
-  - '119'
-  - '120'
-  - '121'
-  - '122'
-  - '123'
-  - '124'
-  - '125'
-  - '126'
-  - '127'
-  - '128'
-  - '129'
-  - '130'
-  - '131'
-  - '132'
-  - '133'
-  - '134'
-  - '135'
-  - '136'
-  - '137'
-  - '138'
-  - '139'
-  - '140'
-  - '141'
-  - '142'
-  - '143'
-  - '144'
-  - '145'
-  - '146'
-  - '147'
-  - '148'
-  - '149'
-  - '150'
-  - '151'
-  - '152'
-  - '153'
-  - '154'
-  - '155'
-  - '156'
-  - '157'
-  - '158'
-  - '159'
-  - '160'
-  - '161'
-  - '162'
   type: select
 - interval: 600
   lazy: true
@@ -2684,102 +1165,8 @@ proxy-groups:
   - '65'
   - '66'
   - '67'
-  - '68'
-  - '69'
-  - '70'
-  - '71'
-  - '72'
-  - '73'
-  - '74'
-  - '75'
-  - '76'
-  - '77'
-  - '78'
-  - '79'
-  - '80'
-  - '81'
-  - '82'
-  - '83'
-  - '84'
-  - '85'
-  - '86'
-  - '87'
-  - '88'
-  - '89'
-  - '90'
-  - '91'
-  - '92'
-  - '93'
-  - '94'
-  - '95'
-  - '96'
-  - '97'
-  - '98'
-  - '99'
-  - '100'
-  - '101'
-  - '102'
-  - '103'
-  - '104'
-  - '105'
-  - '106'
-  - '107'
-  - '108'
-  - '109'
-  - '110'
-  - '111'
-  - '112'
-  - '113'
-  - '114'
-  - '115'
-  - '116'
-  - '117'
-  - '118'
-  - '119'
-  - '120'
-  - '121'
-  - '122'
-  - '123'
-  - '124'
-  - '125'
-  - '126'
-  - '127'
-  - '128'
-  - '129'
-  - '130'
-  - '131'
-  - '132'
-  - '133'
-  - '134'
-  - '135'
-  - '136'
-  - '137'
-  - '138'
-  - '139'
-  - '140'
-  - '141'
-  - '142'
-  - '143'
-  - '144'
-  - '145'
-  - '146'
-  - '147'
-  - '148'
-  - '149'
-  - '150'
-  - '151'
-  - '152'
-  - '153'
-  - '154'
-  - '155'
-  - '156'
-  - '157'
-  - '158'
-  - '159'
-  - '160'
-  - '161'
-  - '162'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
 - "MATCH,\U0001F310 Select"
+socks-port: 7890
