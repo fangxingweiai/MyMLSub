@@ -142,7 +142,7 @@ def generate_sub(nodes, client):
                  "type": "select",
                  "proxies": ['♻ Auto', 'DIRECT', 'REJECT']},
                 {"name": "♻ Auto",
-                 "type": "fallback",
+                 "type": "url-test",
                  "proxies": [],
                  "url": "http://www.gstatic.com/generate_204",
                  "interval": 600,
