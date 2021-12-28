@@ -102,12 +102,12 @@ class ProxyNode(object):
             "port": self.v2["port"],
             "uuid": self.v2["id"],
             "alterId": self.v2["aid"],
-            "cipher": self.v2["scy"] if self.v2["scy"] else 'auto',
+            "cipher": self.v2.get("scy") or 'auto',
 
             # ws
             "tls": True if self.v2["tls"] else False,
             # "skip-cert-verify": True,
-            "servername": self.v2["sni"],  # priority over wss host
+            "servername": self.v2.get("sni") or "",  # priority over wss host
 
             # common
             # "udp": True,
@@ -235,7 +235,8 @@ class ProxyNode(object):
         ws_headers = f'Host:{self.v2["host"]}'
         tls = 'true' if self.v2["tls"] else 'false'
         if ws == 'true':
-            proxy = self.v2["ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2["path"]}, ws-headers={ws_headers}, skip-cert-verify=true, sni={self.v2["sni"]}'
+            proxy = self.v2[
+                        "ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2["path"]}, ws-headers={ws_headers}, skip-cert-verify=true, sni={self.v2.get("sni", "")}'
             return proxy
         else:
             logger.info('surfboard暂不支持http免流')
@@ -249,7 +250,8 @@ class ProxyNode(object):
         ws_host = self.v2["host"]
         tls = 'true' if self.v2["tls"] else 'false'
         if ws == 'true':
-            proxy = self.v2["ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2["path"]}, ws_host={ws_host}, sni={self.v2["sni"]}'
+            proxy = self.v2[
+                        "ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2["path"]}, ws_host={ws_host}, sni={self.v2.get("sni", "")}'
             return proxy
         else:
             logger.info('Leaf暂不支持http免流')
@@ -258,7 +260,9 @@ class ProxyNode(object):
 
 if __name__ == '__main__':
     proxy = "vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkhvbmdLb25nIiwNCiAgImFkZCI6ICIyMC4xODcuMTE3LjMxIiwNCiAgInBvcnQiOiAiMzYzNTMiLA0KICAiaWQiOiAiYjhkZWU0YTItNzViNi00ZTM2LWZjMjUtZmIxN2U2NGIxOThlIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiINCn0="
-    proxy ={"name":"🇭🇰 试用|香港06解锁流媒体","type":"vmess","server":"test.airnode.xyz","port":15806,"uuid":"d645c3c0-b155-3769-bd5a-57315a6333fd","alterId":1,"cipher":"auto","udp":True,"network":"ws","ws-path":"/blx","ws-headers":{"Host":"test.airnode.xyz"}}
+    proxy = {"name": "🇭🇰 试用|香港06解锁流媒体", "type": "vmess", "server": "test.airnode.xyz", "port": 15806,
+             "uuid": "d645c3c0-b155-3769-bd5a-57315a6333fd", "alterId": 1, "cipher": "auto", "udp": True,
+             "network": "ws", "ws-path": "/blx", "ws-headers": {"Host": "test.airnode.xyz"}}
     node = ProxyNode()
     node.load(proxy)
     node.change_host("a.189.cn")
