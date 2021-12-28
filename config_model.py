@@ -105,9 +105,9 @@ class ProxyNode(object):
             "cipher": self.v2.get("scy") or 'auto',
 
             # ws
-            "tls": True if self.v2["tls"] else False,
+            "tls": True if self.v2.get("tls") else False,
             # "skip-cert-verify": True,
-            "servername": self.v2.get("sni") or "",  # priority over wss host
+            "servername": self.v2.get("sni", ""),  # priority over wss host
 
             # common
             # "udp": True,
@@ -115,16 +115,16 @@ class ProxyNode(object):
 
             # ws
             "ws-opts": {
-                "path": self.v2["path"],
+                "path": self.v2.get("path", "/"),
                 "headers": {
-                    "Host": self.v2["host"]
+                    "Host": self.v2.get("host", "")
                 }
             },
 
             # tcp
             "http-opts": {
                 "headers": {
-                    "Host": self.v2["host"].split(',')
+                    "Host": self.v2.get("host", "").split(',')
                 }
             }
         }
@@ -232,11 +232,11 @@ class ProxyNode(object):
 
     def generate_surfboard_proxy(self):
         ws = 'true' if self.v2["net"] == 'ws' else 'false'
-        ws_headers = f'Host:{self.v2["host"]}'
-        tls = 'true' if self.v2["tls"] else 'false'
+        ws_headers = f'Host:{self.v2.get("host","")}'
+        tls = 'true' if self.v2.get("tls") else 'false'
         if ws == 'true':
             proxy = self.v2[
-                        "ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2["path"]}, ws-headers={ws_headers}, skip-cert-verify=true, sni={self.v2.get("sni", "")}'
+                        "ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2.get("path", "/")}, ws-headers={ws_headers}, skip-cert-verify=true, sni={self.v2.get("sni", "")}'
             return proxy
         else:
             logger.info('surfboard暂不支持http免流')
@@ -247,11 +247,11 @@ class ProxyNode(object):
 
     def generate_leaf_proxy(self):
         ws = 'true' if self.v2["net"] == 'ws' else 'false'
-        ws_host = self.v2["host"]
-        tls = 'true' if self.v2["tls"] else 'false'
+        ws_host = self.v2.get("host","")
+        tls = 'true' if self.v2.get("tls") else 'false'
         if ws == 'true':
             proxy = self.v2[
-                        "ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2["path"]}, ws_host={ws_host}, sni={self.v2.get("sni", "")}'
+                        "ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2.get("path", "/")}, ws_host={ws_host}, sni={self.v2.get("sni", "")}'
             return proxy
         else:
             logger.info('Leaf暂不支持http免流')

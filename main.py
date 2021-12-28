@@ -230,7 +230,7 @@ def generate_sub(nodes, client):
         fallback_group = 'fallback'
 
         sub.add_section("Rule")
-        sub.set('Rule', '', 'FINAL,fallback')
+        sub.set('Rule', '', 'FINAL,ml')
 
         # Surfboard中节点重名会运行不了，故直接用序号代替原来名字。解析Surfboard原订阅时，订阅内容中包含一些特殊字符，通过处理也会导致节点名字不完整甚至名字完全丢失。
         proxy_name = 0
@@ -248,12 +248,12 @@ def generate_sub(nodes, client):
 
                 fallback_group = fallback_group + ', ' + proxy_name_str
         fallback_group = fallback_group + ', interval=600, timeout=5'
-        sub.set('Proxy Group', 'fallback', fallback_group)
+        sub.set('Proxy Group', 'ml', fallback_group)
 
         with StringIO() as f:
             sub.write(f)
             s = f.getvalue()
-            sub = re.sub(r'\s=\s+FINAL,fallback', "FINAL, fallback", s)
+            sub = re.sub(r'\s=\s+FINAL,ml', "FINAL, ml", s)
     return sub
 
 
