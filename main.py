@@ -5,9 +5,9 @@ import sys
 from io import StringIO
 
 import yaml
+from config_models import ProxyNode
 from loguru import logger
 
-from config_models import V2rayN, Clash
 from helper import base64_decode, base64_encode, get_request, remove_special_characters
 
 # 设置日志
@@ -32,9 +32,9 @@ def v2sub_2_nodelist(sub_content):
     nodes = []
     for link in raw_links:
         link = link.strip()
-        vn = V2rayN(link)
+        vn = ProxyNode()
         logger.debug('检查v2节点有效性')
-        if vn.check():
+        if vn.load(link):
             logger.debug(f'订阅中的v2节点: {link}')
             nodes.append(vn)
 
@@ -50,9 +50,9 @@ def clashsub_2_nodelist(sub_content):
     if proxies:
         logger.debug(f'直接获取clash中的proxies：{proxies}')
         for proxy in proxies:
-            c = Clash(proxy)
+            c = ProxyNode()
             logger.debug('检查Clash节点有效性')
-            if c.check():
+            if c.load(proxy):
                 logger.debug(f"clash proxies中的节点: {c}")
                 nodes.append(c)
 
@@ -186,7 +186,7 @@ def generate_sub(nodes, client):
         auto_proxy = 'url-test'
 
         sub.add_section("Rule")
-        sub.set('Rule', '', 'FINAL,proxy')
+        sub.set('Rule', '', 'FINAL,select')
 
         # Surfboard中节点重名会运行不了，故直接用序号代替原来名字。解析Surfboard原订阅时，订阅内容中包含一些特殊字符，通过处理也会导致节点名字不完整甚至名字完全丢失。
         proxy_name = 0
@@ -210,7 +210,50 @@ def generate_sub(nodes, client):
         with StringIO() as f:
             sub.write(f)
             s = f.getvalue()
-            sub = re.sub(r'\s=\s+FINAL,proxy', "FINAL, select", s)
+            sub = re.sub(r'\s=\s+FINAL,select', "FINAL, select", s)
+    elif client == "Leaf":
+        sub = configparser.ConfigParser()
+
+        sub.add_section("General")
+        sub.set("General", "loglevel", "off")
+        sub.set("General", "dns-server", "1.1.1.1, 8.8.8.8, 114.114.114.114, 223.5.5.5")
+        # sub.set("General", "proxy-test-url", "http://www.gstatic.com/generate_204")
+        sub.set("General", "interface", "127.0.0.1")
+        sub.set("General", "port", "7891")
+        sub.set("General", "socks-interface", "127.0.0.1")
+        sub.set("General", "socks-port", "7890")
+
+        sub.add_section("Proxy")
+
+        sub.add_section("Proxy Group")
+        # AutoTestGroup = url-test, ProxySOCKS5, ProxySOCKS5TLS, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
+        fallback_group = 'fallback'
+
+        sub.add_section("Rule")
+        sub.set('Rule', '', 'FINAL,fallback')
+
+        # Surfboard中节点重名会运行不了，故直接用序号代替原来名字。解析Surfboard原订阅时，订阅内容中包含一些特殊字符，通过处理也会导致节点名字不完整甚至名字完全丢失。
+        proxy_name = 0
+
+        for node in nodes:
+            sf_proxy = node.generate_surfboard_proxy()
+            if sf_proxy:
+                logger.debug(f'生成Surfboard 节点: {sf_proxy}')
+                _, conf = sf_proxy
+
+                proxy_name += 1
+                proxy_name_str = str(proxy_name)
+
+                sub.set('Proxy', proxy_name_str, conf)
+
+                fallback_group = fallback_group + ', ' + proxy_name_str
+        fallback_group = fallback_group + ', interval=600, timeout=5'
+        sub.set('Proxy Group', 'fallback', fallback_group)
+
+        with StringIO() as f:
+            sub.write(f)
+            s = f.getvalue()
+            sub = re.sub(r'\s=\s+FINAL,fallback', "FINAL, fallback", s)
     return sub
 
 
@@ -238,7 +281,7 @@ def save_conf(conf, filename):
 
 def main():
     host = 'short.pay.weixin.qq.com'
-    clients = ['Clash', 'Surfboard', 'v2rayN']
+    clients = ['Clash', 'Surfboard', 'v2rayN', 'Leaf']
     resources = load_resources()
     logger.info(f"用户需要转换的内容：{resources}")
 
@@ -249,9 +292,9 @@ def main():
             node_list = sub_2_nodelist(i)
             nodes.extend(node_list)
         else:
-            vn = V2rayN(i)
+            vn = ProxyNode()
             logger.debug('检查v2节点有效性')
-            if vn.check():
+            if vn.load(i):
                 logger.info(f"v2节点，直接添加: {i}")
                 nodes.append(vn)
 
@@ -270,3 +313,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+    # proxy = "vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkhvbmdLb25nIiwNCiAgImFkZCI6ICIyMC4xODcuMTE3LjMxIiwNCiAgInBvcnQiOiAiMzYzNTMiLA0KICAiaWQiOiAiYjhkZWU0YTItNzViNi00ZTM2LWZjMjUtZmIxN2U2NGIxOThlIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiINCn0="
+    # proxy ={"name":"🇭🇰 试用|香港06解锁流媒体","type":"vmess","server":"test.airnode.xyz","port":15806,"uuid":"d645c3c0-b155-3769-bd5a-57315a6333fd","alterId":1,"cipher":"auto","udp":True,"network":"ws","ws-path":"/blx","ws-headers":{"Host":"test.airnode.xyz"}}
+    # node = ProxyNode()
+    # node.load(proxy)
+    # node.change_host("a.189.cn")
+    # sub = generate_sub([node],"Surfboard")
+    # print(sub)
