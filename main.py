@@ -5,7 +5,7 @@ import sys
 from io import StringIO
 
 import yaml
-from config_models import ProxyNode
+from config_model import ProxyNode
 from loguru import logger
 
 from helper import base64_decode, base64_encode, get_request, remove_special_characters
