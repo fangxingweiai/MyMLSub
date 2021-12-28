@@ -11,7 +11,7 @@ from loguru import logger
 from helper import base64_decode, base64_encode, get_request, remove_special_characters
 
 # 设置日志
-logger_level = "DEBUG" #"INFO" #
+logger_level = "INFO" #"DEBUG" #
 logger.remove()
 logger.add(sys.stdout, level=logger_level)
 # 设置代理
