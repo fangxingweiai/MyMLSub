@@ -280,7 +280,7 @@ def save_conf(conf, filename):
 
 
 def main():
-    host = 'short.pay.weixin.qq.com'
+    host = 'wapsd.189.cn' #'short.pay.weixin.qq.com'
     clients = ['Clash', 'Surfboard', 'v2rayN', 'Leaf']
     resources = load_resources()
     logger.info(f"用户需要转换的内容：{resources}")
