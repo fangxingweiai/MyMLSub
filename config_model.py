@@ -218,7 +218,7 @@ class ProxyNode(object):
                     }
                 }
 
-            if self.clash.get('servername'):  # 是否要设置？
+            if self.clash.get('tls'):
                 self.clash['servername'] = host
         elif network == 'http':
             self.clash["http-opts"] = {
@@ -232,7 +232,7 @@ class ProxyNode(object):
 
     def generate_surfboard_proxy(self):
         ws = 'true' if self.v2["net"] == 'ws' else 'false'
-        ws_headers = f'Host:{self.v2.get("host","")}'
+        ws_headers = f'Host:{self.v2.get("host", "")}'
         tls = 'true' if self.v2.get("tls") else 'false'
         if ws == 'true':
             proxy = self.v2[
@@ -247,7 +247,7 @@ class ProxyNode(object):
 
     def generate_leaf_proxy(self):
         ws = 'true' if self.v2["net"] == 'ws' else 'false'
-        ws_host = self.v2.get("host","")
+        ws_host = self.v2.get("host", "")
         tls = 'true' if self.v2.get("tls") else 'false'
         if ws == 'true':
             proxy = self.v2[
