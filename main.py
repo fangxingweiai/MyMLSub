@@ -236,10 +236,10 @@ def generate_sub(nodes, client):
         proxy_name = 0
 
         for node in nodes:
-            sf_proxy = node.generate_surfboard_proxy()
-            if sf_proxy:
-                logger.debug(f'生成Surfboard 节点: {sf_proxy}')
-                _, conf = sf_proxy
+            leaf_proxy = node.generate_leaf_proxy()
+            if leaf_proxy:
+                logger.debug(f'生成Surfboard 节点: {leaf_proxy}')
+                _, conf = leaf_proxy
 
                 proxy_name += 1
                 proxy_name_str = str(proxy_name)
