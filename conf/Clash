@@ -53,12 +53,12 @@ proxies:
   cipher: auto
   name: '3'
   network: ws
-  port: '8099'
-  server: tw01.shizukuneko.com
+  port: '33282'
+  server: free-jp01.hxlm.cc
   servername: ''
   tls: false
   type: vmess
-  uuid: b5857ad7-e24c-4e1f-a962-93f47bbe5873
+  uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
   ws-opts:
     headers:
       Host: wapsd.189.cn
@@ -81,7 +81,7 @@ proxies:
   cipher: auto
   name: '5'
   network: ws
-  port: '33282'
+  port: '33283'
   server: free-jp01.hxlm.cc
   servername: ''
   tls: false
@@ -95,20 +95,6 @@ proxies:
   cipher: auto
   name: '6'
   network: ws
-  port: '33283'
-  server: free-jp01.hxlm.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: '7'
-  network: ws
   port: '33290'
   server: free-sg01.hxlm.cc
   servername: ''
@@ -121,7 +107,7 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: '8'
+  name: '7'
   network: ws
   port: '16088'
   server: free-us01.hxlm.cc
@@ -135,7 +121,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '9'
+  name: '8'
   network: ws
   port: 2331
   server: yqy2331.china-cdn-net.com
@@ -148,7 +134,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '10'
+  name: '9'
   network: ws
   port: 2332
   server: yqy2332.china-cdn-net.com
@@ -161,7 +147,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '11'
+  name: '10'
   network: ws
   port: 2333
   server: yqy2333.china-cdn-net.com
@@ -174,7 +160,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '12'
+  name: '11'
   network: ws
   port: 2334
   server: yqy2334.china-cdn-net.com
@@ -187,7 +173,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '13'
+  name: '12'
   network: ws
   port: 2335
   server: yqy2335.china-cdn-net.com
@@ -200,7 +186,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '14'
+  name: '13'
   network: ws
   port: 2336
   server: yqy2336.china-cdn-net.com
@@ -213,7 +199,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '15'
+  name: '14'
   network: ws
   port: 2337
   server: yqy2337.china-cdn-net.com
@@ -226,7 +212,7 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: '16'
+  name: '15'
   network: ws
   port: 2338
   server: yqy2338.china-cdn-net.com
@@ -239,10 +225,10 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '17'
+  name: '16'
   network: ws
   port: 80
-  server: 65.52.170.254
+  server: 13.75.47.5
   type: vmess
   udp: true
   uuid: 0d88adb2-9625-3c50-ac60-7b81df0cb6b0
@@ -252,13 +238,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '18'
+  name: '17'
   network: ws
   port: 80
   server: 194.5.79.12
   type: vmess
   udp: true
   uuid: 0d88adb2-9625-3c50-ac60-7b81df0cb6b0
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 64
+  cipher: auto
+  country: ' JP'
+  http-opts: {}
+  name: '18'
+  network: ws
+  port: 80
+  server: 172.104.98.216
+  servername: www.gov.hk
+  skip-cert-verify: true
+  type: vmess
+  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
   ws-opts:
     headers:
       Host: wapsd.189.cn
@@ -548,7 +550,7 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
-- alterId: '1'
+- alterId: '0'
   cipher: auto
   name: '40'
   network: ws
