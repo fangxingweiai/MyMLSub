@@ -228,19 +228,6 @@ proxies:
   name: '16'
   network: ws
   port: 80
-  server: 13.75.47.5
-  type: vmess
-  udp: true
-  uuid: 0d88adb2-9625-3c50-ac60-7b81df0cb6b0
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '17'
-  network: ws
-  port: 80
   server: 194.5.79.12
   type: vmess
   udp: true
@@ -249,6 +236,23 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
+- alterId: 4
+  cipher: auto
+  country: ' US'
+  http-opts: {}
+  name: '17'
+  network: ws
+  port: 443
+  server: 192.96.204.250
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /ws
 - alterId: 0
   cipher: auto
   http-opts:
