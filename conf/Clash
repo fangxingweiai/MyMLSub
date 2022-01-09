@@ -223,12 +223,12 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /iso
-- alterId: 0
+- alterId: 2
   cipher: auto
   name: '16'
   network: ws
   port: 80
-  server: 20.205.14.67
+  server: 103.135.251.90
   type: vmess
   udp: true
   uuid: 0d88adb2-9625-3c50-ac60-7b81df0cb6b0

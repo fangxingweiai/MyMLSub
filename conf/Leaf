@@ -21,7 +21,7 @@ socks-port = 7890
 12 = vmess, yqy2336.china-cdn-net.com, 2336, username=a7f27a15-f449-323b-8f1e-b4b88017a8a4, ws=true, tls=false, ws-path=/iso, ws_host=wapsd.189.cn, sni=
 13 = vmess, yqy2337.china-cdn-net.com, 2337, username=a7f27a15-f449-323b-8f1e-b4b88017a8a4, ws=true, tls=false, ws-path=/iso, ws_host=wapsd.189.cn, sni=
 14 = vmess, yqy2338.china-cdn-net.com, 2338, username=a7f27a15-f449-323b-8f1e-b4b88017a8a4, ws=true, tls=false, ws-path=/iso, ws_host=wapsd.189.cn, sni=
-15 = vmess, 20.205.14.67, 80, username=0d88adb2-9625-3c50-ac60-7b81df0cb6b0, ws=true, tls=false, ws-path=/, ws_host=wapsd.189.cn, sni=
+15 = vmess, 103.135.251.90, 80, username=0d88adb2-9625-3c50-ac60-7b81df0cb6b0, ws=true, tls=false, ws-path=/, ws_host=wapsd.189.cn, sni=
 16 = vmess, 194.5.79.12, 8080, username=0d88adb2-9625-3c50-ac60-7b81df0cb6b0, ws=true, tls=false, ws-path=/, ws_host=wapsd.189.cn, sni=
 17 = vmess, 192.96.204.250, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, tls=true, ws-path=/ws, ws_host=wapsd.189.cn, sni=wapsd.189.cn
 18 = vmess, 8.210.55.79, 80, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, tls=false, ws-path=, ws_host=wapsd.189.cn, sni=
