@@ -11,7 +11,7 @@ from loguru import logger
 from helper import base64_decode, base64_encode, get_request, remove_special_characters
 
 # 设置日志
-logger_level = "INFO" #"DEBUG" #
+logger_level = "INFO"  # "DEBUG" #
 logger.remove()
 logger.add(sys.stdout, level=logger_level)
 # 设置代理
@@ -42,6 +42,7 @@ def v2sub_2_nodelist(sub_content):
 
 
 def clashsub_2_nodelist(sub_content):
+    sub_content = sub_content.replace('@', '')
     dict_clash_content = yaml.load(sub_content, Loader=yaml.FullLoader)
     proxies = dict_clash_content.get("proxies", None)
     proxy_providers = dict_clash_content.get("proxy-providers", None)
@@ -280,7 +281,7 @@ def save_conf(conf, filename):
 
 
 def main():
-    host = 'wapsd.189.cn' #'short.pay.weixin.qq.com'
+    host = 'wapsd.189.cn'  # 'short.pay.weixin.qq.com'
     clients = ['Clash', 'Surfboard', 'v2rayN', 'Leaf']
     resources = load_resources()
     logger.info(f"用户需要转换的内容：{resources}")
