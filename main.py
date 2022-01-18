@@ -5,9 +5,9 @@ import sys
 from io import StringIO
 
 import yaml
-from config_model import ProxyNode
 from loguru import logger
 
+from config_model import ProxyNode
 from helper import base64_decode, base64_encode, get_request, remove_special_characters
 
 # 设置日志
@@ -42,8 +42,11 @@ def v2sub_2_nodelist(sub_content):
 
 
 def clashsub_2_nodelist(sub_content):
-    sub_content = sub_content.replace('@', '')
-    dict_clash_content = yaml.load(sub_content, Loader=yaml.FullLoader)
+    dict_clash_content = {}
+    try:
+        dict_clash_content = yaml.load(sub_content, Loader=yaml.FullLoader)
+    except Exception as e:
+        logger.error(f'yaml解析失败: {e}')
     proxies = dict_clash_content.get("proxies", None)
     proxy_providers = dict_clash_content.get("proxy-providers", None)
 
