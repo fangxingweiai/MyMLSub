@@ -22,8 +22,6 @@ def sub(client):
     if os.path.exists(settings.conf_dir):
         clients = os.listdir(settings.conf_dir)
 
-    clients = list(map(lambda x: x.lower(), clients))
-
     sub = ''
     if client in clients:
         with open(f'{settings.conf_dir}/{client}', 'r') as f:
