@@ -79,7 +79,7 @@ class ProxyNode(object):
             "cipher": self.v2.get("scy") or 'auto',
 
             # ws
-            "tls": True if self.v2.get("tls") else False,
+            "tls": True if self.v2.get("tls") == 'tls' else False,
             # "skip-cert-verify": True,
             "servername": self.v2.get("sni", ""),  # priority over wss host
 
@@ -160,7 +160,7 @@ class ProxyNode(object):
     def change_host(self, host):
         # v2
         self.v2['host'] = host
-        if self.v2.get("tls"):
+        if self.v2.get("tls")=='tls':
             self.v2['sni'] = host
 
         # clash
@@ -207,7 +207,7 @@ class ProxyNode(object):
     def generate_surfboard_proxy(self):
         ws = 'true' if self.v2["net"] == 'ws' else 'false'
         ws_headers = f'Host:{self.v2.get("host", "")}'
-        tls = 'true' if self.v2.get("tls") else 'false'
+        tls = 'true' if self.v2.get("tls") == 'tls' else 'false'
         if ws == 'true':
             proxy = self.v2[
                         "ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2.get("path", "/")}, ws-headers={ws_headers}, skip-cert-verify=true, sni={self.v2.get("sni", "")}'
@@ -222,7 +222,7 @@ class ProxyNode(object):
     def generate_leaf_proxy(self):
         ws = 'true' if self.v2["net"] == 'ws' else 'false'
         ws_host = self.v2.get("host", "")
-        tls = 'true' if self.v2.get("tls") else 'false'
+        tls = 'true' if self.v2.get("tls")=='tls' else 'false'
         if ws == 'true':
             proxy = self.v2[
                         "ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2.get("path", "/")}, ws_host={ws_host}, sni={self.v2.get("sni", "")}'
