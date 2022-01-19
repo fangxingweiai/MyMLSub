@@ -3,33 +3,32 @@ import os
 from flask import Flask
 from flask import make_response
 
-app = Flask(__name__)
+import settings
 
-conf_folder = './conf'
+app = Flask(__name__)
 
 
 @app.route('/')
 def root():
     clients = ''
-    if os.path.exists(conf_folder):
-        clients = os.listdir(conf_folder)
+    if os.path.exists(settings.conf_dir):
+        clients = os.listdir(settings.conf_dir)
     return f'支持的客户端：{", ".join(clients)}'
 
 
 @app.route('/<client>/')
 def sub(client):
     clients = ''
-    if os.path.exists(conf_folder):
-        clients = os.listdir(conf_folder)
+    if os.path.exists(settings.conf_dir):
+        clients = os.listdir(settings.conf_dir)
 
     clients = list(map(lambda x: x.lower(), clients))
 
     sub = ''
     if client in clients:
-        with open(f'{conf_folder}/{client}', 'r') as f:
+        with open(f'{settings.conf_dir}/{client}', 'r') as f:
             sub = f.read()
 
-    # Content-Type: text/plain; charset=utf-8
     resp = make_response(sub, 200)
     resp.headers['Content-Type'] = 'text/plain; charset=utf-8'
     return resp
