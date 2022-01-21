@@ -41,7 +41,6 @@ proxies:
   network: ws
   port: 33282
   server: free-jp01.hxlm.cc
-  servername: ''
   tls: false
   type: vmess
   uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
@@ -55,7 +54,6 @@ proxies:
   network: ws
   port: 33282
   server: free-jp01.hxlm.cc
-  servername: ''
   tls: false
   type: vmess
   uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
@@ -69,7 +67,6 @@ proxies:
   network: ws
   port: 33284
   server: free-jp01.hxlm.cc
-  servername: ''
   tls: false
   type: vmess
   uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
@@ -83,7 +80,6 @@ proxies:
   network: ws
   port: 33291
   server: free-sg01.hxlm.cc
-  servername: ''
   tls: false
   type: vmess
   uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
@@ -97,7 +93,6 @@ proxies:
   network: ws
   port: 16081
   server: free-us01.hxlm.cc
-  servername: ''
   tls: false
   type: vmess
   uuid: 1b23fec4-d3eb-4334-b6e5-9d777ec70258
@@ -171,7 +166,6 @@ proxies:
   network: ws
   port: 110
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -185,7 +179,6 @@ proxies:
   network: ws
   port: 504
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -199,7 +192,6 @@ proxies:
   network: ws
   port: 109
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -213,7 +205,6 @@ proxies:
   network: ws
   port: 105
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -227,7 +218,6 @@ proxies:
   network: ws
   port: 201
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -241,7 +231,6 @@ proxies:
   network: ws
   port: 207
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -267,7 +256,6 @@ proxies:
   network: ws
   port: 107
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -281,7 +269,6 @@ proxies:
   network: ws
   port: 102
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -343,7 +330,6 @@ proxies:
   network: ws
   port: 104
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -357,7 +343,6 @@ proxies:
   network: ws
   port: 108
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -371,7 +356,6 @@ proxies:
   network: ws
   port: 202
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -385,7 +369,6 @@ proxies:
   network: ws
   port: 204
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -399,7 +382,6 @@ proxies:
   network: ws
   port: 205
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -413,7 +395,6 @@ proxies:
   network: ws
   port: 206
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -427,7 +408,6 @@ proxies:
   network: ws
   port: 502
   server: 183.232.226.154
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -537,7 +517,6 @@ proxies:
   network: ws
   port: 80
   server: 103.93.75.88
-  servername: ''
   tls: false
   type: vmess
   uuid: 8e94f00e-bbe5-3eca-a352-e3771fd9520e
@@ -551,7 +530,6 @@ proxies:
   network: ws
   port: 14259
   server: 18.162.48.114
-  servername: ''
   tls: false
   type: vmess
   uuid: 027dfdb0-8939-3176-bb4a-1ec79582f034
@@ -673,7 +651,6 @@ proxies:
   network: ws
   port: 18000
   server: 172.104.88.64
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -687,7 +664,6 @@ proxies:
   network: ws
   port: 60982
   server: 168.138.197.27
-  servername: ''
   tls: false
   type: vmess
   uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
@@ -701,7 +677,6 @@ proxies:
   network: ws
   port: 18000
   server: 172.104.88.36
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -715,7 +690,6 @@ proxies:
   network: ws
   port: 18000
   server: 139.162.116.130
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -729,7 +703,6 @@ proxies:
   network: ws
   port: 18000
   server: 139.162.116.115
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -743,7 +716,6 @@ proxies:
   network: ws
   port: 18000
   server: 139.162.116.116
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -757,7 +729,6 @@ proxies:
   network: ws
   port: 18000
   server: 172.104.88.44
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -771,7 +742,6 @@ proxies:
   network: ws
   port: 18000
   server: 172.104.88.62
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -785,7 +755,6 @@ proxies:
   network: ws
   port: 18000
   server: 172.104.88.16
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -799,7 +768,6 @@ proxies:
   network: ws
   port: 80
   server: 91.188.223.65
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -813,7 +781,6 @@ proxies:
   network: ws
   port: 60935
   server: 138.3.210.217
-  servername: ''
   tls: false
   type: vmess
   uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
@@ -827,7 +794,6 @@ proxies:
   network: ws
   port: 80
   server: 144.126.218.238
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -841,7 +807,6 @@ proxies:
   network: ws
   port: 80
   server: 137.184.93.134
-  servername: ''
   tls: false
   type: vmess
   uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
@@ -879,7 +844,6 @@ proxies:
   network: ws
   port: 14443
   server: 52.223.55.148
-  servername: ''
   tls: false
   type: vmess
   uuid: 027dfdb0-8939-3176-bb4a-1ec79582f034
@@ -905,7 +869,6 @@ proxies:
   network: ws
   port: 10009
   server: 15.197.248.146
-  servername: ''
   tls: false
   type: vmess
   uuid: 027dfdb0-8939-3176-bb4a-1ec79582f034
@@ -919,7 +882,6 @@ proxies:
   network: ws
   port: 14443
   server: 35.71.190.0
-  servername: ''
   tls: false
   type: vmess
   uuid: 027dfdb0-8939-3176-bb4a-1ec79582f034
@@ -933,7 +895,6 @@ proxies:
   network: ws
   port: 10568
   server: 15.197.227.164
-  servername: ''
   tls: false
   type: vmess
   uuid: 027dfdb0-8939-3176-bb4a-1ec79582f034
@@ -947,7 +908,6 @@ proxies:
   network: ws
   port: 10568
   server: 3.33.244.57
-  servername: ''
   tls: false
   type: vmess
   uuid: 027dfdb0-8939-3176-bb4a-1ec79582f034
@@ -961,7 +921,6 @@ proxies:
   network: ws
   port: 10009
   server: 3.33.245.143
-  servername: ''
   tls: false
   type: vmess
   uuid: 027dfdb0-8939-3176-bb4a-1ec79582f034
@@ -1321,7 +1280,6 @@ proxies:
   network: ws
   port: 80
   server: 8.210.55.79
-  servername: ''
   tls: false
   type: vmess
   uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
@@ -1335,7 +1293,6 @@ proxies:
   network: ws
   port: 80
   server: 8.210.55.79
-  servername: ''
   tls: false
   type: vmess
   uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
@@ -1349,7 +1306,6 @@ proxies:
   network: ws
   port: 80
   server: hk.aliyun.tgproxy.wtf
-  servername: ''
   tls: false
   type: vmess
   uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
@@ -1363,7 +1319,6 @@ proxies:
   network: ws
   port: 11201
   server: 103.150.30.239
-  servername: ''
   tls: false
   type: vmess
   uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
@@ -1377,7 +1332,6 @@ proxies:
   network: ws
   port: 23102
   server: 45.91.92.191
-  servername: ''
   tls: false
   type: vmess
   uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
@@ -1391,7 +1345,6 @@ proxies:
   network: ws
   port: 12501
   server: 169.239.129.33
-  servername: ''
   tls: false
   type: vmess
   uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
@@ -1618,7 +1571,6 @@ proxies:
   network: ws
   port: 125
   server: v2.emovpn.xyz
-  servername: ''
   tls: false
   type: vmess
   uuid: 225a441b-1b3c-4ad3-b360-dcfb0bd84482
@@ -1632,7 +1584,6 @@ proxies:
   network: ws
   port: 1252
   server: v19.emovpn.xyz
-  servername: ''
   tls: false
   type: vmess
   uuid: 225a441b-1b3c-4ad3-b360-dcfb0bd84482
@@ -1646,7 +1597,6 @@ proxies:
   network: ws
   port: 80
   server: v20.emovpn.xyz
-  servername: ''
   tls: false
   type: vmess
   uuid: 225a441b-1b3c-4ad3-b360-dcfb0bd84482
