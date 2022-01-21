@@ -35,15 +35,20 @@ class ProxyNode(object):
                     logger.error(f'无效v2格式，base64解析v2节点出错: {v2_json_node}')
                     return False
 
-                ip = v2_json_node.get('add', "")
+                ip = v2_json_node.get('add', '')
                 if not check_ip(ip):
                     logger.debug(f'无效的ip: {ip}')
                     return False
 
-                network = v2_json_node['net']
+                network = v2_json_node.get('net')
 
                 if network != "ws" and network != "tcp":
                     logger.debug(f'无效的network: {network}')
+                    return False
+
+                tls = v2_json_node.get('tls')
+                if tls == 'tls':
+                    logger.debug('有tls，无法免流')  # ？？？
                     return False
 
                 self.v2 = v2_json_node
@@ -53,6 +58,11 @@ class ProxyNode(object):
                 return False
             return True
         elif isinstance(proxy_node, dict):
+            tls = proxy_node.get('tls')
+            if tls:
+                logger.debug('有tls，无法免流')  # ？？？
+                return False
+
             network = proxy_node.get('network', '')
             protocol = proxy_node.get('type', '')
             server = proxy_node.get('server', '')
@@ -65,7 +75,10 @@ class ProxyNode(object):
                 self._protocol = protocol
                 self.clash_to_v2()
                 return True
-            logger.debug(f'无效的clash节点: proxy_node')
+            logger.debug(f'无效的clash节点: {proxy_node}')
+            return False
+        else:
+            logger.debug(f'无法识别节点: {proxy_node}')
             return False
 
     def v2_to_clash(self):
@@ -111,6 +124,9 @@ class ProxyNode(object):
             # self.clash.pop("skip-cert-verify")
             self.clash.pop("servername")
             self.clash.pop("ws-opts")
+
+        if not self.clash['tls']:
+            self.clash.pop('servername')
 
     def clash_to_v2(self):
         config = {
@@ -160,7 +176,7 @@ class ProxyNode(object):
     def change_host(self, host):
         # v2
         self.v2['host'] = host
-        if self.v2.get("tls")=='tls':
+        if self.v2.get("tls") == 'tls':
             self.v2['sni'] = host
 
         # clash
@@ -208,9 +224,20 @@ class ProxyNode(object):
         ws = 'true' if self.v2["net"] == 'ws' else 'false'
         ws_headers = f'Host:{self.v2.get("host", "")}'
         tls = 'true' if self.v2.get("tls") == 'tls' else 'false'
+
         if ws == 'true':
-            proxy = self.v2[
-                        "ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2.get("path", "/")}, ws-headers={ws_headers}, skip-cert-verify=true, sni={self.v2.get("sni", "")}'
+            name = self.v2['ps']
+            protocol = self._protocol
+            host = ', ' + self.v2['add']
+            port = ', ' + self.v2['port']
+            uuid = ', username=' + self.v2['id']
+            ws = ', ws=' + ws
+            ws_path = ', ws-path=' + self.v2.get("path", "/")
+            ws_headers = ', ws-headers=' + ws_headers
+            sni = ', sni=' + self.v2.get("sni", "") if tls == "true" else ""
+            tls = ', tls=' + tls
+
+            proxy = name, protocol + host + port + uuid + ws + ws_path + ws_headers + tls + sni
             return proxy
         else:
             logger.info('surfboard暂不支持http免流')
@@ -222,10 +249,20 @@ class ProxyNode(object):
     def generate_leaf_proxy(self):
         ws = 'true' if self.v2["net"] == 'ws' else 'false'
         ws_host = self.v2.get("host", "")
-        tls = 'true' if self.v2.get("tls")=='tls' else 'false'
+        tls = 'true' if self.v2.get("tls") == 'tls' else 'false'
         if ws == 'true':
-            proxy = self.v2[
-                        "ps"], f'{self._protocol}, {self.v2["add"]}, {self.v2["port"]}, username={self.v2["id"]}, ws={ws}, tls={tls}, ws-path={self.v2.get("path", "/")}, ws_host={ws_host}, sni={self.v2.get("sni", "")}'
+            name = self.v2['ps']
+            protocol = self._protocol
+            host = ', ' + self.v2['add']
+            port = ', ' + self.v2['port']
+            uuid = ', username=' + self.v2['id']
+            ws = ', ws=' + ws
+            ws_path = ', ws-path=' + self.v2.get("path", "/")
+            ws_host = ', ' + ws_host
+            sni = ', sni=' + self.v2.get("sni", "") if tls == "true" else ""
+            tls = ', tls=' + tls
+
+            proxy = name, protocol + host + port + uuid + ws + ws_path + ws_host + tls + sni
             return proxy
         else:
             logger.info('Leaf暂不支持http免流')
