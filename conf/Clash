@@ -1754,93 +1754,23 @@ proxies:
   server: xhjniubi.xyz
   type: vmess
   uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '137'
-  network: http
-  port: 10015
-  server: 101.89.109.30
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '138'
-  network: http
-  port: 10011
-  server: 101.89.109.30
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
 - alterId: 1
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '139'
-  network: http
-  port: 10001
-  server: 112.33.32.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-- alterId: 2
-  cipher: auto
-  name: '140'
+  name: '137'
   network: ws
-  port: 80
-  server: 1218hk.fans8.xyz
+  port: 502
+  server: tunnel-tw-a-01.xncloud.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8e94f00e-bbe5-3eca-a352-e3771fd9520e
+  uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /v2ray
-- alterId: 2
-  cipher: auto
-  name: '141'
-  network: ws
-  port: 80
-  server: 0110hk01.fans8.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 745b504f-06da-345d-a389-c6e532334815
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /v2ray
-- alterId: 2
-  cipher: auto
-  name: '142'
-  network: ws
-  port: 80
-  server: 1218hk.fans8.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 745b504f-06da-345d-a389-c6e532334815
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /v2ray
+    path: /niaoyun
 - alterId: 0
   cipher: auto
-  name: '143'
+  name: '138'
   network: ws
   port: 9233
   server: 61.220.28.198
@@ -1854,7 +1784,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '144'
+  name: '139'
   network: ws
   port: 125
   server: v2.emovpn.xyz
@@ -1867,7 +1797,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '145'
+  name: '140'
   network: ws
   port: 1252
   server: v19.emovpn.xyz
@@ -1880,7 +1810,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: '146'
+  name: '141'
   network: ws
   port: 80
   server: v20.emovpn.xyz
@@ -2038,11 +1968,6 @@ proxy-groups:
   - '139'
   - '140'
   - '141'
-  - '142'
-  - '143'
-  - '144'
-  - '145'
-  - '146'
   type: select
 - interval: 600
   lazy: true
@@ -2189,11 +2114,6 @@ proxy-groups:
   - '139'
   - '140'
   - '141'
-  - '142'
-  - '143'
-  - '144'
-  - '145'
-  - '146'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:

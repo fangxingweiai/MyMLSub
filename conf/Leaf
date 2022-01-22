@@ -94,16 +94,14 @@ socks-port = 7890
 85 = vmess, 47.243.33.5, 87, username=8f6e5a78-1ca5-34b3-89d4-59e38afaa6dc, ws=true, ws-path=/ws, wapsd.189.cn, tls=false
 86 = vmess, 107.189.12.115, 5515, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, wapsd.189.cn, tls=false
 87 = vmess, 209.141.55.105, 5515, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, wapsd.189.cn, tls=false
-88 = vmess, 1218hk.fans8.xyz, 80, username=8e94f00e-bbe5-3eca-a352-e3771fd9520e, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-89 = vmess, 0110hk01.fans8.xyz, 80, username=745b504f-06da-345d-a389-c6e532334815, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-90 = vmess, 1218hk.fans8.xyz, 80, username=745b504f-06da-345d-a389-c6e532334815, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-91 = vmess, 61.220.28.198, 9233, username=be58f4e4-894a-47ee-8836-cf75e74fa9c9, ws=true, ws-path=/, wapsd.189.cn, tls=false
-92 = vmess, v2.emovpn.xyz, 125, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
-93 = vmess, v19.emovpn.xyz, 1252, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
-94 = vmess, v20.emovpn.xyz, 80, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+88 = vmess, tunnel-tw-a-01.xncloud.xyz, 502, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, wapsd.189.cn, tls=false
+89 = vmess, 61.220.28.198, 9233, username=be58f4e4-894a-47ee-8836-cf75e74fa9c9, ws=true, ws-path=/, wapsd.189.cn, tls=false
+90 = vmess, v2.emovpn.xyz, 125, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+91 = vmess, v19.emovpn.xyz, 1252, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+92 = vmess, v20.emovpn.xyz, 80, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
 
 [Proxy Group]
-ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, interval=600, timeout=5
+ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, interval=600, timeout=5
 
 [Rule]
 FINAL, ml
