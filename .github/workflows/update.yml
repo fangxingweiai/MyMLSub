@@ -24,6 +24,7 @@ jobs:
 
       - name: Current time
         run: |
+          echo 北京时间：
           date '+%Y-%m-%d %H:%M:%S'
 
       - name: Set up Python 3.9.7
@@ -44,10 +45,11 @@ jobs:
 
       - name: Commit
         run: |
-          git config --global user.email gankangs@163.com
-          git config --global user.name gankang
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add .
-          git commit -m "update" -a
+          git status | grep "nothing to commit" && exit 0
+          git commit -m "update"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
