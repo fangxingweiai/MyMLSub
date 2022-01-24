@@ -102,35 +102,25 @@ proxy-test-url = http://www.gstatic.com/generate_204
 97 = vmess, yqy2336.china-cdn-net.com, 2336, username=a7f27a15-f449-323b-8f1e-b4b88017a8a4, ws=true, ws-path=/iso, ws-headers=Host:wapsd.189.cn, tls=false
 98 = vmess, yqy2337.china-cdn-net.com, 2337, username=a7f27a15-f449-323b-8f1e-b4b88017a8a4, ws=true, ws-path=/iso, ws-headers=Host:wapsd.189.cn, tls=false
 99 = vmess, yqy2338.china-cdn-net.com, 2338, username=a7f27a15-f449-323b-8f1e-b4b88017a8a4, ws=true, ws-path=/iso, ws-headers=Host:wapsd.189.cn, tls=false
-100 = vmess, 8.210.55.79, 80, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, ws-headers=Host:wapsd.189.cn, tls=false
-101 = vmess, 8.210.55.79, 80, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, ws-headers=Host:wapsd.189.cn, tls=false
-102 = vmess, 103.150.30.239, 11201, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, ws-headers=Host:wapsd.189.cn, tls=false
-103 = vmess, 45.91.92.191, 23102, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, ws-headers=Host:wapsd.189.cn, tls=false
-104 = vmess, 169.239.129.33, 12501, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, ws-headers=Host:wapsd.189.cn, tls=false
-105 = vmess, 8.218.26.150, 84, username=8f6e5a78-1ca5-34b3-89d4-59e38afaa6dc, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=false
-106 = vmess, 8.210.114.158, 83, username=8f6e5a78-1ca5-34b3-89d4-59e38afaa6dc, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=false
-107 = vmess, 47.243.33.5, 87, username=8f6e5a78-1ca5-34b3-89d4-59e38afaa6dc, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=false
-108 = vmess, 107.189.12.115, 5515, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
-109 = vmess, 209.141.55.105, 5515, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
-110 = vmess, tunnel-sg-a-01.xncloud.xyz, 106, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-111 = vmess, tunnel-jp-a-01.xncloud.xyz, 205, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-112 = vmess, tunnel-jp-a-01.xncloud.xyz, 208, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-113 = vmess, tunnel-jp-a-01.xncloud.xyz, 204, username=5d095145-1556-3d6a-aef2-6ae6413f3f47, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-114 = vmess, tunnel-jp-a-01.xncloud.xyz, 210, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-115 = vmess, tunnel-jp-a-01.xncloud.xyz, 201, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-116 = vmess, tunnel-jp-a-01.xncloud.xyz, 207, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-117 = vmess, tunnel-jp-a-01.xncloud.xyz, 207, username=5d095145-1556-3d6a-aef2-6ae6413f3f47, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-118 = vmess, tunnel-jp-a-01.xncloud.xyz, 209, username=5d095145-1556-3d6a-aef2-6ae6413f3f47, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-119 = vmess, tunnel-tw-a-01.xncloud.xyz, 502, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-120 = vmess, tunnel-tw-a-01.xncloud.xyz, 505, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, ws-headers=Host:wapsd.189.cn, tls=false
-121 = vmess, 61.220.28.198, 9233, username=be58f4e4-894a-47ee-8836-cf75e74fa9c9, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
-122 = vmess, v2.emovpn.xyz, 125, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
-123 = vmess, v19.emovpn.xyz, 1252, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
-124 = vmess, v20.emovpn.xyz, 80, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
+100 = vmess, 165.154.233.7, 80, username=5c41411a-750a-37e8-966f-11aea49227c4, ws=true, ws-path=/v2ray, ws-headers=Host:wapsd.189.cn, tls=false
+101 = vmess, 142.4.105.253, 9233, username=be58f4e4-894a-47ee-8836-cf75e74fa9c9, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
+102 = vmess, 8.210.55.79, 80, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, ws-headers=Host:wapsd.189.cn, tls=false
+103 = vmess, 8.210.55.79, 80, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, ws-headers=Host:wapsd.189.cn, tls=false
+104 = vmess, 103.150.30.239, 11201, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, ws-headers=Host:wapsd.189.cn, tls=false
+105 = vmess, 45.91.92.191, 23102, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, ws-headers=Host:wapsd.189.cn, tls=false
+106 = vmess, 169.239.129.33, 12501, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, ws-headers=Host:wapsd.189.cn, tls=false
+107 = vmess, 8.218.26.150, 84, username=8f6e5a78-1ca5-34b3-89d4-59e38afaa6dc, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=false
+108 = vmess, 8.210.114.158, 83, username=8f6e5a78-1ca5-34b3-89d4-59e38afaa6dc, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=false
+109 = vmess, 47.243.33.5, 87, username=8f6e5a78-1ca5-34b3-89d4-59e38afaa6dc, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=false
+110 = vmess, 93.179.124.32, 48051, username=c5884056-d5b0-49c0-f45a-84555a12434e, ws=true, ws-path=/dsgsf, ws-headers=Host:wapsd.189.cn, tls=false
+111 = vmess, 61.220.28.198, 9233, username=be58f4e4-894a-47ee-8836-cf75e74fa9c9, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
+112 = vmess, v2.emovpn.xyz, 125, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
+113 = vmess, v19.emovpn.xyz, 1252, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
+114 = vmess, v20.emovpn.xyz, 80, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false
 
 [Proxy Group]
-ml = select, auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124
-auto = url-test, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
+ml = select, auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114
+auto = url-test, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
 
 [Rule]
 FINAL, ml
