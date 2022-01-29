@@ -66,15 +66,16 @@ socks-port = 7890
 57 = vmess, 169.239.129.33, 12501, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=, wapsd.189.cn, tls=false
 58 = vmess, 107.189.12.115, 5515, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, wapsd.189.cn, tls=false
 59 = vmess, 209.141.55.105, 5515, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, wapsd.189.cn, tls=false
-60 = vmess, tunnel-tw-a-01.xncloud.xyz, 505, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, wapsd.189.cn, tls=false
-61 = vmess, tunnel-tw-a-01.xncloud.xyz, 505, username=d2b90316-8969-3f9b-8db2-a5b565a6bde3, ws=true, ws-path=/niaoyun, wapsd.189.cn, tls=false
-62 = vmess, 61.220.28.198, 9233, username=be58f4e4-894a-47ee-8836-cf75e74fa9c9, ws=true, ws-path=/, wapsd.189.cn, tls=false
-63 = vmess, v2.emovpn.xyz, 125, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
-64 = vmess, v19.emovpn.xyz, 125, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
-65 = vmess, v20.emovpn.xyz, 80, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+60 = vmess, cdn-cn.nekocloud.cn, 19057, username=1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, ws=true, ws-path=/catnet, wapsd.189.cn, tls=false
+61 = vmess, cm-jm.okvpn.xyz, 20001, username=9fcf9f33-407f-40a1-9a32-be97605fd99f, ws=true, ws-path=/, wapsd.189.cn, tls=false
+62 = vmess, tunnel-tw-a-01.xncloud.xyz, 505, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, wapsd.189.cn, tls=false
+63 = vmess, 61.220.28.198, 9233, username=be58f4e4-894a-47ee-8836-cf75e74fa9c9, ws=true, ws-path=/, wapsd.189.cn, tls=false
+64 = vmess, v2.emovpn.xyz, 125, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+65 = vmess, v19.emovpn.xyz, 125, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+66 = vmess, v20.emovpn.xyz, 80, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
 
 [Proxy Group]
-ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, interval=600, timeout=5
+ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, interval=600, timeout=5
 
 [Rule]
 FINAL, ml
