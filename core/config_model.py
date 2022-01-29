@@ -237,7 +237,7 @@ class ProxyNode(object):
             ws_headers = ', ws-headers=' + ws_headers
             sni = ', sni=' + self.v2.get("sni", "") if tls == "true" else ""
             tls = ', tls=' + tls
-            vmess_aead = ', vmess-aead=' + 'true' if alterId == 0 else 'false'
+            vmess_aead = f", vmess-aead={'true' if alterId == 0 else 'false'}"
             skip_cert_verify = ', skip-cert-verify=true'
 
             proxy = name, protocol + host + port + uuid + ws + ws_path + ws_headers + tls + sni + vmess_aead + skip_cert_verify
