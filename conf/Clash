@@ -1826,6 +1826,51 @@ proxies:
   cipher: auto
   name: '136'
   network: ws
+  port: 21888
+  server: aws.kr.tgproxy.wtf
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '137'
+  network: ws
+  port: 21888
+  server: aws1.kr.tgproxy.wtf
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '138'
+  network: ws
+  port: 21888
+  server: aws.jp.tgproxy.wtf
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '139'
+  network: ws
   port: 28888
   server: linode.jp.tgproxy.wtf
   servername: wapsd.189.cn
@@ -1839,7 +1884,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '137'
+  name: '140'
   network: ws
   port: 28888
   server: kcd.jp.tgproxy.wtf
@@ -1854,7 +1899,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '138'
+  name: '141'
   network: ws
   port: 443
   server: lin-sg.tgproxy.wtf
@@ -1869,7 +1914,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '139'
+  name: '142'
   network: ws
   port: 21888
   server: us.lv.buyvm.tgproxy.wtf
@@ -1884,7 +1929,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '140'
+  name: '143'
   network: ws
   port: 21888
   server: aws.us.tgproxy.wtf
@@ -1899,7 +1944,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '141'
+  name: '144'
   network: ws
   port: 8888
   server: inap.us.tgproxy.wtf
@@ -1914,7 +1959,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '142'
+  name: '145'
   network: ws
   port: 8888
   server: ovh.fr.tgproxy.wtf
@@ -1929,7 +1974,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '143'
+  name: '146'
   network: ws
   port: 21888
   server: justhost.ru.tgproxy.wtf
@@ -1944,7 +1989,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '144'
+  name: '147'
   network: ws
   port: 23102
   server: 45.91.92.191
@@ -1958,7 +2003,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '145'
+  name: '148'
   network: ws
   port: 2052
   server: lv.tgproxy.wtf
@@ -1973,7 +2018,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '146'
+  name: '149'
   network: ws
   port: 2052
   server: buyvm.lu.tgproxy.wtf
@@ -1988,7 +2033,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '147'
+  name: '150'
   network: ws
   port: 5515
   server: 107.189.12.115
@@ -2001,7 +2046,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '148'
+  name: '151'
   network: ws
   port: 5515
   server: 209.141.55.105
@@ -2018,39 +2063,39 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '149'
-  network: http
-  port: 10086
-  server: api.20228888.work
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '150'
-  network: http
-  port: 10086
-  server: api.20228888.work
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '151'
-  network: http
-  port: 10086
-  server: api.20228888.work
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-- alterId: 0
-  cipher: auto
   name: '152'
+  network: http
+  port: 10086
+  server: api.20228888.work
+  type: vmess
+  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '153'
+  network: http
+  port: 10086
+  server: api.20228888.work
+  type: vmess
+  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '154'
+  network: http
+  port: 10086
+  server: api.20228888.work
+  type: vmess
+  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+- alterId: 0
+  cipher: auto
+  name: '155'
   network: ws
   port: 443
   server: 198.41.212.5
@@ -2066,7 +2111,7 @@ proxies:
     path: /sakura/
 - alterId: 0
   cipher: auto
-  name: '153'
+  name: '156'
   network: ws
   port: 443
   server: v8.ssrsub.com
@@ -2082,7 +2127,7 @@ proxies:
     path: /ssrsub
 - alterId: 0
   cipher: auto
-  name: '154'
+  name: '157'
   network: ws
   port: 443
   server: 198.41.212.18
@@ -2098,7 +2143,7 @@ proxies:
     path: /sakura/
 - alterId: 0
   cipher: auto
-  name: '155'
+  name: '158'
   network: ws
   port: 443
   server: 198.41.212.9
@@ -2114,7 +2159,7 @@ proxies:
     path: /sakura/
 - alterId: 0
   cipher: auto
-  name: '156'
+  name: '159'
   network: ws
   port: 8443
   server: v1.ssrsub.com
@@ -2130,7 +2175,7 @@ proxies:
     path: /ssrsub
 - alterId: 4
   cipher: auto
-  name: '157'
+  name: '160'
   network: ws
   port: 443
   server: fa1.uuv2.co.uk
@@ -2146,7 +2191,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '158'
+  name: '161'
   network: ws
   port: 443
   server: 198.41.221.169
@@ -2162,7 +2207,7 @@ proxies:
     path: /sakura/
 - alterId: 0
   cipher: auto
-  name: '159'
+  name: '162'
   network: ws
   port: 443
   server: 172.67.68.58
@@ -2178,7 +2223,7 @@ proxies:
     path: /shuier
 - alterId: 0
   cipher: auto
-  name: '160'
+  name: '163'
   network: ws
   port: 443
   server: 198.41.212.2
@@ -2194,7 +2239,7 @@ proxies:
     path: /sakura/
 - alterId: 0
   cipher: auto
-  name: '161'
+  name: '164'
   network: ws
   port: 4848
   server: hk1.4kxray.xyz
@@ -2210,7 +2255,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '162'
+  name: '165'
   network: ws
   port: 8443
   server: v5.ssrsub.com
@@ -2226,7 +2271,7 @@ proxies:
     path: /ssrsub
 - alterId: 4
   cipher: auto
-  name: '163'
+  name: '166'
   network: ws
   port: 443
   server: 45.35.84.162
@@ -2242,7 +2287,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '164'
+  name: '167'
   network: ws
   port: 443
   server: 198.41.212.8
@@ -2258,7 +2303,7 @@ proxies:
     path: /sakura/
 - alterId: 0
   cipher: auto
-  name: '165'
+  name: '168'
   network: ws
   port: 8443
   server: v9.ssrsub.com
@@ -2274,7 +2319,7 @@ proxies:
     path: /ssrsub
 - alterId: 64
   cipher: auto
-  name: '166'
+  name: '169'
   network: ws
   port: 443
   server: 185.252.223.204
@@ -2290,7 +2335,7 @@ proxies:
     path: /path/243535322906
 - alterId: 0
   cipher: auto
-  name: '167'
+  name: '170'
   network: ws
   port: 8443
   server: v2.ssrsub.com
@@ -2306,7 +2351,7 @@ proxies:
     path: /ssrsub
 - alterId: 1
   cipher: auto
-  name: '168'
+  name: '171'
   network: ws
   port: 505
   server: tunnel-tw-a-01.xncloud.xyz
@@ -2318,51 +2363,7 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /niaoyun
-- alterId: 4
-  cipher: auto
-  name: '169'
-  network: ws
-  port: 443
-  server: 156.234.95.72
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /ws
 - alterId: 0
-  cipher: auto
-  name: '170'
-  network: ws
-  port: 10131
-  server: az1.nodrop.bike
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 70eda8a0-723e-4d7f-82ae-b1621ae8abe3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /onefall
-- alterId: 2
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '171'
-  network: http
-  port: 52331
-  server: 20.187.115.172
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-- alterId: 2
   cipher: auto
   http-opts:
     headers:
@@ -2370,71 +2371,15 @@ proxies:
       - wapsd.189.cn
   name: '172'
   network: http
-  port: 52329
-  server: 129.wgong.xyz
+  port: 44444
+  server: keli.scsevers.cf
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9b1fd2b4-e21a-3922-bca3-b64817c1eb90
-- alterId: 2
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '173'
-  network: http
-  port: 52227
-  server: 104.208.112.68
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-- alterId: 2
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '174'
-  network: http
-  port: 52228
-  server: 128.wgong.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9b1fd2b4-e21a-3922-bca3-b64817c1eb90
-- alterId: 2
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '175'
-  network: http
-  port: 52210
-  server: 110.wgong.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9b1fd2b4-e21a-3922-bca3-b64817c1eb90
-- alterId: 2
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '176'
-  network: http
-  port: 52329
-  server: 104.208.64.48
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  uuid: 3fd63a1f-3f1c-4f62-8073-dfce344a2bcf
 - alterId: 1
   cipher: auto
-  name: '177'
+  name: '173'
   network: ws
   port: 443
   server: 103.138.75.235
@@ -2453,17 +2398,32 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '178'
+  name: '174'
   network: http
-  port: 52296
-  server: 96.wgong.xyz
+  port: 52329
+  server: 104.208.64.48
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9b1fd2b4-e21a-3922-bca3-b64817c1eb90
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+- alterId: 0
+  cipher: auto
+  name: '175'
+  network: ws
+  port: 10131
+  server: az1.nodrop.bike
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 70eda8a0-723e-4d7f-82ae-b1621ae8abe3
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /onefall
 - alterId: 4
   cipher: auto
-  name: '179'
+  name: '176'
   network: ws
   port: 443
   server: xe3rayu3.com
@@ -2482,38 +2442,10 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '180'
-  network: http
-  port: 52210
-  server: 104.208.76.110
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-- alterId: 2
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '181'
+  name: '177'
   network: http
   port: 52331
-  server: 131.wgong.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9b1fd2b4-e21a-3922-bca3-b64817c1eb90
-- alterId: 2
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '182'
-  network: http
-  port: 52217
-  server: 104.208.91.150
+  server: 20.187.115.172
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2524,46 +2456,32 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '183'
+  name: '178'
   network: http
-  port: 52283
-  server: 83.wgong.xyz
+  port: 52227
+  server: 104.208.112.68
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9b1fd2b4-e21a-3922-bca3-b64817c1eb90
-- alterId: 0
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+- alterId: 4
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '184'
-  network: http
-  port: 44444
-  server: keli.scsevers.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3fd63a1f-3f1c-4f62-8073-dfce344a2bcf
-- alterId: 0
-  cipher: auto
-  name: '185'
+  name: '179'
   network: ws
-  port: 37768
-  server: 18.162.50.154
+  port: 443
+  server: 156.234.95.72
   servername: wapsd.189.cn
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 46a9fe6b-963a-3b16-90db-3d894eb1ef5d
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /cocksucker
+    path: /ws
 - alterId: 0
   cipher: auto
-  name: '186'
+  name: '180'
   network: ws
   port: 9233
   server: 61.220.28.198
@@ -2577,7 +2495,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '187'
+  name: '181'
   network: ws
   port: 1251
   server: v2.emovpn.xyz
@@ -2591,7 +2509,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '188'
+  name: '182'
   network: ws
   port: 1251
   server: v19.emovpn.xyz
@@ -2605,7 +2523,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: '189'
+  name: '183'
   network: ws
   port: 80
   server: v20.emovpn.xyz
@@ -2806,12 +2724,6 @@ proxy-groups:
   - '181'
   - '182'
   - '183'
-  - '184'
-  - '185'
-  - '186'
-  - '187'
-  - '188'
-  - '189'
   type: select
 - interval: 600
   lazy: true
@@ -3000,12 +2912,6 @@ proxy-groups:
   - '181'
   - '182'
   - '183'
-  - '184'
-  - '185'
-  - '186'
-  - '187'
-  - '188'
-  - '189'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
