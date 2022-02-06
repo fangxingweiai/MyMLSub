@@ -85,13 +85,13 @@ socks-port = 7890
 76 = vmess, yqy2337.china-cdn-net.com, 2337, username=a7f27a15-f449-323b-8f1e-b4b88017a8a4, ws=true, ws-path=/iso, wapsd.189.cn, tls=false
 77 = vmess, yqy2338.china-cdn-net.com, 2338, username=a7f27a15-f449-323b-8f1e-b4b88017a8a4, ws=true, ws-path=/iso, wapsd.189.cn, tls=false
 78 = vmess, 202.61.141.130, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-79 = vmess, 23.82.136.151, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-80 = vmess, 209.58.139.41, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-81 = vmess, 208.98.48.2, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+79 = vmess, 209.58.139.41, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+80 = vmess, 23.82.136.151, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+81 = vmess, aws.xjp.tgproxy.wtf, 21888, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 82 = vmess, aws.xjp.tgproxy.wtf, 21888, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-83 = vmess, aws.xjp.tgproxy.wtf, 21888, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-84 = vmess, hgcnat.hk.tgproxy.wtf, 10553, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-85 = vmess, nat.tw.tgproxy.wtf, 10562, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+83 = vmess, hgcnat.hk.tgproxy.wtf, 10553, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+84 = vmess, nat.tw.tgproxy.wtf, 10562, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+85 = vmess, hgcc.jgw.tgproxy.wtf, 443, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 86 = vmess, aws.kr.tgproxy.wtf, 21888, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 87 = vmess, aws1.kr.tgproxy.wtf, 21888, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 88 = vmess, aws.jp.tgproxy.wtf, 21888, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
@@ -124,20 +124,12 @@ socks-port = 7890
 115 = vmess, v9.ssrsub.com, 8443, username=974aeac3-c27c-4e20-86e4-03f526faaccd, ws=true, ws-path=/ssrsub, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 116 = vmess, 185.252.223.204, 443, username=418048af-a293-4b99-9b0c-98ca3580dd24, ws=true, ws-path=/path/243535322906, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 117 = vmess, v2.ssrsub.com, 8443, username=974aeac3-c27c-4e20-86e4-03f526faaccd, ws=true, ws-path=/ssrsub, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-118 = vmess, tunnel-tw-a-01.xncloud.xyz, 505, username=80bc6df4-2905-35f9-a671-35bc803d93cd, ws=true, ws-path=/niaoyun, wapsd.189.cn, tls=false
-119 = vmess, 120.232.214.231, 29222, username=fd74165d-4873-3d7b-8cf1-9d92967c7961, ws=true, ws-path=/zh-cn, wapsd.189.cn, tls=false
-120 = vmess, 120.232.214.231, 62621, username=fd74165d-4873-3d7b-8cf1-9d92967c7961, ws=true, ws-path=/zh-cn, wapsd.189.cn, tls=false
-121 = vmess, xe3rayu3.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-122 = vmess, 103.138.75.235, 443, username=8ccc3052-4941-47e4-b85f-a67ea71e3fe6, ws=true, ws-path=/clientarea, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-123 = vmess, 156.234.95.72, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-124 = vmess, 18.162.50.154, 18888, username=5c923218-d8a0-3f35-b618-c6d0aebf2a63, ws=true, ws-path=/cocksucker, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-125 = vmess, 61.220.28.198, 9233, username=be58f4e4-894a-47ee-8836-cf75e74fa9c9, ws=true, ws-path=/, wapsd.189.cn, tls=false
-126 = vmess, v2.emovpn.xyz, 1251, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
-127 = vmess, v19.emovpn.xyz, 1251, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
-128 = vmess, v20.emovpn.xyz, 80, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+118 = vmess, v2.emovpn.xyz, 1251, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+119 = vmess, v19.emovpn.xyz, 1251, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+120 = vmess, v20.emovpn.xyz, 80, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
 
 [Proxy Group]
-ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, interval=600, timeout=5
+ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, interval=600, timeout=5
 
 [Rule]
 FINAL, ml
