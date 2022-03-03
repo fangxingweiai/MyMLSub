@@ -53,27 +53,14 @@ socks-port = 7890
 44 = vmess, 117.28.242.156, 2164, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 45 = vmess, 209.58.139.41, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 46 = vmess, 192.96.204.250, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-47 = vmess, aws1.sgp.tgproxy.wtf, 8899, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+47 = vmess, 45.35.84.162, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 48 = vmess, aws1.sgp.tgproxy.wtf, 8899, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-49 = vmess, 107.189.12.115, 5515, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, wapsd.189.cn, tls=false
-50 = vmess, 172.105.222.98, 80, username=4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, ws=true, ws-path=/, wapsd.189.cn, tls=false
-51 = vmess, 45.35.84.162, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-52 = vmess, jike-gzyd.jiserver.xyz, 29711, username=57d899db-bd20-3c52-b4e9-cf1b4070b328, ws=true, ws-path=/jike1, wapsd.189.cn, tls=false
-53 = vmess, shlt.jiserver.xyz, 39409, username=57d899db-bd20-3c52-b4e9-cf1b4070b328, ws=true, ws-path=/jike1, wapsd.189.cn, tls=false
-54 = vmess, jike-gzyd.jiserver.xyz, 29705, username=57d899db-bd20-3c52-b4e9-cf1b4070b328, ws=true, ws-path=/jike1, wapsd.189.cn, tls=false
-55 = vmess, jike-gzyd.jiserver.xyz, 29709, username=57d899db-bd20-3c52-b4e9-cf1b4070b328, ws=true, ws-path=/jike1, wapsd.189.cn, tls=false
-56 = vmess, shlt.jiserver.xyz, 39401, username=57d899db-bd20-3c52-b4e9-cf1b4070b328, ws=true, ws-path=/jike1, wapsd.189.cn, tls=false
-57 = vmess, jike-gzyd.jiserver.xyz, 39203, username=57d899db-bd20-3c52-b4e9-cf1b4070b328, ws=true, ws-path=/jike1, wapsd.189.cn, tls=false
-58 = vmess, 112.118.0.202, 4080, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-59 = vmess, 0227hk.fans8.xyz, 80, username=5c70da5d-e641-3bf8-b7dc-5babd843ff3c, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-60 = vmess, xe3rayu3.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-61 = vmess, 103.93.75.119, 80, username=5c70da5d-e641-3bf8-b7dc-5babd843ff3c, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-62 = vmess, 156.234.95.72, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-63 = vmess, 61.222.202.213, 12880, username=d4b64497-2773-4281-96f1-fc2914ea3c28, ws=true, ws-path=/, wapsd.189.cn, tls=false
-64 = vmess, 61.222.202.140, 33792, username=e55cd182-01b0-4fb7-a510-363701a491c5, ws=true, ws-path=/, wapsd.189.cn, tls=false
+49 = vmess, aws1.sgp.tgproxy.wtf, 8899, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+50 = vmess, 107.189.12.115, 5515, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, wapsd.189.cn, tls=false
+51 = vmess, icook.tw, 443, username=188741f2-1f14-43cb-be7a-1200a9f4332e, ws=true, ws-path=/The-Great-Awakening_vws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 
 [Proxy Group]
-ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, interval=600, timeout=5
+ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, interval=600, timeout=5
 
 [Rule]
 FINAL, ml
