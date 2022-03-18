@@ -959,7 +959,7 @@ proxies:
   name: '69'
   network: ws
   port: 443
-  server: 45.35.84.162
+  server: 104.166.135.10
   servername: wapsd.189.cn
   skip-cert-verify: true
   tls: true
@@ -1159,72 +1159,64 @@ proxies:
   cipher: auto
   name: '84'
   network: ws
-  port: 2053
-  server: 104.18.96.85
-  servername: wapsd.189.cn
+  port: 40322
+  server: juzixjp-001.ddns-oink.xyz
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  udp: true
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /eisasqa
-- alterId: 4
+    path: /jz666666
+- alterId: 0
   cipher: auto
   name: '85'
   network: ws
-  port: 443
-  server: 154.31.41.10
-  servername: wapsd.189.cn
+  port: 40043
+  server: juzixjp-001.ddns-oink.xyz
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /ws
-- alterId: 4
+    path: /jz666666
+- alterId: 0
   cipher: auto
   name: '86'
   network: ws
-  port: 443
-  server: chuch3go.com
-  servername: wapsd.189.cn
+  port: 40319
+  server: 120.232.82.157
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /ws
+    path: /jz666666
 - alterId: 0
   cipher: auto
   name: '87'
   network: ws
-  port: 443
-  server: cloudflare.xrenblog.com
-  servername: wapsd.189.cn
+  port: 40338
+  server: 120.232.215.142
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  udp: true
-  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
+  uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /xrenblog/
+    path: /jz666666
 - alterId: 2
   cipher: auto
   name: '88'
   network: ws
-  port: 10028
-  server: hkaz3.xmrth-node.xyz
+  port: 10002
+  server: hkaws003.xmrth-node.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1237,8 +1229,8 @@ proxies:
   cipher: auto
   name: '89'
   network: ws
-  port: 10186
-  server: hkaz7.xmrth-node.xyz
+  port: 10128
+  server: hkaz1.xmrth-node.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1250,49 +1242,6 @@ proxies:
 - alterId: 2
   cipher: auto
   name: '90'
-  network: ws
-  port: 10019
-  server: hkaz3.xmrth-node.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /index
-- alterId: 2
-  cipher: auto
-  name: '91'
-  network: ws
-  port: 10035
-  server: hkaz3.xmrth-node.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /index
-- alterId: 4
-  cipher: auto
-  name: '92'
-  network: ws
-  port: 443
-  server: xe3rayu3.com
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /ws
-- alterId: 2
-  cipher: auto
-  name: '93'
   network: ws
   port: 10009
   server: hkaz3.xmrth-node.xyz
@@ -1306,10 +1255,95 @@ proxies:
     path: /index
 - alterId: 4
   cipher: auto
-  name: '94'
+  name: '91'
   network: ws
   port: 443
   server: 156.234.95.72
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /ws
+- alterId: 2
+  cipher: auto
+  name: '92'
+  network: ws
+  port: 10026
+  server: hkaz1.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /index
+- alterId: 2
+  cipher: auto
+  name: '93'
+  network: ws
+  port: 10062
+  server: hkaz1.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /index
+- alterId: 2
+  cipher: auto
+  name: '94'
+  network: ws
+  port: 10003
+  server: hkaws004.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /index
+- alterId: 2
+  cipher: auto
+  name: '95'
+  network: ws
+  port: 10033
+  server: hkaz1.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /index
+- alterId: 2
+  cipher: auto
+  name: '96'
+  network: ws
+  port: 10147
+  server: hkaz3.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /index
+- alterId: 4
+  cipher: auto
+  name: '97'
+  network: ws
+  port: 443
+  server: xe3rayu3.com
   servername: wapsd.189.cn
   skip-cert-verify: true
   tls: true
@@ -1325,7 +1359,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '95'
+  name: '98'
   network: http
   port: 47950
   server: 43.229.115.134
@@ -1333,13 +1367,41 @@ proxies:
   tls: false
   type: vmess
   uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
+- alterId: 2
+  cipher: auto
+  name: '99'
+  network: ws
+  port: 10035
+  server: hkaz3.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /index
+- alterId: 2
+  cipher: auto
+  name: '100'
+  network: ws
+  port: 10149
+  server: tw1.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /index
 - alterId: 0
   cipher: auto
   http-opts:
     headers:
       Host:
       - wapsd.189.cn
-  name: '96'
+  name: '101'
   network: http
   port: 15789
   server: 61.222.202.140
@@ -1349,21 +1411,7 @@ proxies:
   uuid: 4535e708-5988-4377-a083-755ed60d8068
 - alterId: 0
   cipher: auto
-  name: '97'
-  network: ws
-  port: 12880
-  server: 61.222.202.213
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d4b64497-2773-4281-96f1-fc2914ea3c28
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '98'
+  name: '102'
   network: ws
   port: 33792
   server: 61.222.202.140
@@ -1377,10 +1425,10 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '99'
+  name: '103'
   network: ws
-  port: 10063
-  server: jpaz1.xmrth-node.xyz
+  port: 10065
+  server: tw2.xmrth-node.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1389,9 +1437,23 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /index
+- alterId: 0
+  cipher: auto
+  name: '104'
+  network: ws
+  port: 12880
+  server: 61.222.202.213
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d4b64497-2773-4281-96f1-fc2914ea3c28
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
 - alterId: 2
   cipher: auto
-  name: '100'
+  name: '105'
   network: ws
   port: 10067
   server: jpaz2.xmrth-node.xyz
@@ -1509,6 +1571,11 @@ proxy-groups:
   - '98'
   - '99'
   - '100'
+  - '101'
+  - '102'
+  - '103'
+  - '104'
+  - '105'
   type: select
 - interval: 600
   lazy: true
@@ -1614,6 +1681,11 @@ proxy-groups:
   - '98'
   - '99'
   - '100'
+  - '101'
+  - '102'
+  - '103'
+  - '104'
+  - '105'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
