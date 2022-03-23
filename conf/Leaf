@@ -61,25 +61,35 @@ socks-port = 7890
 52 = vmess, aws1.sgp.tgproxy.wtf, 8899, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 53 = vmess, aws1.sgp.tgproxy.wtf, 8899, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 54 = vmess, 183.232.56.161, 1301, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-55 = vmess, 183.232.56.161, 1611, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
+55 = vmess, 183.232.56.161, 1612, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
 56 = vmess, 183.232.56.161, 1615, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-57 = vmess, 183.232.56.161, 1612, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-58 = vmess, 183.232.56.161, 1302, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-59 = vmess, 183.232.56.161, 1101, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
-60 = vmess, 156.234.95.72, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-61 = vmess, 14.v2-ray.cyou, 15014, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
-62 = vmess, 18.v2-ray.cyou, 15018, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
-63 = vmess, xe3rayu3.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-64 = vmess, 15.v2-ray.cyou, 15015, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
-65 = vmess, 23.v2-ray.cyou, 15023, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
-66 = vmess, 12.v2-ray.cyou, 15012, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
-67 = vmess, 21.v2-ray.cyou, 15021, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
-68 = vmess, 4.v2-ray.cyou, 36104, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
-69 = vmess, 61.222.202.213, 12880, username=d4b64497-2773-4281-96f1-fc2914ea3c28, ws=true, ws-path=/, wapsd.189.cn, tls=false
-70 = vmess, 61.222.202.140, 33792, username=e55cd182-01b0-4fb7-a510-363701a491c5, ws=true, ws-path=/, wapsd.189.cn, tls=false
+57 = vmess, 183.232.56.161, 1101, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
+58 = vmess, 183.232.56.161, 3099, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
+59 = vmess, 183.232.56.161, 1302, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
+60 = vmess, 65.52.171.156, 15031, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+61 = vmess, 71.v2-ray.cyou, 15071, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+62 = vmess, 23.v2-ray.cyou, 15023, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+63 = vmess, 46.v2-ray.cyou, 15046, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+64 = vmess, 207.46.133.23, 443, username=d5c70a71-1b3c-41f2-a8e0-17323bc23821, ws=true, ws-path=/api/sg, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+65 = vmess, 18.v2-ray.cyou, 15018, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+66 = vmess, 31.v2-ray.cyou, 15031, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+67 = vmess, 021.AP.POP.BIGAIRPORT.NET, 12356, username=c899fb95-cc39-4f3a-a882-36b70d4bef0f, ws=true, ws-path=/, wapsd.189.cn, tls=false
+68 = vmess, 13.75.64.55, 443, username=d5c70a71-1b3c-41f2-a8e0-17323bc23821, ws=true, ws-path=/api/rn, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+69 = vmess, 84.v2-ray.cyou, 15084, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+70 = vmess, 156.234.95.72, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+71 = vmess, 72.v2-ray.cyou, 15072, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+72 = vmess, 15.v2-ray.cyou, 15015, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+73 = vmess, xe3rayu3.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+74 = vmess, 38.v2-ray.cyou, 15038, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+75 = vmess, v1.369855.xyz, 11443, username=d5c70a71-1b3c-41f2-a8e0-17323bc23821, ws=true, ws-path=/api/sg, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+76 = vmess, 85.v2-ray.cyou, 15085, username=047184b7-6da2-3d3f-ac27-6a1a8701daf8, ws=true, ws-path=/, wapsd.189.cn, tls=false
+77 = vmess, v2.369855.xyz, 11443, username=d5c70a71-1b3c-41f2-a8e0-17323bc23821, ws=true, ws-path=/api/rn, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+78 = vmess, 61.222.202.213, 12880, username=d4b64497-2773-4281-96f1-fc2914ea3c28, ws=true, ws-path=/, wapsd.189.cn, tls=false
+79 = vmess, 61.222.202.140, 33792, username=e55cd182-01b0-4fb7-a510-363701a491c5, ws=true, ws-path=/, wapsd.189.cn, tls=false
+80 = vmess, tw2501.cloudmatrix.xyz, 2501, username=3b78a19f-20f8-34f5-a818-2a02e10446ac, ws=true, ws-path=/hls/cctv5phd.m3u8, wapsd.189.cn, tls=false
 
 [Proxy Group]
-ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, interval=600, timeout=5
+ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, interval=600, timeout=5
 
 [Rule]
 FINAL, ml
