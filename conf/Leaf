@@ -59,47 +59,23 @@ socks-port = 7890
 50 = vmess, yqy2338.china-cdn-net.com, 2338, username=a7f27a15-f449-323b-8f1e-b4b88017a8a4, ws=true, ws-path=/iso, wapsd.189.cn, tls=false
 51 = vmess, aws1.sgp.tgproxy.wtf, 8899, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 52 = vmess, aws1.sgp.tgproxy.wtf, 8899, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-53 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/AUS02, wapsd.189.cn, tls=false
-54 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/japanese01, wapsd.189.cn, tls=false
-55 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/japanese03, wapsd.189.cn, tls=false
-56 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/japanese02, wapsd.189.cn, tls=false
-57 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/hkt008, wapsd.189.cn, tls=false
-58 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=linodejp02, wapsd.189.cn, tls=false
-59 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/jgwhg01, wapsd.189.cn, tls=false
-60 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/jp01, wapsd.189.cn, tls=false
-61 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/hinet04, wapsd.189.cn, tls=false
-62 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/doxjp06, wapsd.189.cn, tls=false
-63 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/dj01, wapsd.189.cn, tls=false
-64 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/linodejp01, wapsd.189.cn, tls=false
-65 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/AUS01, wapsd.189.cn, tls=false
-66 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/yd01, wapsd.189.cn, tls=false
-67 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/doxjp04, wapsd.189.cn, tls=false
-68 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/doxjp05, wapsd.189.cn, tls=false
-69 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/lindoerb01, wapsd.189.cn, tls=false
-70 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=linodejp03, wapsd.189.cn, tls=false
-71 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/cere01, wapsd.189.cn, tls=false
-72 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/cere02, wapsd.189.cn, tls=false
-73 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/dg01, wapsd.189.cn, tls=false
-74 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/cere03, wapsd.189.cn, tls=false
-75 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/usa04, wapsd.189.cn, tls=false
-76 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/UK01, wapsd.189.cn, tls=false
-77 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/UK02, wapsd.189.cn, tls=false
-78 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/mlxy008, wapsd.189.cn, tls=false
-79 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/UK03, wapsd.189.cn, tls=false
-80 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/canada01, wapsd.189.cn, tls=false
-81 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/schinet01, wapsd.189.cn, tls=false
-82 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/els01, wapsd.189.cn, tls=false
-83 = vmess, cs.daxun.club, 20631, username=77035997-3750-4d8c-9ace-bcd2c0cbe3e6, ws=true, ws-path=/schinet02, wapsd.189.cn, tls=false
-84 = vmess, 0326kr.fans8.xyz, 443, username=5c70da5d-e641-3bf8-b7dc-5babd843ff3c, ws=true, ws-path=/ray, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-85 = vmess, 209.94.56.152, 443, username=3033e157-fdc3-47c0-ae32-fc4fe65fc64d, ws=true, ws-path=/9apQabyg9le, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-86 = vmess, dj1.csz666.ml, 443, username=e57e2134-e5cc-4b83-aa19-e2a438a5c517, ws=true, ws-path=/, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-87 = vmess, HK.Support-Putin-Kill-all-Ukrainians.884899.cf, 443, username=99ed06cf-659a-4952-a3ae-4a9b8b473db4, ws=true, ws-path=/Support-Putin-Kill-all-Ukrainians_vws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-88 = vmess, xe3rayu3.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-89 = vmess, 156.234.95.72, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-90 = vmess, 61.222.202.140, 33792, username=e55cd182-01b0-4fb7-a510-363701a491c5, ws=true, ws-path=/, wapsd.189.cn, tls=false
+53 = vmess, hk3wyhzx.v2yun.vip, 80, username=74d66879-9107-3894-a16b-2a1b3c01191b, ws=true, ws-path=/, wapsd.189.cn, tls=false
+54 = vmess, hk5gb.v2yun.vip, 80, username=74d66879-9107-3894-a16b-2a1b3c01191b, ws=true, ws-path=/, wapsd.189.cn, tls=false
+55 = vmess, hkdx.v2yun.vip, 80, username=74d66879-9107-3894-a16b-2a1b3c01191b, ws=true, ws-path=/, wapsd.189.cn, tls=false
+56 = vmess, hk05gs.v2yun.vip, 80, username=74d66879-9107-3894-a16b-2a1b3c01191b, ws=true, ws-path=/, wapsd.189.cn, tls=false
+57 = vmess, jpgs.v2yun.vip, 80, username=74d66879-9107-3894-a16b-2a1b3c01191b, ws=true, ws-path=/, wapsd.189.cn, tls=false
+58 = vmess, krgs.v2yun.vip, 80, username=74d66879-9107-3894-a16b-2a1b3c01191b, ws=true, ws-path=/, wapsd.189.cn, tls=false
+59 = vmess, 1.v2yun.vip, 10649, username=74d66879-9107-3894-a16b-2a1b3c01191b, ws=true, ws-path=/, wapsd.189.cn, tls=false
+60 = vmess, 3.v2yun.vip, 8080, username=74d66879-9107-3894-a16b-2a1b3c01191b, ws=true, ws-path=/, wapsd.189.cn, tls=false
+61 = vmess, 209.94.56.152, 443, username=3033e157-fdc3-47c0-ae32-fc4fe65fc64d, ws=true, ws-path=/9apQabyg9le, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+62 = vmess, tw1.nodrop.bike, 80, username=663bfc17-c3f6-49da-972f-5e8e6b1315c2, ws=true, ws-path=/, wapsd.189.cn, tls=false
+63 = vmess, 183.232.56.161, 1615, username=3a226645-c640-39a2-8177-000381e29f20, ws=true, ws-path=/v2ray, wapsd.189.cn, tls=false
+64 = vmess, HK.Support-Putin-Kill-all-Ukrainians.884899.cf, 443, username=99ed06cf-659a-4952-a3ae-4a9b8b473db4, ws=true, ws-path=/Support-Putin-Kill-all-Ukrainians_vws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+65 = vmess, 61.222.202.213, 12880, username=d4b64497-2773-4281-96f1-fc2914ea3c28, ws=true, ws-path=/, wapsd.189.cn, tls=false
+66 = vmess, 61.222.202.140, 33792, username=e55cd182-01b0-4fb7-a510-363701a491c5, ws=true, ws-path=/, wapsd.189.cn, tls=false
 
 [Proxy Group]
-ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, interval=600, timeout=5
+ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, interval=600, timeout=5
 
 [Rule]
 FINAL, ml

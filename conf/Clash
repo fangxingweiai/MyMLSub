@@ -955,7 +955,7 @@ proxies:
   name: '69'
   network: http
   port: 15801
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -968,7 +968,7 @@ proxies:
   name: '70'
   network: http
   port: 15802
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -981,7 +981,7 @@ proxies:
   name: '71'
   network: http
   port: 15803
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -994,7 +994,7 @@ proxies:
   name: '72'
   network: http
   port: 15804
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -1007,7 +1007,7 @@ proxies:
   name: '73'
   network: http
   port: 15805
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -1020,7 +1020,7 @@ proxies:
   name: '74'
   network: http
   port: 15806
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -1033,7 +1033,7 @@ proxies:
   name: '75'
   network: http
   port: 15801
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -1046,7 +1046,7 @@ proxies:
   name: '76'
   network: http
   port: 15802
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -1059,7 +1059,7 @@ proxies:
   name: '77'
   network: http
   port: 15803
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -1072,7 +1072,7 @@ proxies:
   name: '78'
   network: http
   port: 15804
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -1085,7 +1085,7 @@ proxies:
   name: '79'
   network: http
   port: 15805
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -1098,7 +1098,7 @@ proxies:
   name: '80'
   network: http
   port: 15806
-  server: test-01.0098dns01in.work
+  server: test.0098dns01in.work
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -1134,518 +1134,217 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
   name: '83'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
+  network: http
+  port: 30002
+  server: e3f.jijifun.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /AUS02
+  uuid: 9F39BBA5-4518-8256-54E0-20C4A14BDDBB
 - alterId: 0
   cipher: auto
   name: '84'
   network: ws
-  port: 20631
-  server: cs.daxun.club
+  port: 80
+  server: hk3wyhzx.v2yun.vip
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+  uuid: 74d66879-9107-3894-a16b-2a1b3c01191b
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /japanese01
+    path: /
 - alterId: 0
   cipher: auto
   name: '85'
   network: ws
-  port: 20631
-  server: cs.daxun.club
+  port: 80
+  server: hk5gb.v2yun.vip
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+  uuid: 74d66879-9107-3894-a16b-2a1b3c01191b
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /japanese03
+    path: /
 - alterId: 0
   cipher: auto
   name: '86'
   network: ws
-  port: 20631
-  server: cs.daxun.club
+  port: 80
+  server: hkdx.v2yun.vip
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+  uuid: 74d66879-9107-3894-a16b-2a1b3c01191b
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /japanese02
+    path: /
 - alterId: 0
   cipher: auto
   name: '87'
   network: ws
-  port: 20631
-  server: cs.daxun.club
+  port: 80
+  server: hk05gs.v2yun.vip
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+  uuid: 74d66879-9107-3894-a16b-2a1b3c01191b
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /hkt008
+    path: /
 - alterId: 0
   cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
   name: '88'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
+  network: http
+  port: 30001
+  server: e3f.jijifun.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: linodejp02
+  uuid: 9F39BBA5-4518-8256-54E0-20C4A14BDDBB
 - alterId: 0
   cipher: auto
   name: '89'
   network: ws
-  port: 20631
-  server: cs.daxun.club
+  port: 80
+  server: jpgs.v2yun.vip
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+  uuid: 74d66879-9107-3894-a16b-2a1b3c01191b
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /jgwhg01
+    path: /
 - alterId: 0
   cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
   name: '90'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
+  network: http
+  port: 30007
+  server: fee.jijifun.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /jp01
+  uuid: 9F39BBA5-4518-8256-54E0-20C4A14BDDBB
 - alterId: 0
   cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
   name: '91'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
+  network: http
+  port: 30003
+  server: e3f.jijifun.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hinet04
+  uuid: 9F39BBA5-4518-8256-54E0-20C4A14BDDBB
 - alterId: 0
   cipher: auto
   name: '92'
   network: ws
-  port: 20631
-  server: cs.daxun.club
+  port: 80
+  server: krgs.v2yun.vip
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+  uuid: 74d66879-9107-3894-a16b-2a1b3c01191b
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /doxjp06
+    path: /
 - alterId: 0
   cipher: auto
   name: '93'
   network: ws
-  port: 20631
-  server: cs.daxun.club
+  port: 10649
+  server: 1.v2yun.vip
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+  uuid: 74d66879-9107-3894-a16b-2a1b3c01191b
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /dj01
+    path: /
 - alterId: 0
   cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
   name: '94'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
+  network: http
+  port: 30005
+  server: fee.jijifun.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /linodejp01
+  uuid: 9F39BBA5-4518-8256-54E0-20C4A14BDDBB
 - alterId: 0
   cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
   name: '95'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
+  network: http
+  port: 22852
+  server: c31s3.jamjams.net
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /AUS01
+  uuid: bd87ed3d-3bab-478f-8c6f-c1c01c798de6
 - alterId: 0
   cipher: auto
   name: '96'
   network: ws
-  port: 20631
-  server: cs.daxun.club
+  port: 8080
+  server: 3.v2yun.vip
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+  uuid: 74d66879-9107-3894-a16b-2a1b3c01191b
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /yd01
+    path: /
 - alterId: 0
   cipher: auto
   name: '97'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /doxjp04
-- alterId: 0
-  cipher: auto
-  name: '98'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /doxjp05
-- alterId: 0
-  cipher: auto
-  name: '99'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /lindoerb01
-- alterId: 0
-  cipher: auto
-  name: '100'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: linodejp03
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '101'
-  network: http
-  port: 443
-  server: xqw.stivao.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 21683a20-f064-45e8-c6b1-8c9333eeac08
-- alterId: 0
-  cipher: auto
-  name: '102'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /cere01
-- alterId: 0
-  cipher: auto
-  name: '103'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /cere02
-- alterId: 0
-  cipher: auto
-  name: '104'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /dg01
-- alterId: 0
-  cipher: auto
-  name: '105'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /cere03
-- alterId: 0
-  cipher: auto
-  name: '106'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /usa04
-- alterId: 0
-  cipher: auto
-  name: '107'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /UK01
-- alterId: 0
-  cipher: auto
-  name: '108'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /UK02
-- alterId: 0
-  cipher: auto
-  name: '109'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /mlxy008
-- alterId: 0
-  cipher: auto
-  name: '110'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /UK03
-- alterId: 0
-  cipher: auto
-  name: '111'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /canada01
-- alterId: 0
-  cipher: auto
-  name: '112'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /schinet01
-- alterId: 0
-  cipher: auto
-  name: '113'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /els01
-- alterId: 0
-  cipher: auto
-  name: '114'
-  network: ws
-  port: 20631
-  server: cs.daxun.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /schinet02
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '115'
-  network: http
-  port: 31676
-  server: 45.32.94.166
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
-- alterId: 2
-  cipher: auto
-  name: '116'
-  network: ws
-  port: 443
-  server: 0326kr.fans8.xyz
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: '117'
   network: ws
   port: 443
   server: 209.94.56.152
@@ -1661,23 +1360,36 @@ proxies:
     path: /9apQabyg9le
 - alterId: 0
   cipher: auto
-  name: '118'
+  name: '98'
   network: ws
-  port: 443
-  server: dj1.csz666.ml
-  servername: wapsd.189.cn
+  port: 80
+  server: tw1.nodrop.bike
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: e57e2134-e5cc-4b83-aa19-e2a438a5c517
+  uuid: 663bfc17-c3f6-49da-972f-5e8e6b1315c2
   ws-opts:
     headers:
       Host: wapsd.189.cn
     path: /
+- alterId: 2
+  cipher: auto
+  name: '99'
+  network: ws
+  port: 1615
+  server: 183.232.56.161
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3a226645-c640-39a2-8177-000381e29f20
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '119'
+  name: '100'
   network: ws
   port: 443
   server: HK.Support-Putin-Kill-all-Ukrainians.884899.cf
@@ -1690,43 +1402,13 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /Support-Putin-Kill-all-Ukrainians_vws
-- alterId: 4
-  cipher: auto
-  name: '120'
-  network: ws
-  port: 443
-  server: xe3rayu3.com
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /ws
-- alterId: 4
-  cipher: auto
-  name: '121'
-  network: ws
-  port: 443
-  server: 156.234.95.72
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /ws
 - alterId: 64
   cipher: auto
   http-opts:
     headers:
       Host:
       - wapsd.189.cn
-  name: '122'
+  name: '101'
   network: http
   port: 47950
   server: 43.229.115.134
@@ -1736,7 +1418,35 @@ proxies:
   uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
 - alterId: 0
   cipher: auto
-  name: '123'
+  name: '102'
+  network: ws
+  port: 12880
+  server: 61.222.202.213
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d4b64497-2773-4281-96f1-fc2914ea3c28
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '103'
+  network: http
+  port: 15789
+  server: 61.222.202.140
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4535e708-5988-4377-a083-755ed60d8068
+- alterId: 0
+  cipher: auto
+  name: '104'
   network: ws
   port: 33792
   server: 61.222.202.140
@@ -1748,20 +1458,6 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '124'
-  network: http
-  port: 15789
-  server: 61.222.202.140
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4535e708-5988-4377-a083-755ed60d8068
 proxy-groups:
 - name: "\U0001F310 Select"
   proxies:
@@ -1872,26 +1568,6 @@ proxy-groups:
   - '102'
   - '103'
   - '104'
-  - '105'
-  - '106'
-  - '107'
-  - '108'
-  - '109'
-  - '110'
-  - '111'
-  - '112'
-  - '113'
-  - '114'
-  - '115'
-  - '116'
-  - '117'
-  - '118'
-  - '119'
-  - '120'
-  - '121'
-  - '122'
-  - '123'
-  - '124'
   type: select
 - interval: 600
   lazy: true
@@ -2001,26 +1677,6 @@ proxy-groups:
   - '102'
   - '103'
   - '104'
-  - '105'
-  - '106'
-  - '107'
-  - '108'
-  - '109'
-  - '110'
-  - '111'
-  - '112'
-  - '113'
-  - '114'
-  - '115'
-  - '116'
-  - '117'
-  - '118'
-  - '119'
-  - '120'
-  - '121'
-  - '122'
-  - '123'
-  - '124'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
