@@ -59,10 +59,11 @@ socks-port = 7890
 50 = vmess, yqy2338.china-cdn-net.com, 2338, username=a7f27a15-f449-323b-8f1e-b4b88017a8a4, ws=true, ws-path=/iso, wapsd.189.cn, tls=false
 51 = vmess, aws1.sgp.tgproxy.wtf, 8899, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 52 = vmess, aws1.sgp.tgproxy.wtf, 8899, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-53 = vmess, ingress-i1.onebox6.org, 38501, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, wapsd.189.cn, tls=false
+53 = vmess, 212.103.62.37, 443, username=17beadf3-1878-4beb-9417-b47295aefc12, ws=true, ws-path=/cNlbnKh, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+54 = vmess, 159.203.73.153, 4396, username=7ef93298-6931-4d0e-a9c1-98005ab374df, ws=true, ws-path=/v2rayhunter0122, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 
 [Proxy Group]
-ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, interval=600, timeout=5
+ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, interval=600, timeout=5
 
 [Rule]
 FINAL, ml
