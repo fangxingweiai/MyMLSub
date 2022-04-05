@@ -1168,7 +1168,7 @@ proxies:
   cipher: auto
   name: '85'
   network: ws
-  port: 50206
+  port: 50207
   server: in-v1.sdgdn.com
   skip-cert-verify: true
   tls: false
@@ -1182,7 +1182,21 @@ proxies:
   cipher: auto
   name: '86'
   network: ws
-  port: 50207
+  port: 38201
+  server: ingress-i1.onebox6.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  name: '87'
+  network: ws
+  port: 50206
   server: in-v1.sdgdn.com
   skip-cert-verify: true
   tls: false
@@ -1192,34 +1206,20 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /hls/cctv5phd.m3u8
-- alterId: 64
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '87'
-  network: http
-  port: 47950
-  server: 43.229.115.134
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
 - alterId: 0
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
   name: '88'
-  network: http
-  port: 24396
-  server: 52.175.12.141
+  network: ws
+  port: 35970
+  server: hk.guiqing.ml
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c4b30765-3dbc-422e-93c4-3591b1debb6a
+  uuid: c44b723d-38e3-4490-df95-40761563f6d6
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
 - alterId: 0
   cipher: auto
   name: '89'
@@ -1237,28 +1237,28 @@ proxies:
     path: /D1LYYDHH
 - alterId: 0
   cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
   name: '90'
-  network: ws
-  port: 35970
-  server: hk.guiqing.ml
+  network: http
+  port: 35921
+  server: v2.bove.top
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c44b723d-38e3-4490-df95-40761563f6d6
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
+  uuid: ea0f0aeb-da33-45dd-c512-1a07f5619937
 - alterId: 0
   cipher: auto
   name: '91'
   network: ws
-  port: 80
-  server: tw1.nodrop.bike
+  port: 33792
+  server: 61.222.202.140
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 663bfc17-c3f6-49da-972f-5e8e6b1315c2
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
   ws-opts:
     headers:
       Host: wapsd.189.cn
@@ -1280,20 +1280,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '93'
-  network: ws
-  port: 33792
-  server: 61.222.202.140
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '94'
   network: ws
   port: 12880
   server: 61.222.202.213
@@ -1404,7 +1390,6 @@ proxy-groups:
   - '91'
   - '92'
   - '93'
-  - '94'
   type: select
 - interval: 600
   lazy: true
@@ -1503,7 +1488,6 @@ proxy-groups:
   - '91'
   - '92'
   - '93'
-  - '94'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:

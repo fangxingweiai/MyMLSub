@@ -58,11 +58,11 @@ proxy-test-url = http://www.gstatic.com/generate_204
 52 = vmess, aws1.sgp.tgproxy.wtf, 8899, username=4b1da136-edb5-467a-9787-7609d7b7c22b, ws=true, ws-path=/theuploadapi, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
 53 = vmess, 104.16.42.170, 2053, username=bf67437e-6c90-45ca-abc2-c7240a5ce2aa, ws=true, ws-path=/eisasqa, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
 54 = vmess, 104.16.162.16, 2053, username=bf67437e-6c90-45ca-abc2-c7240a5ce2aa, ws=true, ws-path=/eisasqa, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-55 = vmess, in-v1.sdgdn.com, 50206, username=b1478e24-4916-3abe-8f17-15931012ecbe, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
-56 = vmess, in-v1.sdgdn.com, 50207, username=b1478e24-4916-3abe-8f17-15931012ecbe, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
-57 = vmess, 210.3.245.46, 50021, username=f3666ca6-b94a-4a27-9aa9-00c8eaede12c, ws=true, ws-path=/D1LYYDHH, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+55 = vmess, in-v1.sdgdn.com, 50207, username=b1478e24-4916-3abe-8f17-15931012ecbe, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
+56 = vmess, ingress-i1.onebox6.org, 38201, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
+57 = vmess, in-v1.sdgdn.com, 50206, username=b1478e24-4916-3abe-8f17-15931012ecbe, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
 58 = vmess, hk.guiqing.ml, 35970, username=c44b723d-38e3-4490-df95-40761563f6d6, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-59 = vmess, tw1.nodrop.bike, 80, username=663bfc17-c3f6-49da-972f-5e8e6b1315c2, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+59 = vmess, 210.3.245.46, 50021, username=f3666ca6-b94a-4a27-9aa9-00c8eaede12c, ws=true, ws-path=/D1LYYDHH, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
 60 = vmess, 61.222.202.140, 33792, username=e55cd182-01b0-4fb7-a510-363701a491c5, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
 61 = vmess, 61.222.202.213, 12880, username=d4b64497-2773-4281-96f1-fc2914ea3c28, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
 
