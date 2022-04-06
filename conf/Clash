@@ -997,11 +997,28 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /ray
+- alterId: 2
+  cipher: auto
+  country: ' CA'
+  http-opts: {}
+  name: '72'
+  network: ws
+  port: 443
+  server: 165.154.230.182
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /ray
 - alterId: 1
   cipher: auto
   country: ' CN'
   http-opts: {}
-  name: '72'
+  name: '73'
   network: ws
   port: 38106
   server: 58.32.2.139
@@ -1017,7 +1034,23 @@ proxies:
   cipher: auto
   country: ' CN'
   http-opts: {}
-  name: '73'
+  name: '74'
+  network: ws
+  port: 38201
+  server: 58.32.2.139
+  servername: ingress-i1.onebox6.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  country: ' CN'
+  http-opts: {}
+  name: '75'
   network: ws
   port: 38701
   server: 58.32.2.139
@@ -1033,7 +1066,7 @@ proxies:
   cipher: auto
   country: ' US'
   http-opts: {}
-  name: '74'
+  name: '76'
   network: ws
   port: 4396
   server: 159.203.73.153
@@ -1050,7 +1083,7 @@ proxies:
   cipher: auto
   country: ' ZZ'
   http-opts: {}
-  name: '75'
+  name: '77'
   network: ws
   port: 443
   server: 103.164.81.46
@@ -1069,35 +1102,9 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '76'
-  network: http
-  port: 15801
-  server: test.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '77'
-  network: http
-  port: 15802
-  server: test.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
   name: '78'
   network: http
-  port: 15803
+  port: 15801
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1110,7 +1117,7 @@ proxies:
       - wapsd.189.cn
   name: '79'
   network: http
-  port: 15804
+  port: 15802
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1123,7 +1130,7 @@ proxies:
       - wapsd.189.cn
   name: '80'
   network: http
-  port: 15805
+  port: 15803
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1136,7 +1143,7 @@ proxies:
       - wapsd.189.cn
   name: '81'
   network: http
-  port: 15806
+  port: 15804
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1149,11 +1156,11 @@ proxies:
       - wapsd.189.cn
   name: '82'
   network: http
-  port: 15801
+  port: 15805
   server: test.0098dns01in.work
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -1162,11 +1169,11 @@ proxies:
       - wapsd.189.cn
   name: '83'
   network: http
-  port: 15802
+  port: 15806
   server: test.0098dns01in.work
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -1175,7 +1182,7 @@ proxies:
       - wapsd.189.cn
   name: '84'
   network: http
-  port: 15803
+  port: 15801
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1188,7 +1195,7 @@ proxies:
       - wapsd.189.cn
   name: '85'
   network: http
-  port: 15804
+  port: 15802
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1201,7 +1208,7 @@ proxies:
       - wapsd.189.cn
   name: '86'
   network: http
-  port: 15805
+  port: 15803
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1214,6 +1221,32 @@ proxies:
       - wapsd.189.cn
   name: '87'
   network: http
+  port: 15804
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '88'
+  network: http
+  port: 15805
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '89'
+  network: http
   port: 15806
   server: test.0098dns01in.work
   type: vmess
@@ -1221,37 +1254,37 @@ proxies:
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
 - alterId: 0
   cipher: auto
-  name: '88'
-  network: ws
-  port: 8899
-  server: aws1.sgp.tgproxy.wtf
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '89'
-  network: ws
-  port: 8899
-  server: aws1.sgp.tgproxy.wtf
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
   name: '90'
+  network: ws
+  port: 8899
+  server: aws1.sgp.tgproxy.wtf
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '91'
+  network: ws
+  port: 8899
+  server: aws1.sgp.tgproxy.wtf
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '92'
   network: ws
   port: 1251
   server: v2.emovpn.xyz
@@ -1266,7 +1299,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '91'
+  name: '93'
   network: ws
   port: 1251
   server: v2.emovpn.xyz
@@ -1285,7 +1318,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '92'
+  name: '94'
   network: http
   port: 8888
   server: 146.56.41.3
@@ -1300,7 +1333,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '93'
+  name: '95'
   network: http
   port: 11451
   server: 34.96.129.107
@@ -1311,7 +1344,7 @@ proxies:
   uuid: d3c6e1b7-7d09-4cd6-9ab6-3a8b448b6f50
 - alterId: 0
   cipher: auto
-  name: '94'
+  name: '96'
   network: ws
   port: 443
   server: linodemx0303.moonfree.top
@@ -1327,7 +1360,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '95'
+  name: '97'
   network: ws
   port: 27740
   server: gzydv2.baidupi.xyz
@@ -1346,7 +1379,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '96'
+  name: '98'
   network: http
   port: 10516
   server: 104.243.17.101
@@ -1357,7 +1390,7 @@ proxies:
   uuid: e95decf7-0649-4246-a9b2-41080dd45f9d
 - alterId: 0
   cipher: auto
-  name: '97'
+  name: '99'
   network: ws
   port: 2053
   server: 104.16.162.16
@@ -1373,7 +1406,7 @@ proxies:
     path: /eisasqa
 - alterId: 0
   cipher: auto
-  name: '98'
+  name: '100'
   network: ws
   port: 1251
   server: v2.emovpn.xyz
@@ -1388,7 +1421,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '99'
+  name: '101'
   network: ws
   port: 1251
   server: v2.emovpn.xyz
@@ -1407,7 +1440,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '100'
+  name: '102'
   network: http
   port: 21568
   server: 13.70.61.248
@@ -1418,7 +1451,7 @@ proxies:
   uuid: 4e70526f-3e97-49c2-8576-e08b730e0c03
 - alterId: 1
   cipher: auto
-  name: '101'
+  name: '103'
   network: ws
   port: 443
   server: 104.19.3.31
@@ -1434,7 +1467,7 @@ proxies:
     path: /chaugg
 - alterId: 0
   cipher: auto
-  name: '102'
+  name: '104'
   network: ws
   port: 1251
   server: v2.emovpn.xyz
@@ -1453,7 +1486,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '103'
+  name: '105'
   network: http
   port: 24821
   server: 43.154.87.207
@@ -1468,7 +1501,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '104'
+  name: '106'
   network: http
   port: 8888
   server: 146.56.41.3
@@ -1483,7 +1516,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '105'
+  name: '107'
   network: http
   port: 10516
   server: 104.243.17.101
@@ -1492,50 +1525,20 @@ proxies:
   type: vmess
   udp: true
   uuid: e95decf7-0649-4246-a9b2-41080dd45f9d
-- alterId: 1
-  cipher: auto
-  name: '106'
-  network: ws
-  port: 38106
-  server: ingress-i1.onebox6.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: '107'
-  network: ws
-  port: 443
-  server: 52.184.37.11
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 022c220d-c67c-4d0a-b732-58dbe913ba6f
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /XHDuoDKPEVQ
 - alterId: 0
   cipher: auto
   name: '108'
   network: ws
-  port: 50021
-  server: 210.3.245.46
-  servername: wapsd.189.cn
+  port: 12356
+  server: 022.AP.POP.BIGAIRPORT.NET
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c
+  uuid: c899fb95-cc39-4f3a-a882-36b70d4bef0f
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /D1LYYDHH
+    path: /
 - alterId: 0
   cipher: auto
   name: '109'
@@ -1550,37 +1553,53 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
-- alterId: 0
-  cipher: auto
-  name: '110'
-  network: ws
-  port: 12356
-  server: 022.AP.POP.BIGAIRPORT.NET
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c899fb95-cc39-4f3a-a882-36b70d4bef0f
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
   http-opts:
     headers:
       Host:
       - wapsd.189.cn
-  name: '111'
+  name: '110'
   network: http
-  port: 15789
-  server: 61.222.202.140
+  port: 47950
+  server: 43.229.115.134
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4535e708-5988-4377-a083-755ed60d8068
+  uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
+- alterId: 0
+  cipher: auto
+  name: '111'
+  network: ws
+  port: 50021
+  server: 210.3.245.46
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /D1LYYDHH
 - alterId: 0
   cipher: auto
   name: '112'
+  network: ws
+  port: 443
+  server: 52.184.37.11
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 022c220d-c67c-4d0a-b732-58dbe913ba6f
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /XHDuoDKPEVQ
+- alterId: 0
+  cipher: auto
+  name: '113'
   network: ws
   port: 33792
   server: 61.222.202.140
@@ -1594,7 +1613,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '113'
+  name: '114'
   network: ws
   port: 12880
   server: 61.222.202.213
@@ -1606,6 +1625,20 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '115'
+  network: http
+  port: 15789
+  server: 61.222.202.140
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4535e708-5988-4377-a083-755ed60d8068
 proxy-groups:
 - name: "\U0001F310 Select"
   proxies:
@@ -1725,6 +1758,8 @@ proxy-groups:
   - '111'
   - '112'
   - '113'
+  - '114'
+  - '115'
   type: select
 - interval: 600
   lazy: true
@@ -1843,6 +1878,8 @@ proxy-groups:
   - '111'
   - '112'
   - '113'
+  - '114'
+  - '115'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
