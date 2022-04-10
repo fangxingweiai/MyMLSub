@@ -927,7 +927,7 @@ proxies:
   name: '67'
   network: ws
   port: 443
-  server: 165.154.230.182
+  server: 165.154.225.231
   servername: wapsd.189.cn
   skip-cert-verify: true
   tls: true
@@ -944,7 +944,7 @@ proxies:
   name: '68'
   network: ws
   port: 443
-  server: 165.154.225.231
+  server: 165.154.230.182
   servername: wapsd.189.cn
   skip-cert-verify: true
   tls: true
@@ -961,7 +961,7 @@ proxies:
   name: '69'
   network: ws
   port: 50206
-  server: 120.240.48.20
+  server: 116.162.14.224
   servername: telegram.channel.p2psharing
   skip-cert-verify: true
   type: vmess
@@ -1009,7 +1009,7 @@ proxies:
   name: '72'
   network: ws
   port: 38106
-  server: 58.32.14.196
+  server: 58.32.9.2
   servername: www.ivpnpro.net
   skip-cert-verify: true
   type: vmess
@@ -1018,11 +1018,62 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /hls/cctv5phd.m3u8
+- alterId: 4
+  cipher: auto
+  country: ' US'
+  http-opts: {}
+  name: '73'
+  network: ws
+  port: 443
+  server: 45.35.84.162
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /ws
+- alterId: 0
+  cipher: auto
+  country: ' US'
+  http-opts: {}
+  name: '74'
+  network: ws
+  port: 10125
+  server: 20.205.131.172
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 4
+  cipher: auto
+  country: ' US'
+  http-opts: {}
+  name: '75'
+  network: ws
+  port: 443
+  server: 192.96.204.250
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /ws
 - alterId: 2
   cipher: auto
   country: ' ZZ'
   http-opts: {}
-  name: '73'
+  name: '76'
   network: ws
   port: 443
   server: 103.164.81.46
@@ -1041,48 +1092,9 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '74'
-  network: http
-  port: 15801
-  server: test.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '75'
-  network: http
-  port: 15802
-  server: test.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '76'
-  network: http
-  port: 15803
-  server: test.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
   name: '77'
   network: http
-  port: 15804
+  port: 15801
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1095,7 +1107,7 @@ proxies:
       - wapsd.189.cn
   name: '78'
   network: http
-  port: 15805
+  port: 15802
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1108,7 +1120,7 @@ proxies:
       - wapsd.189.cn
   name: '79'
   network: http
-  port: 15806
+  port: 15803
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1121,11 +1133,11 @@ proxies:
       - wapsd.189.cn
   name: '80'
   network: http
-  port: 15801
+  port: 15804
   server: test.0098dns01in.work
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -1134,11 +1146,11 @@ proxies:
       - wapsd.189.cn
   name: '81'
   network: http
-  port: 15802
+  port: 15805
   server: test.0098dns01in.work
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -1147,11 +1159,11 @@ proxies:
       - wapsd.189.cn
   name: '82'
   network: http
-  port: 15803
+  port: 15806
   server: test.0098dns01in.work
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -1160,7 +1172,7 @@ proxies:
       - wapsd.189.cn
   name: '83'
   network: http
-  port: 15804
+  port: 15801
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1173,7 +1185,7 @@ proxies:
       - wapsd.189.cn
   name: '84'
   network: http
-  port: 15805
+  port: 15802
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -1186,6 +1198,45 @@ proxies:
       - wapsd.189.cn
   name: '85'
   network: http
+  port: 15803
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '86'
+  network: http
+  port: 15804
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '87'
+  network: http
+  port: 15805
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '88'
+  network: http
   port: 15806
   server: test.0098dns01in.work
   type: vmess
@@ -1193,120 +1244,1580 @@ proxies:
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
 - alterId: 0
   cipher: auto
-  name: '86'
-  network: ws
-  port: 8899
-  server: aws1.sgp.tgproxy.wtf
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '87'
-  network: ws
-  port: 8899
-  server: aws1.sgp.tgproxy.wtf
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '88'
-  network: ws
-  port: 443
-  server: 52.184.37.11
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 022c220d-c67c-4d0a-b732-58dbe913ba6f
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /XHDuoDKPEVQ
-- alterId: 64
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
   name: '89'
-  network: http
-  port: 47950
-  server: 43.229.115.134
+  network: ws
+  port: 8899
+  server: aws1.sgp.tgproxy.wtf
+  servername: wapsd.189.cn
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
 - alterId: 0
   cipher: auto
   name: '90'
   network: ws
-  port: 50021
-  server: 210.3.245.46
+  port: 8899
+  server: aws1.sgp.tgproxy.wtf
   servername: wapsd.189.cn
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c
+  uuid: 4b1da136-edb5-467a-9787-7609d7b7c22b
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /D1LYYDHH
+    path: /
 - alterId: 0
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
   name: '91'
-  network: http
-  port: 15789
-  server: 61.222.202.140
+  network: ws
+  port: 40306
+  server: 120.233.10.55
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4535e708-5988-4377-a083-755ed60d8068
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
 - alterId: 0
   cipher: auto
   name: '92'
   network: ws
-  port: 33792
-  server: 61.222.202.140
+  port: 40328
+  server: juzi-iplc001.ddns-oink.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '93'
+  network: ws
+  port: 40328
+  server: 120.233.10.55
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '94'
+  network: ws
+  port: 40306
+  server: juzi-iplc001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '95'
+  network: ws
+  port: 40307
+  server: juzi-iplc001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '96'
+  network: ws
+  port: 40308
+  server: juzi-iplc001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '97'
+  network: ws
+  port: 40338
+  server: 120.232.215.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '98'
+  network: ws
+  port: 40240
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '99'
+  network: ws
+  port: 40206
+  server: jzyjxcn2.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '100'
+  network: ws
+  port: 40241
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '101'
+  network: ws
+  port: 40241
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '102'
+  network: ws
+  port: 40213
+  server: gdyd01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '103'
+  network: ws
+  port: 40109
+  server: 112.64.98.220
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '104'
+  network: ws
+  port: 40041
+  server: yygd-rb-02.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '105'
+  network: ws
+  port: 40217
+  server: gdyd01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '106'
+  network: ws
+  port: 40214
+  server: 120.232.215.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '107'
+  network: ws
+  port: 40175
+  server: juzi-iplc001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '108'
+  network: ws
+  port: 40308
+  server: 120.233.10.55
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '109'
+  network: ws
+  port: 443
+  server: node.zxcairport.xyz
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7b198651-f526-44b5-a156-6badfe346dbf
   ws-opts:
     headers:
       Host: wapsd.189.cn
     path: /
 - alterId: 0
   cipher: auto
-  name: '93'
+  name: '110'
   network: ws
-  port: 12880
-  server: 61.222.202.213
+  port: 40123
+  server: 120.233.10.55
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d4b64497-2773-4281-96f1-fc2914ea3c28
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '111'
+  network: ws
+  port: 40213
+  server: 120.232.215.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '112'
+  network: ws
+  port: 40069
+  server: gdyd01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '113'
+  network: ws
+  port: 40291
+  server: shanghai-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '114'
+  network: ws
+  port: 40297
+  server: shanghai-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '115'
+  network: ws
+  port: 40319
+  server: juzixjp-001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '116'
+  network: ws
+  port: 40286
+  server: 112.64.98.220
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '117'
+  network: ws
+  port: 40141
+  server: 120.232.215.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '118'
+  network: ws
+  port: 40215
+  server: gdyd01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '119'
+  network: ws
+  port: 40217
+  server: 120.232.215.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '120'
+  network: ws
+  port: 40202
+  server: 120.233.10.55
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '121'
+  network: ws
+  port: 40324
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '122'
+  network: ws
+  port: 40105
+  server: shanghai-cn2-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '123'
+  network: ws
+  port: 40294
+  server: shanghai-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '124'
+  network: ws
+  port: 40175
+  server: 120.233.10.55
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '125'
+  network: ws
+  port: 40310
+  server: juzi-iplc001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '126'
+  network: ws
+  port: 40101
+  server: 58.32.3.53
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '127'
+  network: ws
+  port: 40299
+  server: shanghai-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '128'
+  network: ws
+  port: 40309
+  server: 120.233.10.55
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '129'
+  network: ws
+  port: 40107
+  server: 112.64.98.220
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '130'
+  network: ws
+  port: 40103
+  server: shanghai-cn2-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '131'
+  network: ws
+  port: 40310
+  server: 120.233.10.55
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '132'
+  network: ws
+  port: 40261
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '133'
+  network: ws
+  port: 40039
+  server: 112.64.98.220
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '134'
+  network: ws
+  port: 40055
+  server: niuniu-shlt-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '135'
+  network: ws
+  port: 40338
+  server: gdyd01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '136'
+  network: ws
+  port: 40320
+  server: juzixjp-001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '137'
+  network: ws
+  port: 40111
+  server: 58.32.3.53
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '138'
+  network: ws
+  port: 40269
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '139'
+  network: ws
+  port: 40249
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '140'
+  network: ws
+  port: 40251
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '141'
+  network: ws
+  port: 40336
+  server: gdyd01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '142'
+  network: ws
+  port: 40288
+  server: shanghai-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '143'
+  network: ws
+  port: 40336
+  server: 120.232.215.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '144'
+  network: ws
+  port: 40250
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '145'
+  network: ws
+  port: 40113
+  server: jzyjxcn2.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '146'
+  network: ws
+  port: 40296
+  server: 112.64.98.220
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '147'
+  network: ws
+  port: 40293
+  server: shanghai-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '148'
+  network: ws
+  port: 40035
+  server: niuniu-shlt-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '149'
+  network: ws
+  port: 40023
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '150'
+  network: ws
+  port: 40033
+  server: niuniu-shlt-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '151'
+  network: ws
+  port: 40216
+  server: 120.232.215.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '152'
+  network: ws
+  port: 40037
+  server: niuniu-shlt-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '153'
+  network: ws
+  port: 40250
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '154'
+  network: ws
+  port: 40247
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '155'
+  network: ws
+  port: 40141
+  server: gdyd01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '156'
+  network: ws
+  port: 40322
+  server: juzixjp-001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '157'
+  network: ws
+  port: 40189
+  server: yygd-rb-02.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '158'
+  network: ws
+  port: 40260
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '159'
+  network: ws
+  port: 40319
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '160'
+  network: ws
+  port: 40267
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '161'
+  network: ws
+  port: 40292
+  server: shanghai-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '162'
+  network: ws
+  port: 40187
+  server: 112.64.98.220
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '163'
+  network: ws
+  port: 40047
+  server: 120.232.215.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '164'
+  network: ws
+  port: 40081
+  server: juzixjp-001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '165'
+  network: ws
+  port: 40258
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '166'
+  network: ws
+  port: 40247
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '167'
+  network: ws
+  port: 40309
+  server: juzi-iplc001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '168'
+  network: ws
+  port: 40269
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '169'
+  network: ws
+  port: 40288
+  server: 112.64.98.220
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '170'
+  network: ws
+  port: 40238
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '171'
+  network: ws
+  port: 40113
+  server: 58.32.3.53
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '172'
+  network: ws
+  port: 40240
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '173'
+  network: ws
+  port: 40249
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '174'
+  network: ws
+  port: 40297
+  server: 112.64.98.220
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '175'
+  network: ws
+  port: 40324
+  server: juzixjp-001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '176'
+  network: ws
+  port: 40077
+  server: yygd-rb-02.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '177'
+  network: ws
+  port: 40202
+  server: juzi-iplc001.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '178'
+  network: ws
+  port: 40239
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '179'
+  network: ws
+  port: 40196
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '180'
+  network: ws
+  port: 40171
+  server: jzyjxcn2.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '181'
+  network: ws
+  port: 40294
+  server: 112.64.98.220
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '182'
+  network: ws
+  port: 40206
+  server: 58.32.3.53
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '183'
+  network: ws
+  port: 40289
+  server: shanghai-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '184'
+  network: ws
+  port: 40262
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '185'
+  network: ws
+  port: 40053
+  server: 112.64.98.220
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '186'
+  network: ws
+  port: 40261
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '187'
+  network: ws
+  port: 40198
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '188'
+  network: ws
+  port: 40169
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '189'
+  network: ws
+  port: 40238
+  server: jzdjd-01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '190'
+  network: ws
+  port: 40215
+  server: 120.232.215.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '191'
+  network: ws
+  port: 40067
+  server: 120.232.215.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '192'
+  network: ws
+  port: 40323
+  server: 120.232.82.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
+- alterId: 0
+  cipher: auto
+  name: '193'
+  network: ws
+  port: 40263
+  server: gdyd01.ddns-oink.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /jz666666
 proxy-groups:
 - name: "\U0001F310 Select"
   proxies:
@@ -1406,6 +2917,106 @@ proxy-groups:
   - '91'
   - '92'
   - '93'
+  - '94'
+  - '95'
+  - '96'
+  - '97'
+  - '98'
+  - '99'
+  - '100'
+  - '101'
+  - '102'
+  - '103'
+  - '104'
+  - '105'
+  - '106'
+  - '107'
+  - '108'
+  - '109'
+  - '110'
+  - '111'
+  - '112'
+  - '113'
+  - '114'
+  - '115'
+  - '116'
+  - '117'
+  - '118'
+  - '119'
+  - '120'
+  - '121'
+  - '122'
+  - '123'
+  - '124'
+  - '125'
+  - '126'
+  - '127'
+  - '128'
+  - '129'
+  - '130'
+  - '131'
+  - '132'
+  - '133'
+  - '134'
+  - '135'
+  - '136'
+  - '137'
+  - '138'
+  - '139'
+  - '140'
+  - '141'
+  - '142'
+  - '143'
+  - '144'
+  - '145'
+  - '146'
+  - '147'
+  - '148'
+  - '149'
+  - '150'
+  - '151'
+  - '152'
+  - '153'
+  - '154'
+  - '155'
+  - '156'
+  - '157'
+  - '158'
+  - '159'
+  - '160'
+  - '161'
+  - '162'
+  - '163'
+  - '164'
+  - '165'
+  - '166'
+  - '167'
+  - '168'
+  - '169'
+  - '170'
+  - '171'
+  - '172'
+  - '173'
+  - '174'
+  - '175'
+  - '176'
+  - '177'
+  - '178'
+  - '179'
+  - '180'
+  - '181'
+  - '182'
+  - '183'
+  - '184'
+  - '185'
+  - '186'
+  - '187'
+  - '188'
+  - '189'
+  - '190'
+  - '191'
+  - '192'
+  - '193'
   type: select
 - interval: 600
   lazy: true
@@ -1504,6 +3115,106 @@ proxy-groups:
   - '91'
   - '92'
   - '93'
+  - '94'
+  - '95'
+  - '96'
+  - '97'
+  - '98'
+  - '99'
+  - '100'
+  - '101'
+  - '102'
+  - '103'
+  - '104'
+  - '105'
+  - '106'
+  - '107'
+  - '108'
+  - '109'
+  - '110'
+  - '111'
+  - '112'
+  - '113'
+  - '114'
+  - '115'
+  - '116'
+  - '117'
+  - '118'
+  - '119'
+  - '120'
+  - '121'
+  - '122'
+  - '123'
+  - '124'
+  - '125'
+  - '126'
+  - '127'
+  - '128'
+  - '129'
+  - '130'
+  - '131'
+  - '132'
+  - '133'
+  - '134'
+  - '135'
+  - '136'
+  - '137'
+  - '138'
+  - '139'
+  - '140'
+  - '141'
+  - '142'
+  - '143'
+  - '144'
+  - '145'
+  - '146'
+  - '147'
+  - '148'
+  - '149'
+  - '150'
+  - '151'
+  - '152'
+  - '153'
+  - '154'
+  - '155'
+  - '156'
+  - '157'
+  - '158'
+  - '159'
+  - '160'
+  - '161'
+  - '162'
+  - '163'
+  - '164'
+  - '165'
+  - '166'
+  - '167'
+  - '168'
+  - '169'
+  - '170'
+  - '171'
+  - '172'
+  - '173'
+  - '174'
+  - '175'
+  - '176'
+  - '177'
+  - '178'
+  - '179'
+  - '180'
+  - '181'
+  - '182'
+  - '183'
+  - '184'
+  - '185'
+  - '186'
+  - '187'
+  - '188'
+  - '189'
+  - '190'
+  - '191'
+  - '192'
+  - '193'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
