@@ -225,22 +225,6 @@ proxies:
   name: '15'
   network: ws
   port: 38106
-  server: 101.230.149.29
-  servername: www.ivpnpro.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 1
-  cipher: auto
-  country: ' CN'
-  http-opts: {}
-  name: '16'
-  network: ws
-  port: 38106
   server: 119.147.20.236
   servername: www.ivpnpro.net
   skip-cert-verify: true
@@ -254,7 +238,7 @@ proxies:
   cipher: auto
   country: ' CN'
   http-opts: {}
-  name: '17'
+  name: '16'
   network: ws
   port: 38201
   server: 120.240.48.19
@@ -270,7 +254,7 @@ proxies:
   cipher: auto
   country: ' CN'
   http-opts: {}
-  name: '18'
+  name: '17'
   network: ws
   port: 38106
   server: 120.240.48.19
@@ -286,23 +270,7 @@ proxies:
   cipher: auto
   country: ' CN'
   http-opts: {}
-  name: '19'
-  network: ws
-  port: 50206
-  server: 115.236.135.90
-  servername: telegram.channel.p2psharing
-  skip-cert-verify: true
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 1
-  cipher: auto
-  country: ' CN'
-  http-opts: {}
-  name: '20'
+  name: '18'
   network: ws
   port: 38701
   server: 119.147.20.236
@@ -316,21 +284,43 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  country: ' US'
-  http-opts: {}
-  name: '21'
-  network: ws
-  port: 10125
-  server: 20.205.140.27
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586
-  ws-opts:
+  http-opts:
     headers:
-      Host: wapsd.189.cn
-    path: /
+      Host:
+      - wapsd.189.cn
+  name: '19'
+  network: http
+  port: 15801
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '20'
+  network: http
+  port: 15802
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '21'
+  network: http
+  port: 15803
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -339,7 +329,7 @@ proxies:
       - wapsd.189.cn
   name: '22'
   network: http
-  port: 15801
+  port: 15804
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -352,7 +342,7 @@ proxies:
       - wapsd.189.cn
   name: '23'
   network: http
-  port: 15802
+  port: 15805
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -365,7 +355,7 @@ proxies:
       - wapsd.189.cn
   name: '24'
   network: http
-  port: 15803
+  port: 15806
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -378,45 +368,6 @@ proxies:
       - wapsd.189.cn
   name: '25'
   network: http
-  port: 15804
-  server: test.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '26'
-  network: http
-  port: 15805
-  server: test.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '27'
-  network: http
-  port: 15806
-  server: test.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '28'
-  network: http
   port: 15801
   server: test.0098dns01in.work
   type: vmess
@@ -428,7 +379,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '29'
+  name: '26'
   network: http
   port: 15802
   server: test.0098dns01in.work
@@ -441,7 +392,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '30'
+  name: '27'
   network: http
   port: 15803
   server: test.0098dns01in.work
@@ -454,7 +405,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '31'
+  name: '28'
   network: http
   port: 15804
   server: test.0098dns01in.work
@@ -467,7 +418,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '32'
+  name: '29'
   network: http
   port: 15805
   server: test.0098dns01in.work
@@ -480,7 +431,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '33'
+  name: '30'
   network: http
   port: 15806
   server: test.0098dns01in.work
@@ -489,7 +440,7 @@ proxies:
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
 - alterId: 0
   cipher: auto
-  name: '34'
+  name: '31'
   network: ws
   port: 8899
   server: aws1.sgp.tgproxy.wtf
@@ -504,7 +455,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '35'
+  name: '32'
   network: ws
   port: 8899
   server: aws1.sgp.tgproxy.wtf
@@ -519,7 +470,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '36'
+  name: '33'
   network: ws
   port: 10080
   server: transit01.balala2016.xyz
@@ -534,7 +485,7 @@ proxies:
     path: /hk18
 - alterId: 0
   cipher: auto
-  name: '37'
+  name: '34'
   network: ws
   port: 10080
   server: hk12.balala2016.xyz
@@ -549,7 +500,7 @@ proxies:
     path: /balala
 - alterId: 0
   cipher: auto
-  name: '38'
+  name: '35'
   network: ws
   port: 10080
   server: transit01.balala2016.xyz
@@ -564,7 +515,7 @@ proxies:
     path: /balala
 - alterId: 0
   cipher: auto
-  name: '39'
+  name: '36'
   network: ws
   port: 10080
   server: hk51.balala2016.xyz
@@ -579,7 +530,7 @@ proxies:
     path: /hk51
 - alterId: 0
   cipher: auto
-  name: '40'
+  name: '37'
   network: ws
   port: 20086
   server: js01.balala2016.xyz
@@ -594,7 +545,7 @@ proxies:
     path: /sg02
 - alterId: 0
   cipher: auto
-  name: '41'
+  name: '38'
   network: ws
   port: 80
   server: transit01.balala2016.xyz
@@ -609,7 +560,7 @@ proxies:
     path: /jp01
 - alterId: 0
   cipher: auto
-  name: '42'
+  name: '39'
   network: ws
   port: 20086
   server: js01.balala2016.xyz
@@ -624,7 +575,7 @@ proxies:
     path: /balala
 - alterId: 0
   cipher: auto
-  name: '43'
+  name: '40'
   network: ws
   port: 20086
   server: js02.balala2016.xyz
@@ -639,7 +590,7 @@ proxies:
     path: /balala
 - alterId: 0
   cipher: auto
-  name: '44'
+  name: '41'
   network: ws
   port: 20086
   server: js03.balala2016.xyz
@@ -654,7 +605,7 @@ proxies:
     path: /balala
 - alterId: 0
   cipher: auto
-  name: '45'
+  name: '42'
   network: ws
   port: 55155
   server: fs.keaiyun.xyz
@@ -669,7 +620,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '46'
+  name: '43'
   network: ws
   port: 20086
   server: js02.balala2016.xyz
@@ -684,7 +635,7 @@ proxies:
     path: /tw01
 - alterId: 0
   cipher: auto
-  name: '47'
+  name: '44'
   network: ws
   port: 20086
   server: js03.balala2016.xyz
@@ -699,7 +650,7 @@ proxies:
     path: /hk18
 - alterId: 0
   cipher: auto
-  name: '48'
+  name: '45'
   network: ws
   port: 80
   server: hk03.balala2016.xyz
@@ -714,7 +665,7 @@ proxies:
     path: /balala
 - alterId: 0
   cipher: auto
-  name: '49'
+  name: '46'
   network: ws
   port: 20086
   server: js01.balala2016.xyz
@@ -729,7 +680,7 @@ proxies:
     path: /jp01
 - alterId: 0
   cipher: auto
-  name: '50'
+  name: '47'
   network: ws
   port: 20086
   server: js01.balala2016.xyz
@@ -744,7 +695,7 @@ proxies:
     path: /hk18
 - alterId: 0
   cipher: auto
-  name: '51'
+  name: '48'
   network: ws
   port: 20086
   server: js02.balala2016.xyz
@@ -759,7 +710,7 @@ proxies:
     path: /hk18
 - alterId: 0
   cipher: auto
-  name: '52'
+  name: '49'
   network: ws
   port: 20086
   server: js03.balala2016.xyz
@@ -774,7 +725,7 @@ proxies:
     path: /hk51
 - alterId: 0
   cipher: auto
-  name: '53'
+  name: '50'
   network: ws
   port: 20086
   server: js02.balala2016.xyz
@@ -789,7 +740,7 @@ proxies:
     path: /hk51
 - alterId: 0
   cipher: auto
-  name: '54'
+  name: '51'
   network: ws
   port: 10080
   server: transit01.balala2016.xyz
@@ -804,7 +755,7 @@ proxies:
     path: /kr01
 - alterId: 0
   cipher: auto
-  name: '55'
+  name: '52'
   network: ws
   port: 48517
   server: fs.keaiyun.xyz
@@ -819,7 +770,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '56'
+  name: '53'
   network: ws
   port: 80
   server: hk02.balala2016.xyz
@@ -834,7 +785,7 @@ proxies:
     path: /balala
 - alterId: 0
   cipher: auto
-  name: '57'
+  name: '54'
   network: ws
   port: 10080
   server: transit01.balala2016.xyz
@@ -849,7 +800,7 @@ proxies:
     path: /us02
 - alterId: 0
   cipher: auto
-  name: '58'
+  name: '55'
   network: ws
   port: 40040
   server: ru1.lolvps.xyz
@@ -865,7 +816,7 @@ proxies:
     path: /6129CFHR
 - alterId: 0
   cipher: auto
-  name: '59'
+  name: '56'
   network: ws
   port: 10080
   server: js01.balala2016.xyz
@@ -880,7 +831,7 @@ proxies:
     path: /nl01
 - alterId: 0
   cipher: auto
-  name: '60'
+  name: '57'
   network: ws
   port: 10080
   server: hk18.balala2016.xyz
@@ -895,7 +846,7 @@ proxies:
     path: /hk18
 - alterId: 0
   cipher: auto
-  name: '61'
+  name: '58'
   network: ws
   port: 48550
   server: fs.keaiyun.xyz
@@ -910,7 +861,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '62'
+  name: '59'
   network: ws
   port: 48552
   server: fs.keaiyun.xyz
@@ -925,7 +876,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '63'
+  name: '60'
   network: ws
   port: 10080
   server: transit01.balala2016.xyz
@@ -940,7 +891,7 @@ proxies:
     path: /fr01
 - alterId: 0
   cipher: auto
-  name: '64'
+  name: '61'
   network: ws
   port: 10080
   server: transit01.balala2016.xyz
@@ -955,7 +906,7 @@ proxies:
     path: /tw01
 - alterId: 0
   cipher: auto
-  name: '65'
+  name: '62'
   network: ws
   port: 10080
   server: transit01.balala2016.xyz
@@ -970,7 +921,7 @@ proxies:
     path: /uk01
 - alterId: 0
   cipher: auto
-  name: '66'
+  name: '63'
   network: ws
   port: 10080
   server: transit01.balala2016.xyz
@@ -983,23 +934,39 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /sg02
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: '67'
+  name: '64'
   network: ws
-  port: 50206
-  server: 115.236.135.90
+  port: 37675
+  server: azure-hk-1.forwardserver.xyz
+  servername: wapsd.189.cn
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  uuid: 0b406a9e-1685-4f10-a684-64376ac5d380
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
+    path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: '68'
+  name: '65'
+  network: ws
+  port: 22214
+  server: azure-hk-1.forwardserver.xyz
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0b406a9e-1685-4f10-a684-64376ac5d380
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /nana
+- alterId: 0
+  cipher: auto
+  name: '66'
   network: ws
   port: 50021
   server: 210.3.245.46
@@ -1012,13 +979,73 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /D1LYYDHH
+- alterId: 0
+  cipher: auto
+  name: '67'
+  network: ws
+  port: 36779
+  server: azure-hk-1.forwardserver.xyz
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0b406a9e-1685-4f10-a684-64376ac5d380
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /nana
+- alterId: 0
+  cipher: auto
+  name: '68'
+  network: ws
+  port: 42010
+  server: azure-hk-1.forwardserver.xyz
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0b406a9e-1685-4f10-a684-64376ac5d380
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: '69'
+  network: ws
+  port: 59627
+  server: azure-hk-1.forwardserver.xyz
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0b406a9e-1685-4f10-a684-64376ac5d380
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: '70'
+  network: ws
+  port: 15124
+  server: azure-hk-1.forwardserver.xyz
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0b406a9e-1685-4f10-a684-64376ac5d380
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /nana
 - alterId: 64
   cipher: auto
   http-opts:
     headers:
       Host:
       - wapsd.189.cn
-  name: '69'
+  name: '71'
   network: http
   port: 47950
   server: 43.229.115.134
@@ -1032,7 +1059,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '70'
+  name: '72'
   network: http
   port: 15789
   server: 61.222.202.140
@@ -1042,7 +1069,7 @@ proxies:
   uuid: 4535e708-5988-4377-a083-755ed60d8068
 - alterId: 0
   cipher: auto
-  name: '71'
+  name: '73'
   network: ws
   port: 12880
   server: 61.222.202.213
@@ -1056,7 +1083,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '72'
+  name: '74'
   network: ws
   port: 33792
   server: 61.222.202.140
@@ -1146,6 +1173,8 @@ proxy-groups:
   - '70'
   - '71'
   - '72'
+  - '73'
+  - '74'
   type: select
 - interval: 600
   lazy: true
@@ -1223,6 +1252,8 @@ proxy-groups:
   - '70'
   - '71'
   - '72'
+  - '73'
+  - '74'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
