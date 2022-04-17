@@ -822,28 +822,13 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
-- alterId: 0
-  cipher: auto
-  name: '56'
-  network: ws
-  port: 443
-  server: 129.226.178.235
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7824cbc1-f82d-48cf-fb1d-54d8911849c8
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /yorknodes-fr-par-1
 - alterId: 64
   cipher: auto
   http-opts:
     headers:
       Host:
       - wapsd.189.cn
-  name: '57'
+  name: '56'
   network: http
   port: 47950
   server: 43.229.115.134
@@ -853,21 +838,7 @@ proxies:
   uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
 - alterId: 0
   cipher: auto
-  name: '58'
-  network: ws
-  port: 12880
-  server: 61.222.202.213
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d4b64497-2773-4281-96f1-fc2914ea3c28
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '59'
+  name: '57'
   network: ws
   port: 33792
   server: 61.222.202.140
@@ -885,7 +856,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '60'
+  name: '58'
   network: http
   port: 15789
   server: 61.222.202.140
@@ -895,19 +866,18 @@ proxies:
   uuid: 4535e708-5988-4377-a083-755ed60d8068
 - alterId: 0
   cipher: auto
-  name: '61'
+  name: '59'
   network: ws
-  port: 443
-  server: 7.vip341.xyz
-  servername: wapsd.189.cn
+  port: 12880
+  server: 61.222.202.213
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: 7be6ddbc-697e-3175-9dad-cfdfe33450f2
+  uuid: d4b64497-2773-4281-96f1-fc2914ea3c28
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /ny
+    path: /
 proxy-groups:
 - name: "\U0001F310 Select"
   proxies:
@@ -973,8 +943,6 @@ proxy-groups:
   - '57'
   - '58'
   - '59'
-  - '60'
-  - '61'
   type: select
 - interval: 600
   lazy: true
@@ -1039,8 +1007,6 @@ proxy-groups:
   - '57'
   - '58'
   - '59'
-  - '60'
-  - '61'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
