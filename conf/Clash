@@ -494,13 +494,28 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
+- alterId: 0
+  cipher: auto
+  name: '35'
+  network: ws
+  port: 443
+  server: 129.226.178.235
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7824cbc1-f82d-48cf-fb1d-54d8911849c8
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /yorknodes-fr-par-1
 - alterId: 64
   cipher: auto
   http-opts:
     headers:
       Host:
       - wapsd.189.cn
-  name: '35'
+  name: '36'
   network: http
   port: 47950
   server: 43.229.115.134
@@ -508,9 +523,37 @@ proxies:
   tls: false
   type: vmess
   uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
+- alterId: 2
+  cipher: auto
+  name: '37'
+  network: ws
+  port: 10305
+  server: hkaz3.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 471273e7-81e0-317c-9cb4-a9eacf775219
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /index
 - alterId: 0
   cipher: auto
-  name: '36'
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '38'
+  network: http
+  port: 27442
+  server: 45.125.64.201
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3463f354-529a-4f40-9019-b9b10dc08233
+- alterId: 0
+  cipher: auto
+  name: '39'
   network: ws
   port: 33792
   server: 61.222.202.140
@@ -528,7 +571,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '37'
+  name: '40'
   network: http
   port: 15789
   server: 61.222.202.140
@@ -536,21 +579,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4535e708-5988-4377-a083-755ed60d8068
-- alterId: 0
-  cipher: auto
-  name: '38'
-  network: ws
-  port: 443
-  server: 3.ezydfdd.com
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b80673f0-6b36-4056-a3fa-c460f41bde37
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /qwe
 proxy-groups:
 - name: "\U0001F310 Select"
   proxies:
@@ -595,6 +623,8 @@ proxy-groups:
   - '36'
   - '37'
   - '38'
+  - '39'
+  - '40'
   type: select
 - interval: 600
   lazy: true
@@ -638,6 +668,8 @@ proxy-groups:
   - '36'
   - '37'
   - '38'
+  - '39'
+  - '40'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
