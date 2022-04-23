@@ -50,15 +50,12 @@ proxy-test-url = http://www.gstatic.com/generate_204
 44 = vmess, jp2802.cloudmatrix.xyz, 2802, username=a992be42-bed4-3037-8788-9e860cd635d3, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
 45 = vmess, sg21101.cloudmatrix.xyz, 21101, username=479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
 46 = vmess, hk2703.cloudmatrix.xyz, 2703, username=a992be42-bed4-3037-8788-9e860cd635d3, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
-47 = vmess, cmjm.senlinss.link, 21131, username=8697b9c9-71b3-36e0-9c25-23b370f47956, ws=true, ws-path=/index, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
-48 = vmess, hkaz007.xmrth-node.xyz, 10296, username=471273e7-81e0-317c-9cb4-a9eacf775219, ws=true, ws-path=/index, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
-49 = vmess, hkaz002.xmrth-node.xyz, 10281, username=471273e7-81e0-317c-9cb4-a9eacf775219, ws=true, ws-path=/index, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
-50 = vmess, hkaz004.xmrth-node.xyz, 10003, username=57d21b5b-284a-3433-8738-9dca3b69feb9, ws=true, ws-path=/index, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
-51 = vmess, 61.222.202.140, 33792, username=e55cd182-01b0-4fb7-a510-363701a491c5, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+47 = vmess, hkaz004.xmrth-node.xyz, 10003, username=49aed705-ac45-332c-aa62-7ac9a9d8cb0b, ws=true, ws-path=/index, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
+48 = vmess, 61.222.202.140, 33792, username=e55cd182-01b0-4fb7-a510-363701a491c5, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
 
 [Proxy Group]
-ml = select, auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-auto = url-test, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
+ml = select, auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48
+auto = url-test, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
 
 [Rule]
 FINAL, ml

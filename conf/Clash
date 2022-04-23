@@ -874,41 +874,13 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '60'
-  network: ws
-  port: 21131
-  server: cmjm.senlinss.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /index
-- alterId: 2
-  cipher: auto
-  name: '61'
-  network: ws
-  port: 10296
-  server: hkaz007.xmrth-node.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 471273e7-81e0-317c-9cb4-a9eacf775219
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /index
 - alterId: 64
   cipher: auto
   http-opts:
     headers:
       Host:
       - wapsd.189.cn
-  name: '62'
+  name: '60'
   network: http
   port: 47950
   server: 43.229.115.134
@@ -918,28 +890,14 @@ proxies:
   uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
 - alterId: 2
   cipher: auto
-  name: '63'
-  network: ws
-  port: 10281
-  server: hkaz002.xmrth-node.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 471273e7-81e0-317c-9cb4-a9eacf775219
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /index
-- alterId: 2
-  cipher: auto
-  name: '64'
+  name: '61'
   network: ws
   port: 10003
   server: hkaz004.xmrth-node.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 57d21b5b-284a-3433-8738-9dca3b69feb9
+  uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b
   ws-opts:
     headers:
       Host: wapsd.189.cn
@@ -950,17 +908,17 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '65'
+  name: '62'
   network: http
-  port: 27442
-  server: 45.125.64.201
+  port: 15789
+  server: 61.222.202.140
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3463f354-529a-4f40-9019-b9b10dc08233
+  uuid: 4535e708-5988-4377-a083-755ed60d8068
 - alterId: 0
   cipher: auto
-  name: '66'
+  name: '63'
   network: ws
   port: 33792
   server: 61.222.202.140
@@ -972,20 +930,6 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '67'
-  network: http
-  port: 15789
-  server: 61.222.202.140
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4535e708-5988-4377-a083-755ed60d8068
 proxy-groups:
 - name: "\U0001F310 Select"
   proxies:
@@ -1055,10 +999,6 @@ proxy-groups:
   - '61'
   - '62'
   - '63'
-  - '64'
-  - '65'
-  - '66'
-  - '67'
   type: select
 - interval: 600
   lazy: true
@@ -1127,10 +1067,6 @@ proxy-groups:
   - '61'
   - '62'
   - '63'
-  - '64'
-  - '65'
-  - '66'
-  - '67'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
