@@ -175,6 +175,22 @@ proxies:
   http-opts: {}
   name: '12'
   network: ws
+  port: 38201
+  server: 119.147.20.236
+  servername: ingress-i1.onebox6.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  country: ' CN'
+  http-opts: {}
+  name: '13'
+  network: ws
   port: 50206
   server: 113.240.72.211
   servername: telegram.channel.p2psharing
@@ -189,26 +205,10 @@ proxies:
   cipher: auto
   country: ' CN'
   http-opts: {}
-  name: '13'
-  network: ws
-  port: 38106
-  server: 101.230.149.29
-  servername: www.ivpnpro.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 1
-  cipher: auto
-  country: ' CN'
-  http-opts: {}
   name: '14'
   network: ws
   port: 38106
-  server: 119.147.20.236
+  server: 101.230.149.29
   servername: www.ivpnpro.net
   skip-cert-verify: true
   type: vmess
@@ -451,453 +451,44 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
   name: '32'
   network: ws
-  port: 43312
-  server: hkt.zhongyun.xyz
-  servername: wapsd.189.cn
+  port: 21124
+  server: 183.232.163.120
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  udp: true
-  uuid: 2eae0876-b17f-4f57-af38-c138668db626
+  uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /c
+    path: /index
 - alterId: 2
   cipher: auto
   name: '33'
-  network: ws
-  port: 2506
-  server: tw2506.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '34'
-  network: ws
-  port: 2603
-  server: sg2603.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '35'
-  network: ws
-  port: 2505
-  server: tw2505.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '36'
-  network: ws
-  port: 21301
-  server: jp21301.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '37'
-  network: ws
-  port: 2702
-  server: hk2702.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: '38'
-  network: ws
-  port: 50050
-  server: hnt.stashbox.best
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 65aa9fbd-4185-47ee-80be-34721dee1ff0
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '39'
-  network: ws
-  port: 2704
-  server: hk2704.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '40'
-  network: ws
-  port: 2702
-  server: hk2702.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: '41'
-  network: ws
-  port: 443
-  server: 104.25.234.170
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f78db9ae-24c2-4a83-9d96-e8def79d0379
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /Support-Putin-Kill-all-Ukrainians_vws
-- alterId: 2
-  cipher: auto
-  name: '42'
-  network: ws
-  port: 21202
-  server: hk21202.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '43'
-  network: ws
-  port: 21202
-  server: hk21202.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '44'
-  network: ws
-  port: 2406
-  server: us2406.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '45'
-  network: ws
-  port: 2603
-  server: sg2603.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '46'
-  network: ws
-  port: 21701
-  server: ru21701.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 23
-  cipher: auto
-  name: '47'
-  network: ws
-  port: 14474
-  server: shaobo.monster
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ccd2b01-2fe3-4226-ced8-96e901a85aaf
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '48'
-  network: ws
-  port: 2604
-  server: sg2604.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '49'
-  network: ws
-  port: 21102
-  server: sg21102.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '50'
-  network: ws
-  port: 2504
-  server: tw2504.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '51'
-  network: ws
-  port: 2504
-  server: tw2504.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '52'
-  network: ws
-  port: 2901
-  server: uk2901.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '53'
-  network: ws
-  port: 24055
-  server: us24055.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '54'
-  network: ws
-  port: 2704
-  server: hk2704.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '55'
-  network: ws
-  port: 24052
-  server: us24052.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '56'
-  network: ws
-  port: 21101
-  server: sg21101.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '57'
-  network: ws
-  port: 2802
-  server: jp2802.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '58'
-  network: ws
-  port: 21101
-  server: sg21101.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: '59'
-  network: ws
-  port: 2703
-  server: hk2703.cloudmatrix.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a992be42-bed4-3037-8788-9e860cd635d3
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: 64
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '60'
-  network: http
-  port: 47950
-  server: 43.229.115.134
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
-- alterId: 2
-  cipher: auto
-  name: '61'
   network: ws
   port: 10003
   server: hkaz004.xmrth-node.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b
+  uuid: 471273e7-81e0-317c-9cb4-a9eacf775219
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /index
+- alterId: 2
+  cipher: auto
+  name: '34'
+  network: ws
+  port: 10281
+  server: hkaz002.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 471273e7-81e0-317c-9cb4-a9eacf775219
   ws-opts:
     headers:
       Host: wapsd.189.cn
@@ -908,7 +499,49 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '62'
+  name: '35'
+  network: http
+  port: 27442
+  server: 45.125.64.201
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3463f354-529a-4f40-9019-b9b10dc08233
+- alterId: 0
+  cipher: auto
+  name: '36'
+  network: ws
+  port: 80
+  server: 104.208.88.1
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 985dc171-40f8-4daf-b1ca-c8fb6aecdb72
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 64
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '37'
+  network: http
+  port: 47950
+  server: 43.229.115.134
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '38'
   network: http
   port: 15789
   server: 61.222.202.140
@@ -918,7 +551,21 @@ proxies:
   uuid: 4535e708-5988-4377-a083-755ed60d8068
 - alterId: 0
   cipher: auto
-  name: '63'
+  name: '39'
+  network: ws
+  port: 80
+  server: c27821f.rc.cloudflare.systems
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /s/c27821f.fm.icloud.com:16708
+- alterId: 0
+  cipher: auto
+  name: '40'
   network: ws
   port: 33792
   server: 61.222.202.140
@@ -976,29 +623,6 @@ proxy-groups:
   - '38'
   - '39'
   - '40'
-  - '41'
-  - '42'
-  - '43'
-  - '44'
-  - '45'
-  - '46'
-  - '47'
-  - '48'
-  - '49'
-  - '50'
-  - '51'
-  - '52'
-  - '53'
-  - '54'
-  - '55'
-  - '56'
-  - '57'
-  - '58'
-  - '59'
-  - '60'
-  - '61'
-  - '62'
-  - '63'
   type: select
 - interval: 600
   lazy: true
@@ -1044,29 +668,6 @@ proxy-groups:
   - '38'
   - '39'
   - '40'
-  - '41'
-  - '42'
-  - '43'
-  - '44'
-  - '45'
-  - '46'
-  - '47'
-  - '48'
-  - '49'
-  - '50'
-  - '51'
-  - '52'
-  - '53'
-  - '54'
-  - '55'
-  - '56'
-  - '57'
-  - '58'
-  - '59'
-  - '60'
-  - '61'
-  - '62'
-  - '63'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
