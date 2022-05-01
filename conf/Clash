@@ -458,7 +458,7 @@ proxies:
       - wapsd.189.cn
   name: '32'
   network: http
-  port: 12438
+  port: 12433
   server: cm1-hk.hutaod.me
   skip-cert-verify: true
   tls: false
@@ -466,32 +466,32 @@ proxies:
   uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5
 - alterId: 0
   cipher: auto
-  name: '33'
-  network: ws
-  port: 16650
-  server: az.gzfxd.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 04bc191c-aeb8-453a-ba80-fac958363a68
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
-- alterId: 64
-  cipher: auto
   http-opts:
     headers:
       Host:
       - wapsd.189.cn
-  name: '34'
+  name: '33'
   network: http
-  port: 47950
-  server: 43.229.115.134
+  port: 12436
+  server: cm1-hk.hutaod.me
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
+  uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5
+- alterId: 1
+  cipher: auto
+  name: '34'
+  network: ws
+  port: 38201
+  server: 119.147.20.236
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
   http-opts:
@@ -499,6 +499,204 @@ proxies:
       Host:
       - wapsd.189.cn
   name: '35'
+  network: http
+  port: 12438
+  server: cm1-hk.hutaod.me
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5
+- alterId: 2
+  cipher: auto
+  name: '36'
+  network: ws
+  port: 2703
+  server: hk2703.cloudmatrix.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a992be42-bed4-3037-8788-9e860cd635d3
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '37'
+  network: http
+  port: 12437
+  server: cm1-hk.hutaod.me
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '38'
+  network: http
+  port: 12434
+  server: cm1-hk.hutaod.me
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '39'
+  network: http
+  port: 12431
+  server: cm1-hk.hutaod.me
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '40'
+  network: http
+  port: 12432
+  server: cm1-hk.hutaod.me
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '41'
+  network: http
+  port: 12435
+  server: cm1-hk.hutaod.me
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5
+- alterId: 2
+  cipher: auto
+  name: '42'
+  network: ws
+  port: 11153
+  server: hkaz2.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /index
+- alterId: 64
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '43'
+  network: http
+  port: 47950
+  server: 43.229.115.134
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc
+- alterId: 2
+  cipher: auto
+  name: '44'
+  network: ws
+  port: 20224
+  server: imgU140111366548.hk.huawei-cacahe.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 1
+  cipher: auto
+  name: '45'
+  network: ws
+  port: 447
+  server: jp05-vm0.entry.ikuuu.casa
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 31a43857-f64f-3919-bfd8-32858b804749
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: '46'
+  network: ws
+  port: 80
+  server: hk3.fdns.cloudlink123.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 1
+  cipher: auto
+  name: '47'
+  network: ws
+  port: 892
+  server: jp01-tls-vm0.entry.ikuuu.casa
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 31a43857-f64f-3919-bfd8-32858b804749
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /hls/cctv5phd.m3u8
+- alterId: 2
+  cipher: auto
+  name: '48'
+  network: ws
+  port: 21700
+  server: tw3.edgehelper.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '49'
   network: http
   port: 15789
   server: 61.222.202.140
@@ -547,6 +745,20 @@ proxy-groups:
   - '33'
   - '34'
   - '35'
+  - '36'
+  - '37'
+  - '38'
+  - '39'
+  - '40'
+  - '41'
+  - '42'
+  - '43'
+  - '44'
+  - '45'
+  - '46'
+  - '47'
+  - '48'
+  - '49'
   type: select
 - interval: 600
   lazy: true
@@ -587,6 +799,20 @@ proxy-groups:
   - '33'
   - '34'
   - '35'
+  - '36'
+  - '37'
+  - '38'
+  - '39'
+  - '40'
+  - '41'
+  - '42'
+  - '43'
+  - '44'
+  - '45'
+  - '46'
+  - '47'
+  - '48'
+  - '49'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:

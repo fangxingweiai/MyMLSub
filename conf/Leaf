@@ -25,10 +25,17 @@ socks-port = 7890
 16 = vmess, v2-2.godlight.xyz, 30526, username=43308d27-94ec-408e-a8f6-d682cfb99ca9, ws=true, ws-path=/54f634fs, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 17 = vmess, gz-1.jiasugou.one, 15004, username=985eb001-56be-3bb9-927a-f3b9c6376a49, ws=true, ws-path=/zh-cn/news, wapsd.189.cn, tls=false
 18 = vmess, gz-1.jiasugou.one, 15004, username=985eb001-56be-3bb9-927a-f3b9c6376a49, ws=true, ws-path=/zh-cn/news, wapsd.189.cn, tls=false
-19 = vmess, az.gzfxd.xyz, 16650, username=04bc191c-aeb8-453a-ba80-fac958363a68, ws=true, ws-path=/, wapsd.189.cn, tls=false
+19 = vmess, 119.147.20.236, 38201, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, wapsd.189.cn, tls=false
+20 = vmess, hk2703.cloudmatrix.xyz, 2703, username=a992be42-bed4-3037-8788-9e860cd635d3, ws=true, ws-path=/hls/cctv5phd.m3u8, wapsd.189.cn, tls=false
+21 = vmess, hkaz2.xmrth-node.xyz, 11153, username=ececdd8d-d257-3e9b-a770-9abaf61e4920, ws=true, ws-path=/index, wapsd.189.cn, tls=false
+22 = vmess, imgU140111366548.hk.huawei-cacahe.com, 20224, username=d8860258-4ce1-4412-9ede-ecfd8d827ca4, ws=true, ws-path=/, wapsd.189.cn, tls=false
+23 = vmess, jp05-vm0.entry.ikuuu.casa, 447, username=31a43857-f64f-3919-bfd8-32858b804749, ws=true, ws-path=/hls/cctv5phd.m3u8, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+24 = vmess, hk3.fdns.cloudlink123.com, 80, username=3f6006ca-e8ba-49d5-af9d-f4806dd36e09, ws=true, ws-path=/, wapsd.189.cn, tls=false
+25 = vmess, jp01-tls-vm0.entry.ikuuu.casa, 892, username=31a43857-f64f-3919-bfd8-32858b804749, ws=true, ws-path=/hls/cctv5phd.m3u8, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+26 = vmess, tw3.edgehelper.com, 21700, username=d8860258-4ce1-4412-9ede-ecfd8d827ca4, ws=true, ws-path=/, wapsd.189.cn, tls=false
 
 [Proxy Group]
-ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, interval=600, timeout=5
+ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, interval=600, timeout=5
 
 [Rule]
 FINAL, ml
