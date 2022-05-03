@@ -6,18 +6,24 @@ proxy-test-url = http://www.gstatic.com/generate_204
 [Proxy]
 1 = vmess, ru.nuker.biz, 443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
 2 = vmess, sfo1.nuker.biz, 443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-3 = vmess, us-ca1.qwqjsq.top, 80, username=b0543a3b-d690-3ed9-9a81-f24f852e74f7, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-4 = vmess, www.digitalocean.com, 443, username=c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, ws=true, ws-path=/Support-Putin-Kill-all-Ukrainians_vws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-5 = vmess, ulose.win, 24787, username=319fc6fc-a715-4763-f44e-eae525ebdc18, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-6 = vmess, v2ray.wefuckgfw.ga, 8443, username=104ce500-b353-11ec-a378-52ac00ea1411, ws=true, ws-path=/E94olUFf/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-7 = vmess, 104.17.67.190, 443, username=1293e022-6347-4d7e-8425-e65576b6ae0e, ws=true, ws-path=/Support-Putin-Kill-all-Ukrainians_vws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-8 = vmess, v2-2.godlight.xyz, 30526, username=43308d27-94ec-408e-a8f6-d682cfb99ca9, ws=true, ws-path=/54f634fs, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-9 = vmess, gz-1.jiasugou.one, 15004, username=985eb001-56be-3bb9-927a-f3b9c6376a49, ws=true, ws-path=/zh-cn/news, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-10 = vmess, gz-1.jiasugou.one, 15004, username=985eb001-56be-3bb9-927a-f3b9c6376a49, ws=true, ws-path=/zh-cn/news, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+3 = vmess, 117.28.242.156, 2164, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+4 = vmess, 120.240.48.19, 38201, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
+5 = vmess, 120.240.48.19, 38106, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
+6 = vmess, 113.240.72.211, 50206, username=b1478e24-4916-3abe-8f17-15931012ecbe, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
+7 = vmess, 101.230.149.29, 38106, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
+8 = vmess, 104.166.135.10, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+9 = vmess, us-ca1.qwqjsq.top, 80, username=b0543a3b-d690-3ed9-9a81-f24f852e74f7, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+10 = vmess, www.digitalocean.com, 443, username=c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, ws=true, ws-path=/Support-Putin-Kill-all-Ukrainians_vws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+11 = vmess, ulose.win, 24787, username=319fc6fc-a715-4763-f44e-eae525ebdc18, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+12 = vmess, v2ray.wefuckgfw.ga, 8443, username=104ce500-b353-11ec-a378-52ac00ea1411, ws=true, ws-path=/E94olUFf/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+13 = vmess, 104.17.67.190, 443, username=1293e022-6347-4d7e-8425-e65576b6ae0e, ws=true, ws-path=/Support-Putin-Kill-all-Ukrainians_vws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+14 = vmess, v2-2.godlight.xyz, 30526, username=43308d27-94ec-408e-a8f6-d682cfb99ca9, ws=true, ws-path=/54f634fs, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+15 = vmess, gz-1.jiasugou.one, 15004, username=985eb001-56be-3bb9-927a-f3b9c6376a49, ws=true, ws-path=/zh-cn/news, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+16 = vmess, gz-1.jiasugou.one, 15004, username=985eb001-56be-3bb9-927a-f3b9c6376a49, ws=true, ws-path=/zh-cn/news, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
 
 [Proxy Group]
-ml = select, auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-auto = url-test, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
+ml = select, auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+auto = url-test, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
 
 [Rule]
 FINAL, ml
