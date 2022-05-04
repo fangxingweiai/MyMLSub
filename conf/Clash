@@ -88,6 +88,38 @@ proxies:
   http-opts: {}
   name: '5'
   network: ws
+  port: 38201
+  server: 120.240.48.19
+  servername: ingress-i1.onebox6.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  country: ' CN'
+  http-opts: {}
+  name: '6'
+  network: ws
+  port: 38106
+  server: 120.240.48.19
+  servername: www.ivpnpro.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  country: ' CN'
+  http-opts: {}
+  name: '7'
+  network: ws
   port: 50206
   server: 113.240.72.211
   servername: telegram.channel.p2psharing
@@ -98,58 +130,39 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /hls/cctv5phd.m3u8
-- alterId: 0
+- alterId: 1
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '6'
-  network: http
-  port: 15801
-  server: test.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '7'
-  network: http
-  port: 15802
-  server: test.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
+  country: ' CN'
+  http-opts: {}
   name: '8'
-  network: http
-  port: 15803
-  server: test.0098dns01in.work
+  network: ws
+  port: 38106
+  server: 101.230.149.29
+  servername: www.ivpnpro.net
+  skip-cert-verify: true
   type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
     headers:
-      Host:
-      - wapsd.189.cn
+      Host: wapsd.189.cn
+    path: /hls/cctv5phd.m3u8
+- alterId: 4
+  cipher: auto
+  country: ' US'
+  http-opts: {}
   name: '9'
-  network: http
-  port: 15804
-  server: test.0098dns01in.work
+  network: ws
+  port: 443
+  server: 104.166.135.10
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /ws
 - alterId: 0
   cipher: auto
   http-opts:
@@ -158,7 +171,7 @@ proxies:
       - wapsd.189.cn
   name: '10'
   network: http
-  port: 15805
+  port: 15801
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -171,7 +184,7 @@ proxies:
       - wapsd.189.cn
   name: '11'
   network: http
-  port: 15806
+  port: 15802
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -184,11 +197,11 @@ proxies:
       - wapsd.189.cn
   name: '12'
   network: http
-  port: 15801
+  port: 15803
   server: test.0098dns01in.work
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -197,11 +210,11 @@ proxies:
       - wapsd.189.cn
   name: '13'
   network: http
-  port: 15802
+  port: 15804
   server: test.0098dns01in.work
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -210,11 +223,11 @@ proxies:
       - wapsd.189.cn
   name: '14'
   network: http
-  port: 15803
+  port: 15805
   server: test.0098dns01in.work
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -223,11 +236,11 @@ proxies:
       - wapsd.189.cn
   name: '15'
   network: http
-  port: 15804
+  port: 15806
   server: test.0098dns01in.work
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -236,7 +249,7 @@ proxies:
       - wapsd.189.cn
   name: '16'
   network: http
-  port: 15805
+  port: 15801
   server: test.0098dns01in.work
   type: vmess
   udp: true
@@ -249,6 +262,58 @@ proxies:
       - wapsd.189.cn
   name: '17'
   network: http
+  port: 15802
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '18'
+  network: http
+  port: 15803
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '19'
+  network: http
+  port: 15804
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '20'
+  network: http
+  port: 15805
+  server: test.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '21'
+  network: http
   port: 15806
   server: test.0098dns01in.work
   type: vmess
@@ -256,7 +321,7 @@ proxies:
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
 - alterId: 0
   cipher: auto
-  name: '18'
+  name: '22'
   network: ws
   port: 80
   server: us-ca1.qwqjsq.top
@@ -271,7 +336,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '19'
+  name: '23'
   network: ws
   port: 443
   server: www.digitalocean.com
@@ -287,7 +352,7 @@ proxies:
     path: /Support-Putin-Kill-all-Ukrainians_vws
 - alterId: 0
   cipher: auto
-  name: '20'
+  name: '24'
   network: ws
   port: 24787
   server: ulose.win
@@ -303,7 +368,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21'
+  name: '25'
   network: ws
   port: 8443
   server: v2ray.wefuckgfw.ga
@@ -319,7 +384,7 @@ proxies:
     path: /E94olUFf/
 - alterId: 0
   cipher: auto
-  name: '22'
+  name: '26'
   network: ws
   port: 443
   server: 104.17.67.190
@@ -335,7 +400,7 @@ proxies:
     path: /Support-Putin-Kill-all-Ukrainians_vws
 - alterId: 0
   cipher: auto
-  name: '23'
+  name: '27'
   network: ws
   port: 30526
   server: v2-2.godlight.xyz
@@ -351,7 +416,7 @@ proxies:
     path: /54f634fs
 - alterId: 0
   cipher: auto
-  name: '24'
+  name: '28'
   network: ws
   port: 15004
   server: gz-1.jiasugou.one
@@ -366,7 +431,7 @@ proxies:
     path: /zh-cn/news
 - alterId: 0
   cipher: auto
-  name: '25'
+  name: '29'
   network: ws
   port: 15004
   server: gz-1.jiasugou.one
@@ -410,6 +475,10 @@ proxy-groups:
   - '23'
   - '24'
   - '25'
+  - '26'
+  - '27'
+  - '28'
+  - '29'
   type: select
 - interval: 600
   lazy: true
@@ -440,6 +509,10 @@ proxy-groups:
   - '23'
   - '24'
   - '25'
+  - '26'
+  - '27'
+  - '28'
+  - '29'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
