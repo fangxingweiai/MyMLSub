@@ -88,12 +88,12 @@ proxies:
   http-opts: {}
   name: '5'
   network: ws
-  port: 38201
-  server: 120.240.48.19
-  servername: ingress-i1.onebox6.org
+  port: 50206
+  server: 113.240.72.211
+  servername: telegram.channel.p2psharing
   skip-cert-verify: true
   type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   ws-opts:
     headers:
       Host: wapsd.189.cn
@@ -105,7 +105,7 @@ proxies:
   name: '6'
   network: ws
   port: 38106
-  server: 120.240.48.19
+  server: 101.230.149.29
   servername: www.ivpnpro.net
   skip-cert-verify: true
   type: vmess
@@ -114,22 +114,23 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /hls/cctv5phd.m3u8
-- alterId: 1
+- alterId: 4
   cipher: auto
-  country: ' CN'
+  country: ' US'
   http-opts: {}
   name: '7'
   network: ws
-  port: 50206
-  server: 113.240.72.211
-  servername: telegram.channel.p2psharing
+  port: 443
+  server: 104.166.135.10
+  servername: wapsd.189.cn
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /hls/cctv5phd.m3u8
+    path: /ws
 - alterId: 0
   cipher: auto
   http-opts:
