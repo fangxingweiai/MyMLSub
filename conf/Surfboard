@@ -7,26 +7,30 @@ proxy-test-url = http://www.gstatic.com/generate_204
 1 = vmess, ru.nuker.biz, 443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
 2 = vmess, sfo1.nuker.biz, 443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
 3 = vmess, 117.28.242.156, 2164, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-4 = vmess, kr-direct-cdn.node001.xyz, 2086, username=a1f3e867-8f8d-3763-bb80-21da561e6714, ws=true, ws-path=/mg, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-5 = vmess, ingress-i1.onebox6.org, 38106, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
+4 = vmess, 104.19.3.32, 443, username=9e6ceeff-2546-3690-ac00-6fcdf31dec94, ws=true, ws-path=/chcar, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+5 = vmess, kr-direct-cdn.node001.xyz, 2086, username=a1f3e867-8f8d-3763-bb80-21da561e6714, ws=true, ws-path=/mg, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
 6 = vmess, ingress-i1.onebox6.org, 38701, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
-7 = vmess, sxqxj.cn, 2164, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-8 = vmess, bai-piao-wang-zhe-iplc4.98848.xyz, 443, username=4e5f7daa-0df7-4bc5-bd05-51f22b9b843d, ws=true, ws-path=/YouTube-bai-piao-wang-zhe_vws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-9 = vmess, 104.166.135.10, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-10 = vmess, bai-piao-wang-zhe-iplc4.98848.xyz, 45148, username=8b67be62-9671-4354-fd15-bf6958ca9d4b, ws=true, ws-path=/youtube-bai-piao-wang-zhe, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-11 = vmess, xr-4.herokuapp.com, 443, username=17af76e1-a5d7-41ab-ae87-b48f185075d1, ws=true, ws-path=/17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-12 = vmess, v1.ssrsub.com, 443, username=620d82a8-22ba-4945-90ba-a2bed1cde1d2, ws=true, ws-path=/api/v3/download.getFile, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-13 = vmess, v5.ssrsub.com, 443, username=620d82a8-22ba-4945-90ba-a2bed1cde1d2, ws=true, ws-path=/api/v3/download.getFile, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-14 = vmess, ahdaeph8.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-15 = vmess, bai-piao-wang-zhe-iplc8.98848.xyz, 19652, username=d88e33f0-4c5c-4a76-8c06-c7dbc2f08feb, ws=true, ws-path=/YouTube-bai-piao-wang-zhe, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-16 = vmess, 45.76.173.250, 65340, username=b620d78a-d3a7-496f-af32-565185473eb8, ws=true, ws-path=/5Ci3h6YB/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-17 = vmess, v2.emovpn.xyz, 1253, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-18 = vmess, v19.emovpn.xyz, 127, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-19 = vmess, v20.emovpn.xyz, 1256, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+7 = vmess, ingress-i1.onebox6.org, 38106, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
+8 = vmess, sxqxj.cn, 2164, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+9 = vmess, 104.16.162.16, 2053, username=bf67437e-6c90-45ca-abc2-c7240a5ce2aa, ws=true, ws-path=/eisasqa, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+10 = vmess, v4.ssrsub.com, 443, username=620d82a8-22ba-4945-90ba-a2bed1cde1d2, ws=true, ws-path=/api/v3/download.getFile, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+11 = vmess, hk-c3.myuuusss.com, 80, username=cf998f5b-85d9-4798-871d-e0e7916fff04, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+12 = vmess, bai-piao-wang-zhe-iplc.98848.xyz, 45991, username=c9a2072d-e8ce-4d27-f119-5ce9679bcd33, ws=true, ws-path=/bit.ly/36b6iJh, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+13 = vmess, xr-4.herokuapp.com, 443, username=17af76e1-a5d7-41ab-ae87-b48f185075d1, ws=true, ws-path=/17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+14 = vmess, xr-1.herokuapp.com, 443, username=17af76e1-a5d7-41ab-ae87-b48f185075d1, ws=true, ws-path=/17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+15 = vmess, bai-piao-wang-zhe-iplc4.98848.xyz, 443, username=4e5f7daa-0df7-4bc5-bd05-51f22b9b843d, ws=true, ws-path=/YouTube-bai-piao-wang-zhe_vws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+16 = vmess, bai-piao-wang-zhe.98848.xyz, 443, username=f4a6a397-0007-4e45-800c-16d8a7a587ed, ws=true, ws-path=/YouTube-bai-piao-wang-zhe_vws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+17 = vmess, 143.110.227.174, 43763, username=ac60f718-ba45-4338-9005-9e4cc4210f3d, ws=true, ws-path=/bit.ly/36b6iJh, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+18 = vmess, xr-5.herokuapp.com, 443, username=17af76e1-a5d7-41ab-ae87-b48f185075d1, ws=true, ws-path=/17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+19 = vmess, bai-piao-wang-zhe-iplc8.98848.xyz, 443, username=8ac13614-d93e-4aab-a546-6a00e8360fb1, ws=true, ws-path=/YouTube-bai-piao-wang-zhe_vws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+20 = vmess, 162.159.251.130, 443, username=2e385ee8-a129-4c4a-d717-1d3f1c7acd71, ws=true, ws-path=/daa, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+21 = vmess, v2.emovpn.xyz, 1253, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+22 = vmess, v19.emovpn.xyz, 127, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+23 = vmess, v20.emovpn.xyz, 1256, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
 
 [Proxy Group]
-ml = select, auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-auto = url-test, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
+ml = select, auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23
+auto = url-test, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
 
 [Rule]
 FINAL, ml
