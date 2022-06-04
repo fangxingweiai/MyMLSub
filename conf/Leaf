@@ -41,18 +41,19 @@ socks-port = 7890
 32 = vmess, v3.ssrsub.com, 443, username=620d82a8-22ba-4945-90ba-a2bed1cde1d2, ws=true, ws-path=/api/v3/download.getFile, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 33 = vmess, 527hk1.fans8.xyz, 80, username=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, ws=true, ws-path=/ray, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 34 = vmess, 331tw.fans8.xyz, 80, username=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, ws=true, ws-path=/ray, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-35 = vmess, cm01.db-link.in, 13302, username=c4fa06ca-c18f-37a4-ba0e-63537c0fb672, ws=true, ws-path=/db, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-36 = vmess, 180.215.196.10, 39043, username=1b2f44e4-a810-48a8-b620-a4567b46c9b7, ws=true, ws-path=/, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-37 = vmess, 45.35.84.162, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-38 = vmess, usa-dallas.lvuft.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-39 = vmess, xr-5.herokuapp.com, 443, username=17af76e1-a5d7-41ab-ae87-b48f185075d1, ws=true, ws-path=/17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-40 = vmess, kr.xxnmsl.com, 80, username=f295e664-3c47-4f0a-b337-02ba9cd01bf4, ws=true, ws-path=/, wapsd.189.cn, tls=false
-41 = vmess, v2.emovpn.xyz, 1253, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
-42 = vmess, v19.emovpn.xyz, 127, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
-43 = vmess, v20.emovpn.xyz, 1256, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+35 = vmess, ingress-i2.onebox6.org, 38101, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, wapsd.189.cn, tls=false
+36 = vmess, ingress-i1.onebox6.org, 38201, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, wapsd.189.cn, tls=false
+37 = vmess, 180.215.196.10, 39043, username=1b2f44e4-a810-48a8-b620-a4567b46c9b7, ws=true, ws-path=/, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+38 = vmess, 159.27.115.21, 64078, username=477fb2a0-daf4-3041-b6f6-5de3f42ecc69, ws=true, ws-path=/, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+39 = vmess, 172.64.84.233, 443, username=80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, ws=true, ws-path=/xxX1, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+40 = vmess, vpn.16vpn.top, 80, username=c01a6b53-df1d-44af-98d8-4f557ab1f444, ws=true, ws-path=/, wapsd.189.cn, tls=false
+41 = vmess, vnmeg.project4gyuna.pw, 80, username=0613c82b-1f56-432f-b94b-691e294d2314, ws=true, ws-path=/project4gyuna.pw, wapsd.189.cn, tls=false
+42 = vmess, v2.emovpn.xyz, 1253, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+43 = vmess, v19.emovpn.xyz, 127, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
+44 = vmess, v20.emovpn.xyz, 1256, username=225a441b-1b3c-4ad3-b360-dcfb0bd84482, ws=true, ws-path=/, wapsd.189.cn, tls=false
 
 [Proxy Group]
-ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, interval=600, timeout=5
+ml = fallback, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, interval=600, timeout=5
 
 [Rule]
 FINAL, ml
