@@ -32,7 +32,7 @@ proxies:
   name: '1'
   network: http
   port: 44579
-  server: 18.185.91.14
+  server: 18.157.150.212
   type: vmess
   uuid: cb088d6a-d6d5-4168-b901-540dd9b8f9ff
 - alterId: 0
