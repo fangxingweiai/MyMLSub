@@ -6,7 +6,7 @@ proxy-test-url = http://www.gstatic.com/generate_204
 [Proxy]
 1 = vmess, ru.nuker.biz, 443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
 2 = vmess, sfo1.nuker.biz, 443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-3 = vmess, 117.28.242.156, 2164, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+3 = vmess, 45.67.228.199, 5515, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
 4 = vmess, sh.xiaohouzi.club, 25241, username=c900facf-7e5d-3caf-a49e-c4bb1996ca95, ws=true, ws-path=/v2ray, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
 5 = vmess, shyd.ddnsguru.com, 23582, username=9c6e88c8-a728-3af4-8ab3-e7665b05c040, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
 6 = vmess, cn.shcu.986888.xyz, 32437, username=358d79d8-5fbd-40c2-81c8-e9fcb4eb7cc3, ws=true, ws-path=/nana, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true

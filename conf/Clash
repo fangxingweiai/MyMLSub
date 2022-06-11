@@ -89,23 +89,19 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
-- alterId: 4
+- alterId: 0
   cipher: auto
-  country: ' CN'
-  http-opts: {}
-  name: '6'
-  network: ws
-  port: 2164
-  server: 117.28.242.156
-  servername: wapsd.189.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
+  http-opts:
     headers:
-      Host: wapsd.189.cn
-    path: /ws
+      Host:
+      - wapsd.189.cn
+  name: '6'
+  network: http
+  port: 15801
+  server: dog-unicom.0098dns01in.work
+  type: vmess
+  udp: true
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -114,7 +110,7 @@ proxies:
       - wapsd.189.cn
   name: '7'
   network: http
-  port: 15801
+  port: 15802
   server: dog-unicom.0098dns01in.work
   type: vmess
   udp: true
@@ -127,7 +123,7 @@ proxies:
       - wapsd.189.cn
   name: '8'
   network: http
-  port: 15802
+  port: 15803
   server: dog-unicom.0098dns01in.work
   type: vmess
   udp: true
@@ -140,7 +136,7 @@ proxies:
       - wapsd.189.cn
   name: '9'
   network: http
-  port: 15803
+  port: 15804
   server: dog-unicom.0098dns01in.work
   type: vmess
   udp: true
@@ -153,7 +149,7 @@ proxies:
       - wapsd.189.cn
   name: '10'
   network: http
-  port: 15804
+  port: 15805
   server: dog-unicom.0098dns01in.work
   type: vmess
   udp: true
@@ -166,7 +162,7 @@ proxies:
       - wapsd.189.cn
   name: '11'
   network: http
-  port: 15805
+  port: 15806
   server: dog-unicom.0098dns01in.work
   type: vmess
   udp: true
@@ -179,19 +175,6 @@ proxies:
       - wapsd.189.cn
   name: '12'
   network: http
-  port: 15806
-  server: dog-unicom.0098dns01in.work
-  type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '13'
-  network: http
   port: 15801
   server: dog-unicom.0098dns01in.work
   type: vmess
@@ -203,7 +186,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '14'
+  name: '13'
   network: http
   port: 15802
   server: dog-unicom.0098dns01in.work
@@ -216,7 +199,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '15'
+  name: '14'
   network: http
   port: 15803
   server: dog-unicom.0098dns01in.work
@@ -229,7 +212,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '16'
+  name: '15'
   network: http
   port: 15804
   server: dog-unicom.0098dns01in.work
@@ -242,7 +225,7 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '17'
+  name: '16'
   network: http
   port: 15805
   server: dog-unicom.0098dns01in.work
@@ -255,13 +238,26 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '18'
+  name: '17'
   network: http
   port: 15806
   server: dog-unicom.0098dns01in.work
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  name: '18'
+  network: ws
+  port: 5515
+  server: 45.67.228.199
+  type: vmess
+  udp: true
+  uuid: 0dbdff1e-8872-3c26-8636-b2f3ae146742
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
 - alterId: 1
   cipher: auto
   name: '19'
