@@ -10,9 +10,9 @@ socks-port = 7890
 1 = vmess, ru.nuker.biz, 443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, ws-path=/, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 2 = vmess, sfo1.nuker.biz, 443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, ws-path=/, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 3 = vmess, 117.28.242.156, 2164, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-4 = vmess, 104.166.135.10, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
-5 = vmess, transfer3.gzfxd.xyz, 38293, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, wapsd.189.cn, tls=false
-6 = vmess, transfer2.gzfxd.xyz, 10199, username=0dbdff1e-8872-3c26-8636-b2f3ae146742, ws=true, ws-path=/, wapsd.189.cn, tls=false
+4 = vmess, 192.96.204.250, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+5 = vmess, 45.35.84.162, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
+6 = vmess, 104.166.135.10, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 7 = vmess, v1.ssrsub.com, 8443, username=2256dea6-b952-43f7-b8a2-983f766d5836, ws=true, ws-path=/api/v3/download.getFile, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 8 = vmess, 104.166.135.10, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, wapsd.189.cn, tls=true, sni=wapsd.189.cn
 9 = vmess, 152.69.206.209, 1212, username=fb908160-9697-4bfd-f5b7-f1fbc53e60fa, ws=true, ws-path=/, wapsd.189.cn, tls=false
