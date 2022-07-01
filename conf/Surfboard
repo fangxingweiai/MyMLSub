@@ -6,128 +6,25 @@ proxy-test-url = http://www.gstatic.com/generate_204
 [Proxy]
 1 = vmess, ru.nuker.biz, 443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
 2 = vmess, sfo1.nuker.biz, 443, username=cb088d6a-d6d5-4168-b901-540dd9b8f9ff, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-3 = vmess, 117.28.242.156, 2164, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-4 = vmess, 58.242.130.179, 16648, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-5 = vmess, 120.232.190.28, 16648, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-6 = vmess, 116.129.254.240, 16648, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-7 = vmess, 116.129.254.240, 26622, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-8 = vmess, 125.124.254.166, 16648, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-9 = vmess, 58.242.130.179, 16624, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-10 = vmess, 116.129.254.240, 16624, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-11 = vmess, tw02.henet.cyou, 20000, username=364c9df7-de4c-451f-bc30-85139904fbbd, ws=true, ws-path=/live, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-12 = vmess, 116.129.254.240, 16621, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-13 = vmess, 36.139.115.32, 16627, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-14 = vmess, 116.129.254.65, 63078, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-15 = vmess, 120.241.236.224, 16618, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-16 = vmess, 58.242.130.179, 16618, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-17 = vmess, tw01.henet.cyou, 20000, username=364c9df7-de4c-451f-bc30-85139904fbbd, ws=true, ws-path=/live, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-18 = vmess, 124.225.25.54, 26622, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-19 = vmess, 116.129.254.240, 16618, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-20 = vmess, 58.242.130.179, 16633, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-21 = vmess, fast.xiaokuawa.cf, 443, username=c5be13c3-9515-4e1a-c3b5-8e01c44235b0, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-22 = vmess, 112.64.53.176, 63086, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/mugua, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-23 = vmess, 36.139.164.18, 16627, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-24 = vmess, jp02.henet.cyou, 20000, username=1b37bfda-dc28-4ea1-b9b2-d9d5946cfbc5, ws=true, ws-path=/live, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-25 = vmess, bj1.xlao.cn, 30003, username=1b37bfda-dc28-4ea1-b9b2-d9d5946cfbc5, ws=true, ws-path=/live, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-26 = vmess, 58.242.130.179, 16621, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-27 = vmess, bj1.xlao.cn, 30002, username=1b37bfda-dc28-4ea1-b9b2-d9d5946cfbc5, ws=true, ws-path=/live, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-28 = vmess, gkdcm.myjcbbcn.top, 25896, username=b434845a-b445-4011-a6b4-c0296192ddda, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-29 = vmess, hk09.bibio.top, 21781, username=39b01847-6d39-40d5-a068-9a4006282cdb, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-30 = vmess, hk15.bibio.top, 21787, username=39b01847-6d39-40d5-a068-9a4006282cdb, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-31 = vmess, 116.129.254.65, 63086, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/mugua, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-32 = vmess, 112.64.98.133, 63078, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-33 = vmess, hk13.bibio.top, 21785, username=39b01847-6d39-40d5-a068-9a4006282cdb, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-34 = vmess, jp02.henet.cyou, 20000, username=364c9df7-de4c-451f-bc30-85139904fbbd, ws=true, ws-path=/live, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-35 = vmess, jp01.henet.cyou, 20000, username=364c9df7-de4c-451f-bc30-85139904fbbd, ws=true, ws-path=/live, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-36 = vmess, 36.139.115.32, 16617, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-37 = vmess, gkdcm1.myjcbbcn.top, 25898, username=b434845a-b445-4011-a6b4-c0296192ddda, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-38 = vmess, hk10.bibio.top, 21782, username=39b01847-6d39-40d5-a068-9a4006282cdb, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-39 = vmess, us3.lolvps.xyz, 60072, username=08c2809f-0094-42c9-b04a-c19d06a1d898, ws=true, ws-path=/G0DXUQOM, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-40 = vmess, 116.129.254.240, 16634, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-41 = vmess, 124.225.25.54, 16621, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-42 = vmess, 120.241.236.249, 16621, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-43 = vmess, 58.242.130.179, 16626, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-44 = vmess, 116.129.254.78, 63004, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-45 = vmess, 120.241.236.224, 16624, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-46 = vmess, 120.241.236.249, 16620, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-47 = vmess, 120.241.236.224, 16624, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-48 = vmess, 124.225.25.54, 16620, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-49 = vmess, 112.64.53.176, 63004, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-50 = vmess, 120.232.190.28, 16620, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-51 = vmess, 124.225.25.54, 16624, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-52 = vmess, 36.139.115.32, 16620, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-53 = vmess, 125.124.254.166, 16621, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-54 = vmess, 125.124.254.166, 26622, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-55 = vmess, 125.124.254.166, 16621, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-56 = vmess, 120.241.236.249, 16624, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-57 = vmess, 36.139.164.18, 26622, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-58 = vmess, 36.139.164.18, 16620, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-59 = vmess, 120.241.236.249, 26622, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-60 = vmess, 125.124.254.166, 16620, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-61 = vmess, 116.129.254.65, 63078, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-62 = vmess, 116.129.254.240, 16617, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-63 = vmess, 58.242.130.179, 16619, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-64 = vmess, 36.139.164.18, 16619, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-65 = vmess, 58.242.130.179, 16617, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-66 = vmess, 120.232.190.28, 16619, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-67 = vmess, 112.64.53.176, 63087, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/mugua, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-68 = vmess, 116.129.254.240, 16627, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-69 = vmess, 36.139.115.32, 16619, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-70 = vmess, t.mjmjmjmj.cyou, 16627, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-71 = vmess, 36.139.115.32, 16624, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-72 = vmess, 58.242.130.179, 16627, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-73 = vmess, 116.129.253.155, 16619, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-74 = vmess, 116.129.254.240, 16619, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-75 = vmess, 120.241.236.224, 16619, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-76 = vmess, 120.241.236.249, 16619, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-77 = vmess, 120.232.190.28, 16627, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-78 = vmess, 36.139.164.18, 16621, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-79 = vmess, 112.64.53.176, 63078, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-80 = vmess, 112.64.98.133, 63087, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/mugua, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-81 = vmess, 36.139.115.32, 26622, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-82 = vmess, 120.232.190.28, 16621, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-83 = vmess, 112.64.53.176, 63078, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-84 = vmess, 120.232.190.28, 16624, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-85 = vmess, ingress-i2.iivvppnn.info, 38106, username=79386685-16da-327c-9e14-aa6d702d86bc, ws=true, ws-path=/hls/cctv5phd.m3u8, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=false, skip-cert-verify=true
-86 = vmess, 124.225.25.54, 16617, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-87 = vmess, 120.232.190.28, 26622, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-88 = vmess, 120.241.236.249, 16627, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-89 = vmess, 120.241.236.224, 16617, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-90 = vmess, 124.225.25.54, 16619, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-91 = vmess, 116.129.254.65, 63086, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/mugua, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-92 = vmess, 112.64.53.176, 63082, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-93 = vmess, 116.129.254.65, 63086, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/mugua, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-94 = vmess, 120.241.236.249, 16617, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-95 = vmess, 116.129.254.78, 63086, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/mugua, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-96 = vmess, 125.124.254.166, 16617, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-97 = vmess, 112.64.98.133, 63087, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/mugua, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-98 = vmess, 125.124.254.166, 16619, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-99 = vmess, 120.241.236.224, 16617, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-100 = vmess, 36.139.164.18, 16617, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-101 = vmess, 125.124.254.166, 16627, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-102 = vmess, 116.129.254.65, 63087, username=352ba93c-fd92-3055-ad10-b3599ff2802f, ws=true, ws-path=/mugua, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-103 = vmess, 120.241.236.224, 16621, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-104 = vmess, t.mjmjmjmj.cyou, 16627, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-105 = vmess, 125.124.254.166, 16624, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-106 = vmess, 124.225.25.54, 16627, username=c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-107 = vmess, ziyeya.xyz, 8585, username=111f8852-cdde-49a3-9d27-1f931ecdd44d, ws=true, ws-path=/1, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-108 = vmess, vjp1.0bad.com, 443, username=927094d3-d678-4763-8591-e240d0bcae87, ws=true, ws-path=/chat, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-109 = vmess, vjp3.0bad.com, 443, username=927094d3-d678-4763-8591-e240d0bcae87, ws=true, ws-path=/chat, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-110 = vmess, vu-kr01-direct01.vu-kr01.lc-node.com, 443, username=ec736482-173e-3eff-9114-b49df8056e7d, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
-111 = vmess, 103.253.26.20, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-112 = vmess, 202.61.141.130, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-113 = vmess, 180.215.130.123, 11584, username=181472ed-0bb7-43be-dccb-74aca2b33ed5, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-114 = vmess, ycgyg.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-115 = vmess, 103.253.26.134, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-116 = vmess, zecjk.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-117 = vmess, eeh7iewe.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-118 = vmess, 180.215.130.123, 46452, username=c5414fe0-018b-473a-aa3b-f210f2ba42f5, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
-119 = vmess, lc-hk01-direct01.lc-hk01.lc-node.com, 443, username=ec736482-173e-3eff-9114-b49df8056e7d, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
-120 = vmess, 61.222.202.140, 33792, username=e55cd182-01b0-4fb7-a510-363701a491c5, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+3 = vmess, vjp3.0bad.com, 443, username=927094d3-d678-4763-8591-e240d0bcae87, ws=true, ws-path=/chat, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+4 = vmess, vu-kr01-direct01.vu-kr01.lc-node.com, 443, username=ec736482-173e-3eff-9114-b49df8056e7d, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+5 = vmess, vjp1.0bad.com, 443, username=927094d3-d678-4763-8591-e240d0bcae87, ws=true, ws-path=/chat, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=true, skip-cert-verify=true
+6 = vmess, 103.253.26.134, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+7 = vmess, zecjk.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+8 = vmess, 202.61.141.130, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+9 = vmess, 103.253.26.20, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+10 = vmess, eeh7iewe.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+11 = vmess, 180.215.130.123, 11584, username=181472ed-0bb7-43be-dccb-74aca2b33ed5, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+12 = vmess, 180.215.130.123, 46452, username=c5414fe0-018b-473a-aa3b-f210f2ba42f5, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+13 = vmess, 8.214.33.158, 80, username=cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+14 = vmess, ycgyg.com, 443, username=aba50dd4-5484-3b05-b14a-4661caf862d5, ws=true, ws-path=/ws, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+15 = vmess, 61.222.202.140, 33792, username=e55cd182-01b0-4fb7-a510-363701a491c5, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
+16 = vmess, lc-hk01-direct01.lc-hk01.lc-node.com, 443, username=ec736482-173e-3eff-9114-b49df8056e7d, ws=true, ws-path=/, ws-headers=Host:wapsd.189.cn, tls=true, sni=wapsd.189.cn, vmess-aead=false, skip-cert-verify=true
+17 = vmess, hkaz001.xmrth-node.xyz, 16063, username=16b00fc9-a284-3063-90c9-de55a2b5cb61, ws=true, ws-path=/index, ws-headers=Host:wapsd.189.cn, tls=false, vmess-aead=true, skip-cert-verify=true
 
 [Proxy Group]
-ml = select, auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120
-auto = url-test, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
+ml = select, auto, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+auto = url-test, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
 
 [Rule]
 FINAL, ml
