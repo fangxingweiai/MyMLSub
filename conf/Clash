@@ -142,19 +142,23 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /ws
-- alterId: 0
+- alterId: 1
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
+  country: ' US'
+  http-opts: {}
   name: '10'
-  network: http
-  port: 15801
-  server: dog-unicom.01download.xyz
+  network: ws
+  port: 443
+  server: 104.19.3.16
+  servername: wapsd.189.cn
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  udp: true
-  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /chcar
 - alterId: 0
   cipher: auto
   http-opts:
@@ -163,8 +167,8 @@ proxies:
       - wapsd.189.cn
   name: '11'
   network: http
-  port: 15802
-  server: dog-unicom.01download.xyz
+  port: 15801
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -176,8 +180,8 @@ proxies:
       - wapsd.189.cn
   name: '12'
   network: http
-  port: 15803
-  server: dog-unicom.01download.xyz
+  port: 15802
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -189,8 +193,8 @@ proxies:
       - wapsd.189.cn
   name: '13'
   network: http
-  port: 15804
-  server: dog-unicom.01download.xyz
+  port: 15803
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -202,8 +206,8 @@ proxies:
       - wapsd.189.cn
   name: '14'
   network: http
-  port: 15805
-  server: dog-unicom.01download.xyz
+  port: 15804
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -215,8 +219,8 @@ proxies:
       - wapsd.189.cn
   name: '15'
   network: http
-  port: 15806
-  server: dog-unicom.01download.xyz
+  port: 15805
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
   uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
@@ -228,11 +232,11 @@ proxies:
       - wapsd.189.cn
   name: '16'
   network: http
-  port: 15801
-  server: dog-unicom.01download.xyz
+  port: 15806
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
-  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+  uuid: d645c3c0-b155-3769-bd5a-57315a6333fd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -241,8 +245,8 @@ proxies:
       - wapsd.189.cn
   name: '17'
   network: http
-  port: 15802
-  server: dog-unicom.01download.xyz
+  port: 15801
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -254,8 +258,8 @@ proxies:
       - wapsd.189.cn
   name: '18'
   network: http
-  port: 15803
-  server: dog-unicom.01download.xyz
+  port: 15802
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -267,8 +271,8 @@ proxies:
       - wapsd.189.cn
   name: '19'
   network: http
-  port: 15804
-  server: dog-unicom.01download.xyz
+  port: 15803
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -280,8 +284,8 @@ proxies:
       - wapsd.189.cn
   name: '20'
   network: http
-  port: 15805
-  server: dog-unicom.01download.xyz
+  port: 15804
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -293,8 +297,8 @@ proxies:
       - wapsd.189.cn
   name: '21'
   network: http
-  port: 15806
-  server: dog-unicom.01download.xyz
+  port: 15805
+  server: dog-moble.01download.xyz
   type: vmess
   udp: true
   uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
@@ -305,6 +309,19 @@ proxies:
       Host:
       - wapsd.189.cn
   name: '22'
+  network: http
+  port: 15806
+  server: dog-moble.01download.xyz
+  type: vmess
+  udp: true
+  uuid: 14a837cf-4206-386f-a0d9-4da67f78e55a
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '23'
   network: http
   port: 39999
   server: hkbn-home-a.zc20200426.club
@@ -317,29 +334,29 @@ proxies:
     headers:
       Host:
       - wapsd.189.cn
-  name: '23'
+  name: '24'
   network: http
   port: 39999
-  server: 42.3.19.58
+  server: 203.218.84.13
   tls: true
   type: vmess
-  uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
+  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
 - alterId: 0
   cipher: auto
   http-opts:
     headers:
       Host:
       - wapsd.189.cn
-  name: '24'
+  name: '25'
   network: http
-  port: 7654
-  server: 119.28.92.125
-  tls: false
+  port: 39999
+  server: 203.218.84.13
+  tls: true
   type: vmess
-  uuid: 9481e525-557b-485d-8b64-ec14270974d2
+  uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
 - alterId: 0
   cipher: auto
-  name: '25'
+  name: '26'
   network: ws
   port: 443
   server: vjp1.0bad.com
@@ -353,7 +370,7 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: '26'
+  name: '27'
   network: ws
   port: 443
   server: vjp3.0bad.com
@@ -365,22 +382,23 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /chat
-- alterId: 0
+- alterId: 4
   cipher: auto
-  name: '27'
+  name: '28'
   network: ws
-  port: 11584
-  server: 180.215.130.123
-  tls: false
+  port: 443
+  server: ycgyg.com
+  servername: wapsd.189.cn
+  tls: true
   type: vmess
-  uuid: 181472ed-0bb7-43be-dccb-74aca2b33ed5
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
   ws-opts:
     headers:
       Host: wapsd.189.cn
-    path: /
+    path: /ws
 - alterId: 0
   cipher: auto
-  name: '28'
+  name: '29'
   network: ws
   port: 80
   server: 8.214.33.158
@@ -391,38 +409,26 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
-- alterId: 64
+- alterId: 4
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '29'
-  network: http
-  port: 41657
-  server: 81.90.188.59
-  tls: false
-  type: vmess
-  uuid: 930a425e-2fc8-4930-8735-141f6b237755
-- alterId: 64
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
   name: '30'
-  network: http
+  network: ws
   port: 443
-  server: 8.210.127.214
-  tls: false
+  server: 103.253.26.20
+  servername: wapsd.189.cn
+  tls: true
   type: vmess
-  uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /ws
 - alterId: 4
   cipher: auto
   name: '31'
   network: ws
   port: 443
-  server: zecjk.com
+  server: 202.61.141.130
   servername: wapsd.189.cn
   tls: true
   type: vmess
@@ -450,7 +456,7 @@ proxies:
   name: '33'
   network: ws
   port: 443
-  server: eeh7iewe.com
+  server: zecjk.com
   servername: wapsd.189.cn
   tls: true
   type: vmess
@@ -464,7 +470,7 @@ proxies:
   name: '34'
   network: ws
   port: 443
-  server: 103.253.26.20
+  server: eeh7iewe.com
   servername: wapsd.189.cn
   tls: true
   type: vmess
@@ -473,37 +479,48 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /ws
-- alterId: 4
+- alterId: 64
   cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
   name: '35'
-  network: ws
+  network: http
   port: 443
-  server: ycgyg.com
-  servername: wapsd.189.cn
-  tls: true
+  server: 8.210.127.214
+  tls: false
   type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /ws
-- alterId: 4
+  uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330
+- alterId: 64
   cipher: auto
-  name: '36'
-  network: ws
-  port: 443
-  server: 202.61.141.130
-  servername: wapsd.189.cn
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
+  http-opts:
     headers:
-      Host: wapsd.189.cn
-    path: /ws
+      Host:
+      - wapsd.189.cn
+  name: '36'
+  network: http
+  port: 41657
+  server: 81.90.188.59
+  tls: false
+  type: vmess
+  uuid: 930a425e-2fc8-4930-8735-141f6b237755
 - alterId: 0
   cipher: auto
   name: '37'
+  network: ws
+  port: 11584
+  server: 180.215.130.123
+  tls: false
+  type: vmess
+  uuid: 181472ed-0bb7-43be-dccb-74aca2b33ed5
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '38'
   network: ws
   port: 46452
   server: 180.215.130.123
@@ -514,35 +531,9 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - wapsd.189.cn
-  name: '38'
-  network: http
-  port: 15789
-  server: 61.222.202.140
-  tls: false
-  type: vmess
-  uuid: 4535e708-5988-4377-a083-755ed60d8068
-- alterId: 0
-  cipher: auto
-  name: '39'
-  network: ws
-  port: 33792
-  server: 61.222.202.140
-  tls: false
-  type: vmess
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
-  ws-opts:
-    headers:
-      Host: wapsd.189.cn
-    path: /
 - alterId: 2
   cipher: auto
-  name: '40'
+  name: '39'
   network: ws
   port: 443
   server: lc-hk01-direct01.lc-hk01.lc-node.com
@@ -556,10 +547,36 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wapsd.189.cn
+  name: '40'
+  network: http
+  port: 15789
+  server: 61.222.202.140
+  tls: false
+  type: vmess
+  uuid: 4535e708-5988-4377-a083-755ed60d8068
+- alterId: 0
+  cipher: auto
   name: '41'
   network: ws
-  port: 15911
-  server: hkaz004.xmrth-node.xyz
+  port: 33792
+  server: 61.222.202.140
+  tls: false
+  type: vmess
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '42'
+  network: ws
+  port: 16063
+  server: hkaz001.xmrth-node.xyz
   tls: false
   type: vmess
   uuid: 16b00fc9-a284-3063-90c9-de55a2b5cb61
@@ -567,6 +584,34 @@ proxies:
     headers:
       Host: wapsd.189.cn
     path: /index
+- alterId: 0
+  cipher: auto
+  name: '43'
+  network: ws
+  port: 443
+  server: vfly4.win
+  servername: wapsd.189.cn
+  tls: true
+  type: vmess
+  uuid: 424afb77-4724-4ddc-f4c0-35de9c2239f5
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /myblog
+- alterId: 0
+  cipher: auto
+  name: '44'
+  network: ws
+  port: 443
+  server: vfly8.win
+  servername: wapsd.189.cn
+  tls: true
+  type: vmess
+  uuid: 8fc94fe3-cfb1-4bc7-e43b-26d4d1e5f4cd
+  ws-opts:
+    headers:
+      Host: wapsd.189.cn
+    path: /myblog
 proxy-groups:
 - name: "\U0001F310 Select"
   proxies:
@@ -614,6 +659,9 @@ proxy-groups:
   - '39'
   - '40'
   - '41'
+  - '42'
+  - '43'
+  - '44'
   type: select
 - interval: 600
   lazy: true
@@ -660,6 +708,9 @@ proxy-groups:
   - '39'
   - '40'
   - '41'
+  - '42'
+  - '43'
+  - '44'
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
